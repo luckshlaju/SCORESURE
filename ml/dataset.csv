@@ -1,0 +1,1001 @@
+applicant_id,age,gender,occupation,district,declared_income,electricity_bill,mobile_recharge,existing_loans,repayment_rate,loan_amount,estimated_income,income_match,composite_score,risk,decision
+1001,28,Male,Shopkeeper,Salem,22628,871,199,0,77,231208,20438,90.3,769,Low,Approve
+1002,22,Male,Driver,Salem,41118,408,299,3,54,245514,38745,94.2,632,Medium,Review
+1003,38,Male,Tailor,Erode,30298,1438,239,1,88,186472,29739,98.2,824,Low,Approve
+1004,26,Female,Daily Wage Worker,Trichy,30541,1383,149,3,74,75444,31256,97.7,726,Medium,Review
+1005,26,Female,Self Employed,Trichy,45837,1087,199,0,82,129484,41979,91.6,794,Low,Approve
+1006,26,Male,Daily Wage Worker,Erode,26217,2157,399,1,63,196264,31509,83.2,664,Medium,Review
+1007,38,Male,Self Employed,Madurai,43005,1302,239,3,64,151530,43766,98.3,689,Medium,Review
+1008,56,Male,Electrician,Chennai,23010,431,399,3,57,44701,22052,95.8,651,Medium,Review
+1009,57,Female,Driver,Thoothukudi,33928,2179,239,2,48,139303,39368,86.2,596,High,Reject
+1010,55,Female,Self Employed,Erode,46242,1935,399,1,48,277138,48967,94.4,649,Medium,Review
+1011,26,Male,Daily Wage Worker,Madurai,49120,955,499,0,64,210078,48989,99.7,754,Low,Approve
+1012,50,Female,Nurse,Chennai,15507,2499,349,2,47,163878,25754,60.2,488,High,Reject
+1013,31,Female,Farmer,Tirunelveli,40806,1031,199,2,93,344993,39518,96.8,819,Low,Approve
+1014,59,Male,Tailor,Trichy,18587,2472,149,2,71,20211,23865,77.9,655,Medium,Review
+1015,44,Female,Driver,Chennai,23785,622,199,3,92,46287,24471,97.2,796,Low,Approve
+1016,29,Male,Teacher,Vellore,18821,1385,499,1,99,292746,27567,68.3,749,Medium,Review
+1017,33,Female,Carpenter,Trichy,36711,2419,599,0,55,127806,41360,88.8,675,Medium,Review
+1018,42,Male,Self Employed,Vellore,23080,1202,149,0,85,340879,21946,95.1,820,Low,Approve
+1019,35,Male,Farmer,Trichy,12643,2405,299,2,82,264496,20881,60.5,630,Medium,Review
+1020,55,Male,Self Employed,Thanjavur,38976,1295,599,3,52,59453,38946,99.9,647,Medium,Review
+1021,48,Female,Carpenter,Erode,38606,521,199,0,65,391793,34339,88.9,715,Medium,Review
+1022,27,Male,Driver,Salem,43146,2137,239,3,51,156037,45765,94.3,621,Medium,Review
+1023,36,Male,Teacher,Vellore,14416,507,149,0,99,405085,13688,95.0,876,Low,Approve
+1024,31,Female,Teacher,Thoothukudi,22008,1942,149,1,64,11130,26764,82.2,664,Medium,Review
+1025,37,Female,Shopkeeper,Erode,44422,2293,239,1,58,124137,44100,99.3,709,Medium,Review
+1026,58,Male,Electrician,Chennai,11286,2252,239,0,72,52001,18470,61.1,632,Medium,Review
+1027,25,Male,Driver,Erode,15856,1308,149,0,66,354652,20889,75.9,667,Medium,Review
+1028,57,Female,Shopkeeper,Salem,28590,1277,349,3,48,362159,33059,86.5,578,High,Reject
+1029,40,Female,Electrician,Coimbatore,8610,2177,199,0,74,121754,18332,47.0,584,High,Reject
+1030,37,Male,Electrician,Coimbatore,24009,1813,349,1,68,447122,30701,78.2,664,Medium,Review
+1031,40,Male,Nurse,Tirunelveli,14788,850,349,0,96,66117,19554,75.6,786,Low,Approve
+1032,30,Female,Shopkeeper,Thanjavur,21803,1704,299,2,72,266131,25707,84.8,687,Medium,Review
+1033,24,Male,Carpenter,Tirunelveli,10889,314,399,1,80,147340,11482,94.8,779,Low,Approve
+1034,49,Female,Nurse,Chennai,15331,608,239,0,93,203575,18379,83.4,805,Low,Approve
+1035,56,Male,Carpenter,Madurai,10741,1562,399,0,97,197595,16752,64.1,744,Medium,Review
+1036,36,Male,Electrician,Vellore,34632,933,299,1,91,435077,32279,93.2,816,Low,Approve
+1037,47,Male,Tailor,Trichy,34982,1316,349,1,90,377671,33926,97.0,828,Low,Approve
+1038,45,Male,Teacher,Salem,21079,2185,399,2,92,426990,27659,76.2,732,Medium,Review
+1039,35,Male,Driver,Erode,29512,1441,199,2,62,346321,32138,91.8,675,Medium,Review
+1040,46,Female,Farmer,Coimbatore,25118,1031,349,0,46,322775,27569,91.1,648,Medium,Review
+1041,43,Female,Carpenter,Thanjavur,41516,773,499,1,56,33271,43102,96.3,689,Medium,Review
+1042,48,Male,Nurse,Vellore,20912,1791,499,0,100,358251,27589,75.8,803,Low,Approve
+1043,60,Female,Daily Wage Worker,Tirunelveli,41234,1566,499,2,65,375538,42665,96.6,706,Medium,Review
+1044,56,Male,Driver,Erode,32847,1012,349,3,75,447112,30120,91.7,706,Medium,Review
+1045,40,Female,Driver,Erode,46009,1619,599,3,68,364223,46825,98.3,705,Medium,Review
+1046,53,Female,Tailor,Coimbatore,26598,2411,399,0,92,403812,33038,80.5,790,Low,Approve
+1047,40,Male,Driver,Madurai,9600,489,299,3,79,455507,9624,99.8,755,Low,Approve
+1048,50,Female,Self Employed,Salem,33164,2324,499,1,49,353963,42452,78.1,588,High,Reject
+1049,21,Male,Carpenter,Salem,19526,2421,599,0,75,140651,28090,69.5,678,Medium,Review
+1050,50,Male,Teacher,Vellore,44629,1599,599,3,93,485453,48379,92.2,780,Low,Approve
+1051,49,Male,Teacher,Thoothukudi,24986,1312,349,3,80,135433,27277,91.6,726,Medium,Review
+1052,49,Male,Shopkeeper,Salem,25807,1675,399,0,48,89078,29431,87.7,642,Medium,Review
+1053,45,Male,Driver,Coimbatore,35188,1969,399,3,66,42645,37912,92.8,675,Medium,Review
+1054,47,Female,Self Employed,Chennai,45728,1858,599,0,100,194422,48252,94.8,879,Low,Approve
+1055,45,Female,Nurse,Vellore,47534,1203,599,1,57,238503,48609,97.8,699,Medium,Review
+1056,22,Female,Electrician,Erode,18816,2214,239,0,98,216580,27668,68.0,764,Low,Approve
+1057,57,Male,Daily Wage Worker,Erode,16893,2191,239,0,56,208759,23871,70.8,607,Medium,Review
+1058,34,Female,Electrician,Trichy,32846,1439,499,2,93,52942,36876,89.1,788,Low,Approve
+1059,22,Male,Electrician,Salem,12496,464,149,1,52,449997,10210,81.7,614,Medium,Review
+1060,60,Male,Driver,Madurai,39035,768,299,3,84,144345,36713,94.1,752,Low,Approve
+1061,31,Male,Tailor,Tirunelveli,15084,405,349,3,65,384873,15103,99.9,699,Medium,Review
+1062,25,Male,Daily Wage Worker,Tirunelveli,47348,795,149,2,74,234593,44669,94.3,733,Medium,Review
+1063,44,Male,Nurse,Trichy,8829,2020,599,0,67,199890,22141,39.9,527,High,Reject
+1064,50,Male,Carpenter,Madurai,42193,1406,599,3,67,442922,47158,89.5,666,Medium,Review
+1065,58,Female,Electrician,Salem,13679,1442,599,1,88,253641,23171,59.0,668,Medium,Review
+1066,60,Female,Electrician,Chennai,40394,1631,239,3,53,196030,39867,98.7,646,Medium,Review
+1067,42,Female,Self Employed,Tirunelveli,44424,341,299,0,55,387526,39624,89.2,676,Medium,Review
+1068,52,Male,Teacher,Thoothukudi,37371,370,199,2,54,222022,35635,95.4,657,Medium,Review
+1069,36,Female,Self Employed,Trichy,39015,2474,399,3,87,298562,44009,88.7,742,Medium,Review
+1070,43,Female,Shopkeeper,Tirunelveli,24475,1244,199,1,60,72681,27537,88.9,675,Medium,Review
+1071,32,Male,Driver,Thoothukudi,26120,2448,349,0,93,111773,32906,79.4,789,Low,Approve
+1072,35,Female,Tailor,Tirunelveli,8927,2487,239,2,42,38587,20534,43.5,402,High,Reject
+1073,39,Male,Teacher,Coimbatore,8803,1464,599,3,68,188628,16200,54.3,529,High,Reject
+1074,24,Female,Teacher,Coimbatore,12282,1941,599,0,76,340010,25004,49.1,600,Medium,Review
+1075,24,Male,Tailor,Thanjavur,27912,648,299,0,75,410788,27722,99.3,797,Low,Approve
+1076,59,Male,Nurse,Erode,37524,2113,349,3,59,308125,43350,86.6,622,Medium,Review
+1077,24,Male,Driver,Salem,25343,632,239,1,51,299402,22328,88.1,636,Medium,Review
+1078,31,Male,Carpenter,Thoothukudi,46916,2224,349,0,54,161049,52011,90.2,676,Medium,Review
+1079,39,Female,Daily Wage Worker,Salem,25337,1110,499,0,74,127864,31006,81.7,722,Medium,Review
+1080,30,Female,Tailor,Coimbatore,11908,979,349,2,68,75197,17073,69.7,610,Medium,Review
+1081,40,Female,Shopkeeper,Vellore,43388,2322,599,0,78,30898,49329,88.0,764,Low,Approve
+1082,41,Female,Farmer,Coimbatore,23002,384,349,0,88,406502,21164,92.0,820,Low,Approve
+1083,51,Female,Shopkeeper,Madurai,46360,2085,599,0,70,192431,50565,91.7,746,Medium,Review
+1084,42,Female,Daily Wage Worker,Madurai,29614,1986,599,2,82,219952,37933,78.1,700,Medium,Review
+1085,23,Female,Daily Wage Worker,Trichy,24541,1624,199,3,95,279796,24729,99.2,816,Low,Approve
+1086,55,Female,Carpenter,Chennai,20293,2423,399,3,80,241756,26540,76.5,666,Medium,Review
+1087,34,Female,Nurse,Madurai,26876,2094,599,0,41,340313,36655,73.3,557,High,Reject
+1088,36,Male,Shopkeeper,Vellore,8896,1971,199,1,93,488638,14521,61.3,697,Medium,Review
+1089,50,Male,Tailor,Thoothukudi,27127,2384,349,3,93,262968,34897,77.7,722,Medium,Review
+1090,36,Female,Nurse,Madurai,33138,1080,239,0,57,415104,33141,100.0,728,Medium,Review
+1091,42,Female,Farmer,Tirunelveli,27566,2305,239,3,74,263934,33011,83.5,670,Medium,Review
+1092,42,Female,Teacher,Trichy,20363,1278,499,1,94,416608,25759,79.1,772,Low,Approve
+1093,23,Female,Teacher,Erode,33302,923,599,0,48,273345,36959,90.1,652,Medium,Review
+1094,42,Male,Teacher,Coimbatore,42468,2171,149,1,66,466619,46213,91.9,711,Medium,Review
+1095,30,Male,Teacher,Tirunelveli,30187,1928,199,2,94,363557,34824,86.7,782,Low,Approve
+1096,45,Female,Teacher,Vellore,10352,580,299,2,54,401520,10733,96.5,662,Medium,Review
+1097,48,Male,Daily Wage Worker,Thoothukudi,18902,1526,149,0,60,427408,19876,95.1,720,Medium,Review
+1098,39,Female,Electrician,Erode,17540,1300,499,1,50,101786,20870,84.0,616,Medium,Review
+1099,60,Female,Self Employed,Salem,40615,886,299,3,80,143157,39192,96.5,746,Medium,Review
+1100,37,Male,Teacher,Tirunelveli,43821,947,199,3,100,191175,42249,96.4,825,Low,Approve
+1101,40,Female,Shopkeeper,Thoothukudi,27799,1115,499,3,46,134364,30815,90.2,584,High,Reject
+1102,57,Female,Self Employed,Tirunelveli,27348,389,499,2,40,306709,30044,91.0,584,High,Reject
+1103,24,Female,Shopkeeper,Salem,47784,1743,299,1,79,141400,50143,95.3,777,Low,Approve
+1104,29,Male,Farmer,Tirunelveli,36889,436,399,1,45,486906,33864,91.8,627,Medium,Review
+1105,41,Female,Tailor,Salem,16661,1798,349,1,56,489224,24259,68.7,578,High,Reject
+1106,39,Female,Daily Wage Worker,Thoothukudi,12934,876,299,3,94,431835,17808,72.6,706,Medium,Review
+1107,44,Male,Carpenter,Chennai,25331,2497,199,3,63,362755,34351,73.7,586,High,Reject
+1108,37,Female,Electrician,Coimbatore,23323,2231,149,2,98,329858,27587,84.5,790,Low,Approve
+1109,25,Female,Shopkeeper,Erode,15646,872,149,0,59,268277,15147,96.8,723,Medium,Review
+1110,27,Male,Nurse,Madurai,33470,2158,399,3,77,399162,41552,80.5,670,Medium,Review
+1111,30,Female,Daily Wage Worker,Thoothukudi,48347,1971,349,0,84,204264,48132,99.6,834,Low,Approve
+1112,49,Female,Driver,Trichy,14511,1804,399,0,65,154641,20570,70.5,642,Medium,Review
+1113,28,Female,Daily Wage Worker,Salem,49909,387,149,2,55,76020,44292,88.7,634,Medium,Review
+1114,34,Male,Nurse,Salem,46429,1184,299,2,89,87360,46153,99.4,813,Low,Approve
+1115,21,Female,Tailor,Madurai,43403,1326,239,0,82,464268,39149,90.2,788,Low,Approve
+1116,29,Male,Electrician,Salem,46591,1626,149,1,56,37472,43006,92.3,673,Medium,Review
+1117,47,Male,Daily Wage Worker,Thoothukudi,37378,1782,199,3,72,126155,40660,91.9,695,Medium,Review
+1118,23,Female,Teacher,Chennai,11986,2261,499,3,83,66603,23640,50.7,574,High,Reject
+1119,49,Male,Daily Wage Worker,Trichy,47865,907,199,1,57,337322,45698,95.5,690,Medium,Review
+1120,58,Female,Carpenter,Thanjavur,42770,1507,599,3,46,425810,47784,89.5,582,High,Reject
+1121,28,Male,Carpenter,Thoothukudi,22974,1994,399,3,65,228098,32523,70.6,582,High,Reject
+1122,27,Female,Carpenter,Trichy,24704,1833,239,3,44,57828,26706,92.5,586,High,Reject
+1123,26,Female,Daily Wage Worker,Trichy,16527,545,399,0,66,195387,21043,78.5,678,Medium,Review
+1124,48,Male,Shopkeeper,Thanjavur,28476,1740,199,1,49,354318,32282,88.2,628,Medium,Review
+1125,35,Male,Electrician,Vellore,32088,770,349,1,91,234978,33137,96.8,831,Low,Approve
+1126,60,Male,Self Employed,Tirunelveli,9897,1038,349,2,98,188165,14736,67.2,720,Medium,Review
+1127,21,Male,Tailor,Thanjavur,34265,585,239,0,45,401177,33009,96.3,665,Medium,Review
+1128,34,Female,Carpenter,Thoothukudi,30340,944,399,2,86,180070,32889,92.2,772,Low,Approve
+1129,59,Male,Farmer,Madurai,18316,503,199,2,68,357046,18729,97.8,723,Medium,Review
+1130,52,Female,Carpenter,Tirunelveli,22127,2398,199,2,67,68138,28205,78.5,642,Medium,Review
+1131,58,Female,Nurse,Tirunelveli,10976,1203,499,0,40,117176,17053,64.4,517,High,Reject
+1132,34,Male,Shopkeeper,Tirunelveli,29503,791,149,3,87,235787,26397,89.5,746,Medium,Review
+1133,29,Female,Nurse,Salem,40785,1750,199,3,95,399043,38566,94.6,798,Low,Approve
+1134,48,Male,Teacher,Coimbatore,28516,2058,499,3,58,70384,35354,80.7,594,High,Reject
+1135,22,Female,Tailor,Thanjavur,38152,1782,199,3,94,65502,38234,99.8,815,Low,Approve
+1136,48,Female,Nurse,Coimbatore,33936,1570,399,1,61,418482,34997,97.0,712,Medium,Review
+1137,25,Male,Nurse,Vellore,20707,1731,399,1,55,63899,24880,83.2,632,Medium,Review
+1138,37,Male,Tailor,Thanjavur,18018,608,239,3,69,405546,20376,88.4,669,Medium,Review
+1139,58,Female,Self Employed,Thanjavur,29181,1594,239,3,44,255849,32254,90.5,578,High,Reject
+1140,40,Female,Self Employed,Chennai,31064,2378,199,2,69,246933,33263,93.4,709,Medium,Review
+1141,24,Female,Shopkeeper,Coimbatore,13917,2376,499,3,77,300621,21965,63.4,601,Medium,Review
+1142,49,Male,Electrician,Thanjavur,39170,2353,239,0,68,64264,42473,92.2,740,Medium,Review
+1143,26,Male,Farmer,Salem,36688,2099,239,2,63,491263,38975,94.1,688,Medium,Review
+1144,45,Female,Electrician,Thanjavur,11431,1670,199,2,46,302533,19973,57.2,472,High,Reject
+1145,45,Female,Shopkeeper,Thanjavur,17854,1665,199,1,98,193406,22076,80.9,795,Low,Approve
+1146,46,Male,Self Employed,Coimbatore,28288,1842,399,1,82,378485,35804,79.0,724,Medium,Review
+1147,54,Male,Carpenter,Vellore,31712,374,399,2,51,122298,29856,94.1,640,Medium,Review
+1148,52,Male,Driver,Madurai,18154,616,349,0,72,414160,21200,85.6,730,Medium,Review
+1149,54,Male,Electrician,Thanjavur,16588,1843,239,1,51,445864,25229,65.7,546,High,Reject
+1150,60,Male,Teacher,Chennai,34926,1792,299,3,79,159384,38177,91.5,722,Medium,Review
+1151,35,Male,Shopkeeper,Thoothukudi,20715,1806,599,3,89,157729,28716,72.1,684,Medium,Review
+1152,53,Female,Tailor,Salem,47627,866,349,0,81,261967,44397,93.2,796,Low,Approve
+1153,56,Male,Nurse,Coimbatore,26681,643,239,2,68,484641,27033,98.7,726,Medium,Review
+1154,30,Female,Daily Wage Worker,Salem,37565,1731,149,3,43,217856,39280,95.6,594,High,Reject
+1155,44,Male,Carpenter,Coimbatore,32570,1219,149,2,99,61948,34978,93.1,828,Low,Approve
+1156,42,Male,Tailor,Chennai,26800,2235,239,3,68,332619,29335,91.4,677,Medium,Review
+1157,26,Male,Shopkeeper,Salem,17798,2461,499,0,89,161048,27020,65.9,719,Medium,Review
+1158,40,Male,Farmer,Salem,35513,2172,199,0,93,484557,39784,89.3,829,Low,Approve
+1159,59,Male,Nurse,Thanjavur,23855,888,349,3,40,332337,25318,94.2,576,High,Reject
+1160,36,Female,Tailor,Coimbatore,42307,1777,199,0,64,467877,43396,97.5,746,Medium,Review
+1161,23,Female,Electrician,Tirunelveli,9064,1762,199,2,55,394272,18273,49.6,478,High,Reject
+1162,27,Female,Tailor,Chennai,31088,1686,239,3,84,260888,35701,87.1,724,Medium,Review
+1163,32,Male,Daily Wage Worker,Thoothukudi,10423,1501,299,0,90,114579,14077,74.0,756,Low,Approve
+1164,41,Female,Nurse,Erode,43588,2239,349,0,88,349162,45183,96.5,838,Low,Approve
+1165,39,Female,Farmer,Trichy,25905,809,399,3,96,219726,27754,93.3,797,Low,Approve
+1166,45,Female,Tailor,Thoothukudi,40605,1804,349,0,86,232560,40138,98.8,839,Low,Approve
+1167,48,Male,Nurse,Tirunelveli,29050,720,199,2,82,165000,27222,93.7,762,Low,Approve
+1168,49,Female,Tailor,Thoothukudi,31038,2131,149,2,79,238034,33795,91.8,743,Medium,Review
+1169,24,Male,Carpenter,Trichy,41625,955,149,1,94,328543,40866,98.2,848,Low,Approve
+1170,49,Male,Tailor,Coimbatore,23466,1800,399,3,100,307399,26429,88.8,795,Low,Approve
+1171,59,Male,Teacher,Trichy,32380,2118,199,1,73,202387,36228,89.4,729,Medium,Review
+1172,41,Female,Driver,Coimbatore,9698,1062,599,3,98,304478,14762,65.7,694,Medium,Review
+1173,37,Female,Teacher,Salem,48099,1469,599,1,47,81160,46753,97.2,656,Medium,Review
+1174,49,Male,Teacher,Coimbatore,28944,1723,199,2,97,167263,29929,96.7,834,Low,Approve
+1175,32,Female,Nurse,Salem,15953,1123,239,1,90,269009,16381,97.4,829,Low,Approve
+1176,44,Female,Teacher,Vellore,16504,653,199,2,65,385879,20295,81.3,645,Medium,Review
+1177,51,Female,Carpenter,Thanjavur,12833,813,399,0,68,254230,19281,66.6,638,Medium,Review
+1178,54,Female,Tailor,Vellore,49929,1045,239,3,72,487475,43488,87.1,676,Medium,Review
+1179,28,Male,Shopkeeper,Madurai,18614,1621,299,2,100,282051,23093,80.6,782,Low,Approve
+1180,26,Female,Driver,Vellore,25986,812,349,0,72,346062,25209,97.0,776,Low,Approve
+1181,58,Male,Tailor,Thanjavur,47658,1682,149,0,45,33835,48300,98.7,674,Medium,Review
+1182,57,Female,Driver,Thanjavur,35301,424,599,2,81,168384,35684,98.9,779,Low,Approve
+1183,36,Female,Shopkeeper,Thoothukudi,12782,545,239,3,66,263887,15121,84.5,642,Medium,Review
+1184,34,Female,Self Employed,Madurai,28485,1607,399,3,48,408807,32443,87.8,583,High,Reject
+1185,53,Male,Electrician,Salem,38570,801,349,3,55,83860,34645,89.8,619,Medium,Review
+1186,24,Female,Carpenter,Thanjavur,35402,1316,239,2,99,312874,38404,92.2,824,Low,Approve
+1187,41,Male,Tailor,Thoothukudi,41733,2212,599,2,71,22151,44763,93.2,716,Medium,Review
+1188,46,Female,Driver,Salem,46230,1745,149,0,58,269467,47050,98.3,725,Medium,Review
+1189,51,Female,Nurse,Chennai,15044,2065,239,2,86,201772,22510,66.8,671,Medium,Review
+1190,44,Male,Carpenter,Chennai,45373,1097,399,2,44,212558,45008,99.2,632,Medium,Review
+1191,49,Female,Self Employed,Thanjavur,15786,827,199,3,63,426755,17305,91.2,656,Medium,Review
+1192,56,Female,Tailor,Salem,47483,2385,499,0,42,30402,49640,95.7,650,Medium,Review
+1193,42,Female,Nurse,Thoothukudi,17760,2411,239,2,99,331424,25373,70.0,736,Medium,Review
+1194,31,Female,Self Employed,Tirunelveli,46910,1677,599,2,70,437687,46164,98.4,733,Medium,Review
+1195,44,Female,Daily Wage Worker,Erode,46253,1560,149,3,56,353718,46172,99.8,663,Medium,Review
+1196,57,Male,Farmer,Thanjavur,39486,998,499,1,92,366896,38556,97.6,838,Low,Approve
+1197,23,Male,Driver,Chennai,36903,1584,499,1,66,372021,38520,95.8,727,Medium,Review
+1198,47,Female,Farmer,Madurai,41992,1149,399,3,73,207564,40951,97.5,722,Medium,Review
+1199,32,Female,Nurse,Trichy,43800,1751,349,3,52,139247,44121,99.3,645,Medium,Review
+1200,56,Female,Driver,Tirunelveli,26940,1149,599,2,70,192873,32531,82.8,671,Medium,Review
+1201,38,Female,Daily Wage Worker,Thanjavur,43598,1855,499,2,89,431850,44489,98.0,808,Low,Approve
+1202,39,Male,Shopkeeper,Coimbatore,30699,2111,349,3,53,115941,37207,82.5,582,High,Reject
+1203,38,Female,Tailor,Coimbatore,48349,1280,299,0,82,484577,47541,98.3,821,Low,Approve
+1204,35,Male,Farmer,Coimbatore,35086,1652,599,0,83,414103,37594,93.3,805,Low,Approve
+1205,21,Male,Carpenter,Thoothukudi,39290,1116,349,2,58,348636,36172,92.1,660,Medium,Review
+1206,26,Male,Nurse,Chennai,19473,2011,239,0,93,218139,26592,73.2,764,Low,Approve
+1207,32,Female,Farmer,Chennai,27555,739,399,2,69,346232,29642,93.0,708,Medium,Review
+1208,54,Female,Tailor,Vellore,38672,1417,299,0,61,95193,41986,92.1,712,Medium,Review
+1209,50,Female,Tailor,Chennai,30092,1508,299,1,79,458867,34729,86.6,742,Medium,Review
+1210,46,Female,Nurse,Trichy,13684,1941,199,1,48,260323,19953,68.6,546,High,Reject
+1211,36,Male,Shopkeeper,Erode,23435,2129,349,2,59,315377,32977,71.1,580,High,Reject
+1212,57,Male,Shopkeeper,Trichy,23486,554,199,3,59,93737,22917,97.6,666,Medium,Review
+1213,53,Female,Daily Wage Worker,Tirunelveli,32087,1204,299,1,70,90313,33604,95.5,742,Medium,Review
+1214,59,Female,Carpenter,Vellore,38856,1194,299,0,73,244224,39578,98.2,784,Low,Approve
+1215,44,Male,Self Employed,Coimbatore,12047,2370,299,1,50,182028,22771,52.9,491,High,Reject
+1216,49,Male,Driver,Thanjavur,40035,672,599,0,69,79176,40712,98.3,769,Low,Approve
+1217,47,Female,Self Employed,Chennai,44621,2193,349,0,65,143408,44284,99.2,756,Low,Approve
+1218,34,Male,Farmer,Erode,30579,561,149,0,99,257501,25158,82.3,825,Low,Approve
+1219,39,Female,Tailor,Madurai,35548,1833,499,3,95,490832,39854,89.2,776,Low,Approve
+1220,45,Male,Nurse,Madurai,30791,785,239,3,73,76766,32646,94.3,709,Medium,Review
+1221,35,Male,Farmer,Tirunelveli,38343,2037,499,1,55,251500,42649,89.9,659,Medium,Review
+1222,30,Female,Driver,Coimbatore,10111,2017,149,1,53,45279,15174,66.6,558,High,Reject
+1223,59,Male,Teacher,Thanjavur,11190,1302,149,3,68,132861,16773,66.7,578,High,Reject
+1224,34,Male,Tailor,Vellore,26957,1259,399,2,55,168211,27966,96.4,665,Medium,Review
+1225,54,Male,Carpenter,Tirunelveli,26032,549,239,3,75,269848,22317,85.7,682,Medium,Review
+1226,43,Female,Nurse,Trichy,35284,1972,239,2,64,106405,39433,89.5,674,Medium,Review
+1227,51,Male,Driver,Tirunelveli,17460,2196,149,3,66,302178,25285,69.1,580,High,Reject
+1228,29,Female,Driver,Tirunelveli,21325,1652,199,3,94,204551,23017,92.6,786,Low,Approve
+1229,55,Male,Farmer,Tirunelveli,32718,461,199,1,91,409348,31423,96.0,828,Low,Approve
+1230,56,Male,Teacher,Salem,29821,1541,149,1,99,109627,29173,97.8,867,Low,Approve
+1231,51,Male,Self Employed,Salem,33993,1280,399,2,64,254449,36877,92.2,684,Medium,Review
+1232,43,Female,Shopkeeper,Trichy,41607,2336,599,0,91,388752,48267,86.2,808,Low,Approve
+1233,41,Male,Electrician,Trichy,35127,487,299,1,41,146720,33973,96.7,630,Medium,Review
+1234,58,Female,Shopkeeper,Madurai,20857,1651,299,3,76,446922,24694,84.5,682,Medium,Review
+1235,52,Female,Shopkeeper,Thoothukudi,40151,2187,239,2,50,83378,45680,87.9,611,Medium,Review
+1236,55,Female,Tailor,Vellore,11849,2446,149,0,100,438865,22929,51.7,706,Medium,Review
+1237,24,Male,Carpenter,Madurai,49333,1247,199,1,40,124672,47188,95.7,622,Medium,Review
+1238,50,Female,Farmer,Thanjavur,49794,2279,599,0,40,289032,55262,90.1,620,Medium,Review
+1239,47,Male,Farmer,Vellore,26005,2494,349,0,72,436328,36288,71.7,674,Medium,Review
+1240,48,Male,Daily Wage Worker,Coimbatore,42366,909,299,1,79,286014,38987,92.0,764,Low,Approve
+1241,43,Female,Carpenter,Coimbatore,32448,1963,599,1,84,128414,38059,85.3,757,Low,Approve
+1242,26,Male,Daily Wage Worker,Erode,32855,1844,599,0,80,14954,41209,79.7,738,Medium,Review
+1243,31,Male,Teacher,Erode,29710,690,149,1,53,482526,30391,97.8,683,Medium,Review
+1244,57,Female,Shopkeeper,Chennai,12872,1448,149,1,99,455868,16857,76.4,781,Low,Approve
+1245,22,Male,Self Employed,Madurai,34102,615,349,1,76,136076,34175,99.8,783,Low,Approve
+1246,45,Female,Carpenter,Madurai,13139,2351,399,0,46,239160,22008,59.7,522,High,Reject
+1247,25,Female,Self Employed,Thanjavur,47033,1924,399,0,80,153302,49204,95.6,802,Low,Approve
+1248,52,Male,Electrician,Vellore,32603,2068,239,3,45,414838,38333,85.1,560,High,Reject
+1249,39,Male,Daily Wage Worker,Coimbatore,25561,931,499,1,87,214274,27758,92.1,796,Low,Approve
+1250,44,Male,Daily Wage Worker,Chennai,28202,2121,399,2,46,79471,31952,88.3,597,High,Reject
+1251,32,Female,Teacher,Vellore,44355,2398,499,0,41,56986,48967,90.6,626,Medium,Review
+1252,56,Male,Self Employed,Thanjavur,29261,1877,149,2,66,213318,29801,98.2,716,Medium,Review
+1253,56,Male,Self Employed,Vellore,19113,1859,239,1,57,167879,23836,80.2,628,Medium,Review
+1254,52,Male,Daily Wage Worker,Madurai,36486,1430,499,2,70,420342,36530,99.9,739,Medium,Review
+1255,44,Female,Driver,Thoothukudi,46915,1100,599,0,48,169728,43779,93.3,665,Medium,Review
+1256,46,Female,Self Employed,Erode,29596,2103,399,3,92,441769,37613,78.7,722,Medium,Review
+1257,59,Male,Shopkeeper,Trichy,47532,1122,599,2,51,218792,46919,98.7,658,Medium,Review
+1258,39,Female,Self Employed,Salem,29357,1840,349,3,63,69710,35256,83.3,625,Medium,Review
+1259,33,Male,Nurse,Chennai,38252,1158,599,2,93,373245,37591,98.3,825,Low,Approve
+1260,47,Female,Tailor,Tirunelveli,23861,1334,239,3,90,207651,23941,99.7,798,Low,Approve
+1261,49,Female,Self Employed,Erode,43020,2375,499,0,90,198496,50655,84.9,799,Low,Approve
+1262,55,Male,Daily Wage Worker,Salem,31265,981,149,3,88,183852,30654,98.0,784,Low,Approve
+1263,27,Male,Daily Wage Worker,Tirunelveli,22549,2391,299,3,63,215066,30788,73.2,584,High,Reject
+1264,58,Male,Electrician,Chennai,39638,728,349,3,98,55012,35364,89.2,788,Low,Approve
+1265,30,Female,Shopkeeper,Trichy,37840,1147,599,2,70,61182,40241,94.0,716,Medium,Review
+1266,49,Female,Daily Wage Worker,Tirunelveli,10928,771,149,2,81,67337,15565,70.2,664,Medium,Review
+1267,31,Male,Nurse,Madurai,44169,955,399,3,69,131559,42665,96.6,702,Medium,Review
+1268,32,Male,Carpenter,Erode,9913,1108,599,3,64,12333,19927,49.7,494,High,Reject
+1269,34,Male,Shopkeeper,Coimbatore,45837,716,239,2,60,113323,42193,92.1,668,Medium,Review
+1270,28,Female,Teacher,Vellore,49884,1583,499,3,77,69890,50081,99.6,746,Medium,Review
+1271,43,Female,Self Employed,Madurai,27493,647,239,2,47,135080,25995,94.6,626,Medium,Review
+1272,28,Male,Electrician,Madurai,41477,1891,499,1,76,211174,45202,91.8,751,Low,Approve
+1273,32,Female,Nurse,Madurai,44366,983,599,2,48,108093,43793,98.7,646,Medium,Review
+1274,49,Male,Electrician,Chennai,39759,859,299,3,75,274995,39984,99.4,737,Medium,Review
+1275,52,Female,Teacher,Erode,37088,2301,239,0,76,26179,39592,93.7,778,Low,Approve
+1276,39,Male,Shopkeeper,Salem,43232,1482,239,3,76,399293,43482,99.4,741,Medium,Review
+1277,56,Male,Self Employed,Coimbatore,25556,1802,149,3,74,124578,29326,87.1,684,Medium,Review
+1278,27,Male,Shopkeeper,Chennai,37473,1376,399,0,68,463661,36635,97.8,763,Low,Approve
+1279,36,Male,Self Employed,Trichy,47994,2053,239,1,90,118328,47214,98.4,833,Low,Approve
+1280,24,Female,Nurse,Tirunelveli,47115,989,399,2,58,310278,44030,93.5,666,Medium,Review
+1281,53,Male,Tailor,Erode,11885,1435,239,1,55,86673,19987,59.5,538,High,Reject
+1282,41,Male,Carpenter,Thoothukudi,17317,1400,499,3,68,49592,25635,67.6,582,High,Reject
+1283,26,Female,Nurse,Tirunelveli,32187,2162,599,2,77,11296,36952,87.1,716,Medium,Review
+1284,50,Female,Daily Wage Worker,Vellore,34064,1192,499,1,71,150790,35655,95.5,746,Medium,Review
+1285,39,Female,Nurse,Thanjavur,16558,2287,399,0,42,62205,27715,59.7,506,High,Reject
+1286,50,Male,Daily Wage Worker,Madurai,36920,2169,149,3,52,371020,37484,98.5,642,Medium,Review
+1287,40,Male,Shopkeeper,Coimbatore,31621,1325,199,2,82,483851,34503,91.6,754,Low,Approve
+1288,31,Male,Carpenter,Tirunelveli,23344,2058,199,0,40,121894,29405,79.4,577,High,Reject
+1289,25,Male,Self Employed,Salem,42042,2122,149,0,84,190131,41300,98.2,828,Low,Approve
+1290,48,Male,Teacher,Coimbatore,23004,1869,199,0,46,174286,27482,83.7,618,Medium,Review
+1291,40,Male,Carpenter,Madurai,17362,580,149,1,68,194123,20319,85.4,693,Medium,Review
+1292,34,Male,Carpenter,Thanjavur,36992,1189,199,0,48,404498,33949,91.8,659,Medium,Review
+1293,58,Female,Electrician,Erode,28611,872,299,2,81,54170,27800,97.2,772,Low,Approve
+1294,56,Female,Farmer,Tirunelveli,21464,2420,299,3,58,348779,26690,80.4,593,High,Reject
+1295,36,Female,Carpenter,Coimbatore,23799,2346,199,0,63,499645,29607,80.4,673,Medium,Review
+1296,29,Female,Self Employed,Erode,31947,1007,599,0,41,317947,31930,99.9,663,Medium,Review
+1297,21,Female,Driver,Chennai,11962,1930,349,3,67,377950,20376,58.7,542,High,Reject
+1298,26,Male,Shopkeeper,Coimbatore,28310,623,299,1,74,181311,27732,98.0,768,Low,Approve
+1299,58,Male,Shopkeeper,Erode,23639,537,299,0,99,237794,21401,90.5,858,Low,Approve
+1300,50,Male,Shopkeeper,Madurai,15827,351,239,0,50,270263,15817,99.9,699,Medium,Review
+1301,54,Female,Tailor,Trichy,16318,1400,199,0,61,433156,20763,78.6,658,Medium,Review
+1302,38,Male,Shopkeeper,Thanjavur,49125,615,599,3,72,198808,44006,89.6,686,Medium,Review
+1303,52,Male,Electrician,Madurai,24719,721,199,1,87,276770,21272,86.1,772,Low,Approve
+1304,23,Male,Driver,Chennai,38917,1790,499,1,51,498196,39574,98.3,677,Medium,Review
+1305,56,Female,Driver,Trichy,24270,2004,399,2,92,50835,32306,75.1,728,Medium,Review
+1306,44,Male,Nurse,Chennai,19753,1214,149,3,44,469795,22660,87.2,564,High,Reject
+1307,39,Female,Electrician,Coimbatore,44247,2170,149,2,52,162879,46887,94.4,645,Medium,Review
+1308,40,Male,Teacher,Trichy,46777,2320,299,1,49,13343,49452,94.6,654,Medium,Review
+1309,22,Male,Nurse,Trichy,49677,339,399,0,88,354616,44371,89.3,809,Low,Approve
+1310,40,Male,Driver,Vellore,23608,2019,599,0,49,383110,31046,76.0,600,Medium,Review
+1311,26,Male,Driver,Vellore,35070,1825,599,0,77,60109,41288,84.9,747,Medium,Review
+1312,29,Female,Daily Wage Worker,Thanjavur,45212,555,499,1,55,162922,41519,91.8,667,Medium,Review
+1313,41,Female,Electrician,Trichy,37671,1413,299,0,100,116279,36295,96.3,885,Low,Approve
+1314,58,Male,Tailor,Coimbatore,18772,2141,599,2,66,73300,29763,63.1,576,High,Reject
+1315,43,Male,Teacher,Tirunelveli,38365,1385,199,0,50,433413,40444,94.9,679,Medium,Review
+1316,40,Male,Driver,Trichy,17720,673,299,2,65,279200,16661,94.0,696,Medium,Review
+1317,40,Female,Tailor,Chennai,34502,2152,299,0,69,63428,36746,93.9,751,Low,Approve
+1318,28,Male,Farmer,Salem,16566,1111,499,2,83,340457,23969,69.1,668,Medium,Review
+1319,26,Female,Daily Wage Worker,Chennai,12225,1109,599,1,45,484521,18724,65.3,521,High,Reject
+1320,28,Male,Teacher,Chennai,19009,2074,499,3,41,210660,30091,63.2,456,High,Reject
+1321,48,Male,Electrician,Salem,20265,1426,349,3,96,87925,21991,92.2,792,Low,Approve
+1322,60,Male,Shopkeeper,Thoothukudi,35000,2262,149,0,57,210810,36364,96.2,712,Medium,Review
+1323,47,Male,Nurse,Salem,49337,379,499,2,70,295484,45947,93.1,712,Medium,Review
+1324,43,Female,Carpenter,Tirunelveli,19784,406,399,1,41,479638,19944,99.2,640,Medium,Review
+1325,24,Female,Nurse,Trichy,46272,1253,239,0,55,354386,42916,92.7,690,Medium,Review
+1326,38,Male,Driver,Thanjavur,33455,1753,239,1,55,320650,35293,94.8,679,Medium,Review
+1327,43,Male,Electrician,Thanjavur,44936,882,299,3,74,172032,40306,89.7,694,Medium,Review
+1328,52,Male,Daily Wage Worker,Chennai,23245,1196,149,3,40,183924,26602,87.4,549,High,Reject
+1329,33,Male,Electrician,Madurai,29206,543,149,1,77,379463,24888,85.2,728,Medium,Review
+1330,28,Female,Daily Wage Worker,Trichy,33925,713,399,2,60,81539,31474,92.8,671,Medium,Review
+1331,48,Female,Electrician,Madurai,44829,1761,299,1,64,170863,47939,93.5,710,Medium,Review
+1332,39,Male,Tailor,Chennai,45541,1903,149,1,78,176837,47244,96.4,777,Low,Approve
+1333,35,Male,Teacher,Madurai,29703,618,299,2,60,98021,30837,96.3,685,Medium,Review
+1334,26,Female,Teacher,Chennai,25380,1158,299,0,62,144562,25213,99.3,745,Medium,Review
+1335,21,Male,Carpenter,Thoothukudi,35502,981,499,3,96,208554,36194,98.1,816,Low,Approve
+1336,55,Female,Daily Wage Worker,Thoothukudi,45883,1223,239,3,44,429008,40783,88.9,571,High,Reject
+1337,39,Male,Electrician,Tirunelveli,14863,603,399,1,96,206848,15812,94.0,840,Low,Approve
+1338,25,Male,Electrician,Thanjavur,48215,2277,149,3,100,352693,47223,97.9,831,Low,Approve
+1339,59,Female,Tailor,Chennai,14636,1656,299,1,66,375531,22263,65.7,606,Medium,Review
+1340,55,Female,Shopkeeper,Tirunelveli,23567,692,149,3,76,298181,23834,98.9,739,Medium,Review
+1341,30,Male,Electrician,Chennai,36023,658,349,3,52,60849,31452,87.3,597,High,Reject
+1342,34,Male,Shopkeeper,Coimbatore,39035,773,349,3,70,266427,39527,98.8,715,Medium,Review
+1343,37,Male,Nurse,Erode,20116,1819,499,2,51,243714,24725,81.4,589,High,Reject
+1344,37,Female,Teacher,Tirunelveli,22827,1400,149,1,88,375151,27520,82.9,763,Low,Approve
+1345,27,Male,Electrician,Vellore,35131,1231,149,3,92,283983,34649,98.6,802,Low,Approve
+1346,55,Female,Self Employed,Salem,39212,1524,199,3,97,457710,41908,93.6,802,Low,Approve
+1347,23,Male,Daily Wage Worker,Thoothukudi,19329,984,299,1,48,32374,22259,86.8,619,Medium,Review
+1348,26,Female,Driver,Madurai,46997,1356,399,0,45,213475,47770,98.4,673,Medium,Review
+1349,46,Female,Shopkeeper,Vellore,38025,350,499,0,66,88455,34026,89.5,722,Medium,Review
+1350,57,Male,Daily Wage Worker,Thanjavur,14618,1471,399,3,56,210825,23134,63.2,516,High,Reject
+1351,52,Female,Farmer,Madurai,26049,1950,239,3,42,217509,30266,86.1,552,High,Reject
+1352,36,Male,Teacher,Tirunelveli,32408,382,399,2,59,156982,31673,97.7,686,Medium,Review
+1353,27,Male,Tailor,Tirunelveli,37039,1614,349,3,78,348456,36610,98.8,747,Medium,Review
+1354,33,Female,Driver,Erode,39749,2415,399,0,72,424968,42953,92.5,758,Low,Approve
+1355,25,Female,Nurse,Erode,16889,2447,149,1,52,468846,23135,73.0,580,High,Reject
+1356,24,Male,Farmer,Thoothukudi,11313,1776,299,2,63,441754,19348,58.5,546,High,Reject
+1357,53,Female,Daily Wage Worker,Chennai,23855,1825,599,3,51,466382,32063,74.4,541,High,Reject
+1358,58,Female,Electrician,Madurai,24951,670,349,0,64,36031,23766,95.3,737,Medium,Review
+1359,57,Male,Driver,Salem,21548,1402,499,0,95,419103,29426,73.2,772,Low,Approve
+1360,21,Female,Tailor,Madurai,47396,334,299,2,78,432096,41146,86.8,719,Medium,Review
+1361,38,Female,Carpenter,Trichy,38080,1332,299,3,59,365045,39449,96.5,662,Medium,Review
+1362,60,Female,Self Employed,Coimbatore,8481,2395,399,2,59,368829,17441,48.6,490,High,Reject
+1363,51,Male,Electrician,Tirunelveli,49982,1631,349,2,81,382817,51637,96.8,771,Low,Approve
+1364,40,Male,Tailor,Vellore,23748,532,499,2,83,83363,28026,84.7,730,Medium,Review
+1365,22,Female,Shopkeeper,Tirunelveli,35431,1957,499,0,77,381232,41850,84.7,746,Medium,Review
+1366,33,Female,Driver,Vellore,49832,2248,399,2,94,99121,54436,91.5,802,Low,Approve
+1367,56,Male,Shopkeeper,Coimbatore,38853,824,349,1,100,366365,36919,95.0,860,Low,Approve
+1368,26,Male,Electrician,Salem,28125,2022,399,2,56,317007,33188,84.7,622,Medium,Review
+1369,50,Male,Teacher,Chennai,49575,591,599,1,72,72818,49392,99.6,766,Low,Approve
+1370,45,Female,Carpenter,Chennai,17881,862,299,2,66,308531,20892,85.6,666,Medium,Review
+1371,30,Female,Tailor,Coimbatore,39954,1662,239,2,80,40415,37561,94.0,756,Low,Approve
+1372,49,Female,Driver,Madurai,45767,948,599,0,48,332164,45749,100.0,692,Medium,Review
+1373,48,Female,Carpenter,Thoothukudi,33121,319,149,1,86,205612,26079,78.7,738,Medium,Review
+1374,41,Male,Farmer,Chennai,49070,1319,299,2,59,77596,44765,91.2,660,Medium,Review
+1375,45,Female,Tailor,Coimbatore,10996,1521,349,3,86,282780,19557,56.2,608,Medium,Review
+1376,54,Female,Carpenter,Madurai,30461,2307,399,1,50,485473,37092,82.1,608,Medium,Review
+1377,22,Male,Driver,Madurai,21840,389,239,0,63,382826,23269,93.9,727,Medium,Review
+1378,23,Female,Shopkeeper,Vellore,48837,499,149,0,81,448367,39418,80.7,746,Medium,Review
+1379,24,Male,Carpenter,Thoothukudi,32920,806,349,3,84,90282,31035,94.3,753,Low,Approve
+1380,21,Female,Carpenter,Coimbatore,42098,1405,239,3,93,481136,39069,92.8,783,Low,Approve
+1381,53,Male,Shopkeeper,Coimbatore,14964,2338,299,1,89,147884,25000,59.9,675,Medium,Review
+1382,33,Female,Carpenter,Tirunelveli,18510,461,599,1,84,499225,22381,82.7,746,Medium,Review
+1383,42,Male,Farmer,Chennai,13832,752,599,1,100,57229,20056,69.0,756,Low,Approve
+1384,25,Male,Shopkeeper,Salem,37933,1512,349,3,43,62328,37617,99.2,608,Medium,Review
+1385,23,Female,Electrician,Trichy,35918,774,199,0,40,456692,31555,87.9,611,Medium,Review
+1386,31,Female,Electrician,Thoothukudi,48750,1398,199,2,92,189685,44682,91.7,794,Low,Approve
+1387,28,Female,Carpenter,Thoothukudi,25814,1879,599,3,81,474584,31325,82.4,693,Medium,Review
+1388,28,Male,Farmer,Madurai,14796,2004,599,3,51,330509,24754,59.8,483,High,Reject
+1389,43,Male,Tailor,Thoothukudi,39989,762,499,3,42,43206,38174,95.5,590,High,Reject
+1390,41,Male,Nurse,Thanjavur,45028,1217,399,0,67,356928,47034,95.7,750,Low,Approve
+1391,36,Female,Electrician,Erode,17742,523,149,1,72,455039,18321,96.8,755,Low,Approve
+1392,52,Male,Daily Wage Worker,Thoothukudi,29013,1286,399,2,43,275776,30370,95.5,614,Medium,Review
+1393,56,Female,Carpenter,Salem,13166,2180,599,3,45,459099,25127,52.4,429,High,Reject
+1394,49,Female,Daily Wage Worker,Thoothukudi,9164,720,499,3,42,302097,15701,58.4,441,High,Reject
+1395,21,Male,Self Employed,Thanjavur,49781,1547,299,3,100,188705,48380,97.2,828,Low,Approve
+1396,24,Male,Teacher,Trichy,44710,2237,399,3,47,61085,50305,88.9,583,High,Reject
+1397,35,Male,Electrician,Trichy,49527,1495,399,0,42,480221,47137,95.2,648,Medium,Review
+1398,52,Male,Carpenter,Coimbatore,24665,1102,299,0,99,456795,26750,92.2,864,Low,Approve
+1399,34,Female,Driver,Trichy,15062,1997,149,0,89,477536,21919,68.7,730,Medium,Review
+1400,50,Male,Teacher,Chennai,42757,498,499,3,99,276512,38640,90.4,797,Low,Approve
+1401,58,Male,Tailor,Coimbatore,33389,1618,499,3,78,490200,39848,83.8,687,Medium,Review
+1402,36,Female,Carpenter,Trichy,27278,2154,239,1,66,325896,35084,77.8,655,Medium,Review
+1403,53,Female,Nurse,Trichy,44279,1190,299,1,79,384543,41955,94.8,775,Low,Approve
+1404,43,Male,Tailor,Vellore,43552,1620,199,2,75,261852,44687,97.5,750,Low,Approve
+1405,57,Female,Nurse,Tirunelveli,35681,352,199,0,64,86193,28978,81.2,680,Medium,Review
+1406,24,Male,Shopkeeper,Madurai,26783,1326,239,0,84,421229,28059,95.5,818,Low,Approve
+1407,34,Male,Electrician,Thoothukudi,14716,1218,499,1,72,421202,23338,63.1,620,Medium,Review
+1408,39,Male,Carpenter,Erode,35300,1580,149,0,87,141775,34415,97.5,838,Low,Approve
+1409,60,Female,Driver,Trichy,46560,1104,299,2,68,103022,46648,99.8,731,Medium,Review
+1410,25,Male,Tailor,Vellore,15821,1845,149,3,57,301817,20392,77.6,578,High,Reject
+1411,29,Male,Self Employed,Tirunelveli,8369,1653,599,1,42,90584,17741,47.2,436,High,Reject
+1412,59,Male,Self Employed,Tirunelveli,40148,1766,199,2,73,125323,39280,97.8,743,Medium,Review
+1413,54,Male,Nurse,Madurai,35258,2499,499,0,62,125971,40941,86.1,692,Medium,Review
+1414,42,Female,Electrician,Tirunelveli,22316,2472,599,0,47,360716,32366,68.9,563,High,Reject
+1415,49,Male,Self Employed,Thanjavur,23979,463,399,3,98,427441,22155,92.4,801,Low,Approve
+1416,45,Female,Nurse,Tirunelveli,9619,2417,399,3,71,32990,19983,48.1,516,High,Reject
+1417,33,Female,Nurse,Coimbatore,14288,985,149,0,53,361448,18718,76.3,617,Medium,Review
+1418,34,Female,Daily Wage Worker,Salem,43242,2082,199,1,41,250766,47385,91.3,609,Medium,Review
+1419,42,Male,Daily Wage Worker,Coimbatore,11556,1029,349,0,76,440765,15016,77.0,712,Medium,Review
+1420,37,Female,Carpenter,Thoothukudi,49301,1956,499,2,41,214211,53771,91.7,590,High,Reject
+1421,28,Male,Self Employed,Coimbatore,46378,486,199,2,99,273631,38507,83.0,788,Low,Approve
+1422,39,Female,Self Employed,Coimbatore,26449,2092,499,3,92,356409,30771,86.0,752,Low,Approve
+1423,51,Male,Nurse,Salem,16937,1901,349,1,59,365094,26919,62.9,567,High,Reject
+1424,44,Male,Nurse,Vellore,17265,804,149,0,76,322818,18448,93.6,778,Low,Approve
+1425,55,Male,Shopkeeper,Salem,30534,1167,499,1,50,106465,31895,95.7,662,Medium,Review
+1426,60,Female,Driver,Coimbatore,19885,522,599,0,58,362156,20339,97.8,723,Medium,Review
+1427,37,Male,Driver,Thanjavur,39928,1655,399,1,82,353656,40675,98.2,800,Low,Approve
+1428,27,Female,Self Employed,Coimbatore,20681,1601,599,3,61,333140,30141,68.6,558,High,Reject
+1429,40,Male,Self Employed,Thanjavur,31887,1595,499,1,40,174214,34897,91.4,605,Medium,Review
+1430,35,Female,Shopkeeper,Trichy,16801,1658,599,3,68,198083,24366,69.0,588,High,Reject
+1431,52,Male,Tailor,Thanjavur,13372,1449,239,1,56,394588,20538,65.1,564,High,Reject
+1432,25,Male,Farmer,Vellore,49394,427,499,1,98,29218,46733,94.6,850,Low,Approve
+1433,37,Female,Tailor,Trichy,33722,1214,349,1,69,272732,35806,94.2,732,Medium,Review
+1434,26,Female,Electrician,Vellore,8694,1278,239,1,68,93478,12446,69.9,631,Medium,Review
+1435,57,Male,Teacher,Trichy,10648,1196,599,1,44,148599,18120,58.8,491,High,Reject
+1436,35,Male,Driver,Vellore,31674,1889,599,3,96,34346,35013,90.5,786,Low,Approve
+1437,41,Male,Nurse,Tirunelveli,25256,1012,499,3,63,318112,30596,82.5,622,Medium,Review
+1438,25,Female,Carpenter,Salem,41840,1962,399,2,71,425580,45461,92.0,712,Medium,Review
+1439,59,Male,Nurse,Madurai,36829,978,299,0,72,347367,35067,95.2,768,Low,Approve
+1440,34,Male,Tailor,Madurai,31738,784,299,3,91,183132,33818,93.8,779,Low,Approve
+1441,28,Female,Teacher,Thoothukudi,21808,960,499,0,55,32620,23325,93.5,694,Medium,Review
+1442,57,Male,Tailor,Vellore,10568,901,149,1,56,493627,11724,90.1,664,Medium,Review
+1443,54,Female,Self Employed,Thanjavur,49787,376,349,0,53,245511,46093,92.6,682,Medium,Review
+1444,51,Female,Tailor,Salem,34920,884,239,2,50,389682,36000,97.0,648,Medium,Review
+1445,42,Female,Self Employed,Thanjavur,12511,1241,499,3,48,66922,16099,77.7,542,High,Reject
+1446,33,Female,Tailor,Thanjavur,14311,1026,599,0,96,420972,21697,66.0,748,Medium,Review
+1447,53,Male,Daily Wage Worker,Thoothukudi,16541,304,499,3,63,468659,15795,95.5,674,Medium,Review
+1448,54,Female,Driver,Thoothukudi,32984,1735,199,3,48,143440,35827,92.1,600,Medium,Review
+1449,35,Male,Shopkeeper,Thanjavur,43633,1973,349,1,40,381798,42648,97.7,630,Medium,Review
+1450,57,Male,Nurse,Chennai,32577,1141,399,3,63,65880,32084,98.5,686,Medium,Review
+1451,48,Female,Shopkeeper,Vellore,35758,1797,349,3,88,116794,38971,91.8,759,Low,Approve
+1452,56,Female,Tailor,Trichy,44640,2281,349,2,76,190541,50407,88.6,718,Medium,Review
+1453,46,Male,Daily Wage Worker,Salem,37268,962,199,1,72,220009,35026,94.0,744,Medium,Review
+1454,56,Male,Tailor,Erode,49672,321,199,1,70,495418,44530,89.6,718,Medium,Review
+1455,48,Male,Daily Wage Worker,Tirunelveli,22533,1818,199,0,86,211497,27172,82.9,775,Low,Approve
+1456,60,Female,Self Employed,Chennai,19486,2324,599,0,52,455942,32057,60.8,551,High,Reject
+1457,54,Female,Driver,Chennai,47289,2391,299,1,83,28906,49733,95.1,792,Low,Approve
+1458,36,Male,Tailor,Coimbatore,26083,1936,399,3,65,317274,30442,85.7,642,Medium,Review
+1459,54,Male,Daily Wage Worker,Coimbatore,44018,1465,399,2,92,154969,43119,98.0,820,Low,Approve
+1460,59,Male,Teacher,Erode,45677,319,349,1,66,275414,38481,84.2,680,Medium,Review
+1461,56,Male,Nurse,Tirunelveli,30280,779,349,2,84,242138,30221,99.8,795,Low,Approve
+1462,57,Female,Driver,Trichy,38071,2187,149,3,47,145171,37949,99.7,626,Medium,Review
+1463,45,Male,Driver,Trichy,35028,1746,149,2,55,160622,33959,96.9,667,Medium,Review
+1464,46,Female,Daily Wage Worker,Vellore,19697,2251,399,2,53,478879,29652,66.4,537,High,Reject
+1465,38,Male,Driver,Thoothukudi,21085,1261,299,2,53,130170,22965,91.8,639,Medium,Review
+1466,36,Female,Tailor,Coimbatore,15856,621,599,0,88,459361,21395,74.1,748,Medium,Review
+1467,23,Female,Electrician,Thanjavur,28671,2316,349,3,51,410693,36179,79.2,560,High,Reject
+1468,38,Female,Driver,Thanjavur,16404,521,499,3,100,293518,16465,99.6,838,Low,Approve
+1469,53,Female,Carpenter,Madurai,37962,793,599,2,84,14413,35429,93.3,769,Low,Approve
+1470,34,Female,Self Employed,Coimbatore,29327,1781,349,1,75,147808,32319,90.7,742,Medium,Review
+1471,38,Female,Self Employed,Trichy,31981,1053,599,3,53,229725,37328,85.7,594,High,Reject
+1472,44,Female,Carpenter,Tirunelveli,37538,1036,239,1,92,62360,38990,96.3,833,Low,Approve
+1473,38,Male,Nurse,Erode,32961,1103,239,1,70,432402,29771,90.3,721,Medium,Review
+1474,32,Female,Teacher,Madurai,49330,2417,399,3,59,141582,53929,91.5,642,Medium,Review
+1475,57,Male,Carpenter,Coimbatore,18704,545,299,2,70,449862,21694,86.2,684,Medium,Review
+1476,27,Female,Electrician,Tirunelveli,31656,1775,349,2,41,225881,33209,95.3,605,Medium,Review
+1477,43,Male,Self Employed,Thanjavur,43287,1014,349,2,60,362946,42658,98.5,694,Medium,Review
+1478,52,Female,Daily Wage Worker,Erode,48217,1473,599,1,95,97857,51504,93.6,834,Low,Approve
+1479,42,Female,Self Employed,Thanjavur,34527,592,199,1,61,129651,31149,90.2,684,Medium,Review
+1480,41,Female,Shopkeeper,Thanjavur,33916,1411,599,2,87,317714,38835,87.3,757,Low,Approve
+1481,49,Female,Tailor,Madurai,9513,812,299,2,100,400004,15990,59.5,698,Medium,Review
+1482,26,Male,Tailor,Erode,14750,691,199,3,75,38220,13371,90.7,702,Medium,Review
+1483,46,Male,Daily Wage Worker,Tirunelveli,48507,936,199,3,59,130248,43167,89.0,632,Medium,Review
+1484,39,Female,Tailor,Madurai,42520,998,149,0,82,197087,38864,91.4,793,Low,Approve
+1485,51,Female,Nurse,Tirunelveli,43949,2122,239,1,77,323306,46299,94.9,767,Low,Approve
+1486,57,Female,Nurse,Vellore,28293,1722,599,1,91,56952,34933,81.0,768,Low,Approve
+1487,40,Female,Carpenter,Tirunelveli,18205,1543,149,0,73,437493,20044,90.8,755,Low,Approve
+1488,43,Female,Teacher,Vellore,8545,2314,599,2,40,411536,21410,39.9,379,High,Reject
+1489,39,Male,Farmer,Vellore,32487,1072,499,3,65,141017,32606,99.6,698,Medium,Review
+1490,45,Female,Driver,Tirunelveli,13191,2029,299,2,58,349978,22417,58.8,527,High,Reject
+1491,38,Female,Driver,Coimbatore,19954,859,349,0,80,248730,24251,82.3,749,Medium,Review
+1492,49,Female,Self Employed,Thoothukudi,20306,1613,149,1,43,290478,21069,96.4,637,Medium,Review
+1493,32,Male,Shopkeeper,Tirunelveli,16194,2095,149,1,45,89001,19647,82.4,589,High,Reject
+1494,52,Male,Electrician,Erode,28419,2341,399,3,84,424934,32550,87.3,725,Medium,Review
+1495,42,Male,Tailor,Chennai,25465,1907,199,3,51,110764,28640,88.9,599,High,Reject
+1496,45,Male,Daily Wage Worker,Salem,33218,2114,299,0,52,251610,35191,94.4,685,Medium,Review
+1497,54,Male,Teacher,Erode,28454,1623,239,0,87,298138,32434,87.7,798,Low,Approve
+1498,28,Female,Teacher,Tirunelveli,21023,1776,149,1,47,133714,27298,77.0,576,High,Reject
+1499,48,Female,Farmer,Madurai,26094,790,499,1,40,32016,29787,87.6,590,High,Reject
+1500,51,Male,Electrician,Coimbatore,24300,945,599,0,83,334348,27784,87.5,782,Low,Approve
+1501,24,Male,Electrician,Madurai,43150,739,239,3,54,176062,40962,94.9,635,Medium,Review
+1502,43,Female,Driver,Chennai,32757,1767,239,2,97,30703,36160,90.6,810,Low,Approve
+1503,49,Female,Nurse,Thoothukudi,20437,1064,399,2,86,255573,23052,88.7,758,Low,Approve
+1504,59,Male,Daily Wage Worker,Vellore,18159,2140,349,2,74,202472,26598,68.3,629,Medium,Review
+1505,21,Female,Tailor,Chennai,48614,1791,299,2,86,43209,50839,95.6,786,Low,Approve
+1506,55,Female,Driver,Vellore,40607,931,349,2,66,346018,38639,95.2,704,Medium,Review
+1507,28,Male,Nurse,Coimbatore,10868,831,239,0,52,66127,14906,72.9,599,High,Reject
+1508,33,Male,Farmer,Thanjavur,33467,2306,349,0,63,125722,40752,82.1,680,Medium,Review
+1509,25,Male,Driver,Thoothukudi,13240,2217,149,2,75,399796,21059,62.9,611,Medium,Review
+1510,44,Male,Self Employed,Tirunelveli,42669,466,199,2,44,123193,38846,91.0,600,Medium,Review
+1511,27,Male,Driver,Vellore,33253,1076,299,1,76,337850,31763,95.5,766,Low,Approve
+1512,56,Female,Daily Wage Worker,Thanjavur,31459,2178,499,0,50,425478,36348,86.5,646,Medium,Review
+1513,56,Female,Nurse,Trichy,18366,2486,599,2,97,175231,30934,59.4,685,Medium,Review
+1514,41,Female,Carpenter,Erode,29197,1285,299,3,89,298483,29970,97.4,785,Low,Approve
+1515,44,Female,Teacher,Erode,8012,441,349,0,73,80823,10437,76.8,699,Medium,Review
+1516,21,Female,Driver,Salem,28637,388,349,1,46,29784,28024,97.9,655,Medium,Review
+1517,43,Male,Tailor,Tirunelveli,32057,1323,299,2,91,167444,31081,97.0,812,Low,Approve
+1518,57,Female,Self Employed,Salem,13059,1629,599,1,71,442907,24404,53.5,578,High,Reject
+1519,57,Male,Self Employed,Tirunelveli,10449,1862,199,0,98,414174,17138,61.0,736,Medium,Review
+1520,43,Female,Carpenter,Coimbatore,22858,346,499,0,59,284927,20999,91.9,703,Medium,Review
+1521,41,Male,Electrician,Vellore,22470,927,149,3,68,404705,24751,90.8,675,Medium,Review
+1522,57,Male,Driver,Erode,26991,1915,239,1,61,53277,32062,84.2,660,Medium,Review
+1523,57,Male,Nurse,Erode,25206,648,499,3,89,375885,24816,98.5,790,Low,Approve
+1524,29,Female,Nurse,Salem,39972,1919,299,1,55,47562,41226,97.0,688,Medium,Review
+1525,48,Female,Self Employed,Coimbatore,15374,1994,499,2,62,109871,23894,64.3,565,High,Reject
+1526,43,Male,Shopkeeper,Madurai,30919,2111,239,3,42,494553,34003,90.9,571,High,Reject
+1527,33,Female,Tailor,Coimbatore,15364,523,299,1,95,446440,16131,95.2,840,Low,Approve
+1528,21,Female,Daily Wage Worker,Tirunelveli,37495,2229,149,2,53,397979,41511,90.3,633,Medium,Review
+1529,34,Male,Nurse,Vellore,24951,2278,239,0,64,315662,33419,74.7,654,Medium,Review
+1530,54,Male,Shopkeeper,Madurai,11939,1463,299,2,43,253773,20158,59.2,468,High,Reject
+1531,21,Male,Carpenter,Tirunelveli,31607,741,149,2,95,473157,31760,99.5,838,Low,Approve
+1532,45,Male,Carpenter,Vellore,14527,1592,599,0,51,114267,23882,60.8,547,High,Reject
+1533,50,Male,Farmer,Salem,42695,1548,399,3,65,400275,41826,98.0,692,Medium,Review
+1534,22,Female,Electrician,Trichy,48975,1538,299,2,91,42510,49850,98.2,816,Low,Approve
+1535,37,Female,Farmer,Vellore,26362,1223,239,2,97,215964,30274,87.1,796,Low,Approve
+1536,29,Male,Carpenter,Vellore,48137,1231,499,1,76,90084,47918,99.5,782,Low,Approve
+1537,40,Female,Teacher,Vellore,16635,1146,239,1,95,82409,19335,86.0,804,Low,Approve
+1538,54,Male,Carpenter,Madurai,45017,947,399,0,75,289425,45886,98.1,792,Low,Approve
+1539,28,Male,Electrician,Madurai,9932,1605,499,3,59,242261,20574,48.3,469,High,Reject
+1540,38,Male,Driver,Coimbatore,16620,1056,149,2,78,307293,20728,80.2,692,Medium,Review
+1541,35,Male,Driver,Chennai,31544,625,599,1,72,453620,34480,91.5,734,Medium,Review
+1542,51,Female,Tailor,Erode,40207,2240,239,1,52,128632,40301,99.8,687,Medium,Review
+1543,47,Male,Shopkeeper,Erode,22585,1130,299,0,51,496069,25578,88.3,657,Medium,Review
+1544,60,Female,Electrician,Thoothukudi,24173,2051,499,0,78,395525,31650,76.4,717,Medium,Review
+1545,41,Female,Self Employed,Thanjavur,46915,2496,149,0,68,249547,46055,98.2,764,Low,Approve
+1546,36,Female,Farmer,Vellore,33388,2414,149,1,58,240452,37818,88.3,665,Medium,Review
+1547,40,Female,Teacher,Madurai,35686,1505,149,1,69,445103,38052,93.8,731,Medium,Review
+1548,49,Male,Nurse,Coimbatore,19781,854,499,3,60,246394,20436,96.8,667,Medium,Review
+1549,32,Female,Self Employed,Salem,37798,669,349,2,84,350040,38534,98.1,788,Low,Approve
+1550,31,Male,Daily Wage Worker,Coimbatore,37451,1786,199,3,86,424746,39887,93.9,759,Low,Approve
+1551,60,Male,Carpenter,Vellore,32943,479,239,2,76,466814,32584,98.9,759,Low,Approve
+1552,30,Male,Tailor,Madurai,11362,2018,349,2,86,412983,20608,55.1,624,Medium,Review
+1553,39,Male,Daily Wage Worker,Madurai,21294,314,349,0,69,270900,22167,96.1,760,Low,Approve
+1554,55,Male,Self Employed,Thoothukudi,23589,1188,599,3,66,241669,26065,90.5,666,Medium,Review
+1555,59,Male,Driver,Vellore,26226,1150,149,1,49,38869,29123,90.1,636,Medium,Review
+1556,43,Male,Tailor,Chennai,45885,1522,399,0,43,67088,46403,98.9,667,Medium,Review
+1557,32,Male,Shopkeeper,Thanjavur,46991,1026,599,2,99,28790,44250,94.2,832,Low,Approve
+1558,40,Female,Electrician,Erode,12434,2050,199,2,70,80540,17738,70.1,620,Medium,Review
+1559,38,Female,Nurse,Erode,42383,1159,299,0,46,309560,43911,96.5,670,Medium,Review
+1560,54,Male,Teacher,Thanjavur,26821,2049,399,2,73,311540,34949,76.7,658,Medium,Review
+1561,43,Male,Self Employed,Thanjavur,40531,2428,599,3,91,104323,48920,82.9,735,Medium,Review
+1562,35,Female,Driver,Chennai,15746,398,599,0,87,454632,17678,89.1,804,Low,Approve
+1563,60,Female,Carpenter,Chennai,29875,1732,299,0,80,115480,35872,83.3,753,Low,Approve
+1564,39,Female,Daily Wage Worker,Tirunelveli,27679,2375,399,0,47,369575,34565,80.1,608,Medium,Review
+1565,42,Female,Self Employed,Thanjavur,9908,1019,299,2,93,187176,16902,58.6,666,Medium,Review
+1566,51,Female,Farmer,Madurai,39555,936,599,2,69,421036,40571,97.5,726,Medium,Review
+1567,24,Female,Self Employed,Trichy,44384,2494,149,1,76,369395,46392,95.7,766,Low,Approve
+1568,43,Male,Tailor,Tirunelveli,10042,1689,499,1,76,327555,18972,52.9,595,High,Reject
+1569,32,Male,Shopkeeper,Trichy,10072,1412,499,0,71,469826,16643,60.5,626,Medium,Review
+1570,44,Female,Shopkeeper,Salem,42412,1538,239,0,63,421536,39299,92.7,722,Medium,Review
+1571,33,Male,Teacher,Vellore,9634,2276,239,1,61,494251,19683,48.9,519,High,Reject
+1572,54,Female,Electrician,Madurai,14439,2414,239,1,86,29164,23882,60.5,666,Medium,Review
+1573,45,Male,Farmer,Tirunelveli,10885,656,399,3,96,34190,12368,88.0,776,Low,Approve
+1574,54,Female,Farmer,Thanjavur,28456,1159,399,1,52,160243,29858,95.3,669,Medium,Review
+1575,55,Female,Teacher,Coimbatore,25868,911,239,2,47,17998,28353,91.2,612,Medium,Review
+1576,56,Male,Driver,Vellore,30958,1604,349,1,100,379284,33294,93.0,852,Low,Approve
+1577,57,Male,Tailor,Coimbatore,28406,1687,599,0,48,25200,35120,80.9,615,Medium,Review
+1578,24,Male,Carpenter,Chennai,13643,2046,499,1,85,322539,24945,54.7,638,Medium,Review
+1579,49,Female,Shopkeeper,Trichy,20985,2485,199,3,76,79098,26081,80.5,666,Medium,Review
+1580,50,Male,Teacher,Tirunelveli,38500,2227,299,1,49,461462,44153,87.2,624,Medium,Review
+1581,37,Female,Carpenter,Madurai,29648,1630,599,3,41,44270,35923,82.5,534,High,Reject
+1582,28,Female,Teacher,Thoothukudi,19193,1456,399,1,72,63966,24693,77.7,678,Medium,Review
+1583,27,Female,Nurse,Coimbatore,27799,2482,599,3,77,226762,35913,77.4,657,Medium,Review
+1584,60,Male,Nurse,Madurai,39612,1872,199,2,53,436726,43454,91.2,636,Medium,Review
+1585,58,Female,Carpenter,Thanjavur,30426,1267,239,0,87,498040,34151,89.1,804,Low,Approve
+1586,57,Female,Daily Wage Worker,Thanjavur,47064,2196,399,0,92,243421,48070,97.9,859,Low,Approve
+1587,40,Female,Daily Wage Worker,Thanjavur,15126,1852,399,3,81,356116,20203,74.9,663,Medium,Review
+1588,26,Male,Tailor,Thanjavur,49689,300,239,1,68,288531,42250,85.0,692,Medium,Review
+1589,45,Female,Driver,Salem,28748,1527,349,3,85,489785,31718,90.6,742,Medium,Review
+1590,26,Male,Self Employed,Vellore,34489,822,349,0,63,482423,35167,98.1,744,Medium,Review
+1591,24,Male,Nurse,Trichy,15189,1455,149,1,67,378166,20997,72.3,637,Medium,Review
+1592,46,Female,Carpenter,Erode,33006,2082,299,1,70,82912,35665,92.5,730,Medium,Review
+1593,56,Female,Electrician,Erode,18110,1481,239,1,40,47615,24635,73.5,534,High,Reject
+1594,22,Male,Teacher,Erode,16898,646,239,3,95,249090,20710,81.6,746,Medium,Review
+1595,59,Female,Self Employed,Madurai,37779,2386,499,3,64,196283,42608,88.7,650,Medium,Review
+1596,32,Female,Self Employed,Chennai,45875,2340,299,2,66,495786,49926,91.9,691,Medium,Review
+1597,57,Female,Farmer,Chennai,45234,2279,399,0,77,262461,51151,88.4,761,Low,Approve
+1598,26,Male,Nurse,Tirunelveli,38470,2417,199,0,55,257700,44202,87.0,668,Medium,Review
+1599,25,Female,Self Employed,Chennai,30514,2491,149,3,69,278783,36410,83.8,651,Medium,Review
+1600,57,Female,Carpenter,Trichy,27308,1484,239,0,84,493846,31589,86.4,781,Low,Approve
+1601,40,Female,Farmer,Thoothukudi,45889,992,149,2,91,396599,43985,95.9,807,Low,Approve
+1602,22,Female,Teacher,Coimbatore,16311,2370,199,2,56,79488,26164,62.3,533,High,Reject
+1603,38,Female,Shopkeeper,Chennai,15310,1015,239,3,63,433541,16656,91.9,659,Medium,Review
+1604,37,Male,Teacher,Madurai,42562,435,399,0,49,322236,37243,87.5,646,Medium,Review
+1605,52,Female,Carpenter,Salem,36847,985,299,2,43,346729,34974,94.9,611,Medium,Review
+1606,28,Male,Tailor,Thoothukudi,34132,2250,349,3,87,404488,40459,84.4,725,Medium,Review
+1607,35,Female,Carpenter,Thoothukudi,25211,894,499,0,58,496131,28412,88.7,686,Medium,Review
+1608,45,Female,Nurse,Chennai,14380,2476,399,3,79,491318,26941,53.4,569,High,Reject
+1609,38,Female,Shopkeeper,Tirunelveli,14440,1345,499,3,89,364047,19904,72.5,686,Medium,Review
+1610,58,Male,Nurse,Trichy,19791,1583,149,0,93,45626,20453,96.8,859,Low,Approve
+1611,47,Male,Nurse,Coimbatore,37225,1739,299,2,56,111229,36406,97.8,675,Medium,Review
+1612,22,Male,Farmer,Thanjavur,22209,798,199,0,94,327029,20615,92.8,847,Low,Approve
+1613,45,Male,Daily Wage Worker,Madurai,24602,1506,599,0,80,247735,29761,82.7,750,Low,Approve
+1614,48,Female,Shopkeeper,Madurai,12849,1435,149,3,64,184406,14703,87.4,645,Medium,Review
+1615,37,Female,Tailor,Thoothukudi,12548,2314,299,3,51,348419,22716,55.2,464,High,Reject
+1616,27,Male,Nurse,Erode,22312,735,599,2,46,28277,23178,96.3,629,Medium,Review
+1617,25,Female,Teacher,Chennai,40617,909,149,0,82,214725,36503,89.9,787,Low,Approve
+1618,30,Female,Carpenter,Thanjavur,8242,2411,599,3,67,221766,23990,34.4,445,High,Reject
+1619,25,Male,Farmer,Erode,39592,796,399,2,83,168769,38330,96.8,779,Low,Approve
+1620,24,Male,Electrician,Vellore,30286,629,599,2,81,116493,29982,99.0,780,Low,Approve
+1621,56,Male,Carpenter,Salem,27586,1897,199,2,71,54492,33431,82.5,674,Medium,Review
+1622,49,Male,Tailor,Chennai,20654,403,299,3,64,43026,21955,94.1,672,Medium,Review
+1623,40,Female,Nurse,Thoothukudi,9075,451,399,0,61,423022,15162,59.9,583,High,Reject
+1624,23,Female,Daily Wage Worker,Salem,42283,2177,239,1,99,47766,41748,98.7,870,Low,Approve
+1625,30,Female,Farmer,Thoothukudi,48525,487,299,1,40,100308,45342,93.4,613,Medium,Review
+1626,24,Female,Daily Wage Worker,Thoothukudi,48057,999,199,0,47,270646,45907,95.5,670,Medium,Review
+1627,60,Male,Daily Wage Worker,Salem,35932,1681,499,2,47,368659,41179,87.3,597,High,Reject
+1628,55,Male,Electrician,Salem,10987,1010,399,0,47,153599,14178,77.5,598,High,Reject
+1629,47,Male,Electrician,Vellore,18813,2096,299,0,48,62411,28004,67.2,560,High,Reject
+1630,60,Female,Tailor,Chennai,39913,630,149,0,51,495562,33372,83.6,638,Medium,Review
+1631,58,Female,Carpenter,Thoothukudi,16316,1144,239,2,73,246149,19915,81.9,679,Medium,Review
+1632,36,Male,Self Employed,Chennai,47077,1037,599,0,80,443315,46068,97.9,811,Low,Approve
+1633,43,Female,Farmer,Vellore,23442,1086,199,0,79,199740,26110,89.8,775,Low,Approve
+1634,53,Male,Teacher,Salem,26115,517,299,0,90,88232,27965,93.4,833,Low,Approve
+1635,51,Female,Tailor,Madurai,10825,521,399,2,53,237893,12995,83.3,605,Medium,Review
+1636,42,Female,Farmer,Coimbatore,11437,1020,239,0,71,279957,13091,87.4,733,Medium,Review
+1637,25,Male,Teacher,Thanjavur,45995,1635,499,1,87,364865,46996,97.9,819,Low,Approve
+1638,35,Male,Electrician,Salem,14426,1271,499,1,64,477332,19423,74.3,633,Medium,Review
+1639,25,Female,Self Employed,Thoothukudi,11561,2085,239,1,99,329518,20227,57.2,704,Medium,Review
+1640,32,Female,Electrician,Madurai,37998,1095,399,2,52,186103,36012,94.8,647,Medium,Review
+1641,23,Male,Shopkeeper,Madurai,15281,2206,599,3,50,408636,25654,59.6,478,High,Reject
+1642,35,Female,Self Employed,Madurai,49811,996,299,0,66,459301,47498,95.4,745,Medium,Review
+1643,52,Male,Self Employed,Thoothukudi,38327,1443,149,3,87,467492,36645,95.6,770,Low,Approve
+1644,36,Female,Carpenter,Thanjavur,22575,910,149,3,42,31002,23747,95.1,588,High,Reject
+1645,53,Male,Carpenter,Vellore,33842,2263,199,3,71,136097,35397,95.6,706,Medium,Review
+1646,56,Male,Carpenter,Salem,16697,1768,349,1,81,57568,20351,82.0,732,Medium,Review
+1647,51,Female,Tailor,Thoothukudi,45380,399,599,3,89,82678,45452,99.8,795,Low,Approve
+1648,46,Male,Electrician,Thoothukudi,49510,305,199,3,97,372152,42147,85.1,768,Low,Approve
+1649,54,Male,Shopkeeper,Erode,25680,1148,199,2,87,498763,24177,94.1,784,Low,Approve
+1650,53,Female,Farmer,Coimbatore,33097,1797,599,0,63,202116,36892,89.7,710,Medium,Review
+1651,56,Male,Nurse,Salem,17070,1671,299,0,81,260868,24484,69.7,702,Medium,Review
+1652,34,Male,Electrician,Trichy,25521,2362,499,2,43,43223,33910,75.3,533,High,Reject
+1653,43,Female,Teacher,Vellore,42516,802,599,2,68,335557,42027,98.8,727,Medium,Review
+1654,25,Male,Teacher,Coimbatore,13254,1900,239,2,44,67338,18464,71.8,523,High,Reject
+1655,38,Male,Tailor,Thoothukudi,17863,1136,149,2,66,367775,21461,83.2,656,Medium,Review
+1656,29,Female,Electrician,Erode,37088,387,349,1,44,21553,32913,88.7,610,Medium,Review
+1657,54,Female,Carpenter,Thanjavur,30465,1636,599,3,69,169426,37354,81.6,642,Medium,Review
+1658,29,Female,Tailor,Tirunelveli,22862,2283,399,2,89,453292,28000,81.7,742,Medium,Review
+1659,30,Female,Shopkeeper,Thoothukudi,18902,958,349,1,51,450051,24545,77.0,592,High,Reject
+1660,30,Male,Driver,Coimbatore,10696,1596,239,3,56,203814,15363,69.6,542,High,Reject
+1661,34,Male,Electrician,Trichy,17695,1827,599,1,74,168104,24251,73.0,668,Medium,Review
+1662,22,Female,Teacher,Madurai,38018,1611,239,0,87,296337,39926,95.2,828,Low,Approve
+1663,42,Female,Teacher,Tirunelveli,45599,902,599,2,84,68885,47872,95.3,777,Low,Approve
+1664,51,Male,Tailor,Vellore,15659,1561,149,3,79,450861,18768,83.4,689,Medium,Review
+1665,49,Female,Daily Wage Worker,Trichy,11606,1099,299,2,52,21821,13756,84.4,605,Medium,Review
+1666,55,Female,Daily Wage Worker,Vellore,33848,1096,599,2,78,327235,37444,90.4,733,Medium,Review
+1667,24,Female,Carpenter,Madurai,36025,1814,499,2,40,159238,39893,90.3,581,High,Reject
+1668,43,Female,Teacher,Vellore,13740,1183,599,3,91,241999,19880,69.1,680,Medium,Review
+1669,31,Female,Carpenter,Madurai,46481,652,239,1,59,258833,43007,92.5,686,Medium,Review
+1670,42,Male,Self Employed,Erode,13796,327,499,2,66,101694,17889,77.1,632,Medium,Review
+1671,50,Male,Driver,Madurai,33019,1485,599,0,92,443192,36620,90.2,828,Low,Approve
+1672,58,Female,Teacher,Vellore,38372,1219,149,0,49,147718,36223,94.4,673,Medium,Review
+1673,51,Male,Shopkeeper,Erode,19755,2314,299,0,47,410932,26722,73.9,583,High,Reject
+1674,52,Male,Self Employed,Trichy,46080,2268,499,2,80,369615,50827,90.7,742,Medium,Review
+1675,28,Female,Nurse,Thanjavur,9149,1363,239,0,49,177604,15459,59.2,532,High,Reject
+1676,29,Female,Tailor,Chennai,25869,1779,499,2,43,161968,31192,82.9,563,High,Reject
+1677,54,Male,Nurse,Salem,49158,1050,199,1,74,179138,44708,90.9,739,Medium,Review
+1678,40,Female,Electrician,Coimbatore,43023,1740,239,0,48,281670,42595,99.0,688,Medium,Review
+1679,44,Female,Carpenter,Trichy,18684,719,299,1,72,125927,18758,99.6,766,Low,Approve
+1680,56,Male,Carpenter,Thoothukudi,13006,777,239,0,70,192562,14976,86.8,727,Medium,Review
+1681,44,Male,Teacher,Thanjavur,42283,1701,239,2,41,400311,40513,95.8,607,Medium,Review
+1682,35,Male,Tailor,Salem,28147,813,299,1,45,232720,30820,91.3,625,Medium,Review
+1683,28,Male,Farmer,Thoothukudi,36262,474,299,0,42,425789,35701,98.5,662,Medium,Review
+1684,53,Male,Teacher,Coimbatore,24581,477,199,2,82,15385,20954,85.2,728,Medium,Review
+1685,28,Male,Self Employed,Salem,20109,1739,149,0,49,453475,23507,85.5,638,Medium,Review
+1686,58,Female,Electrician,Madurai,40809,1290,199,0,92,313108,36513,89.5,826,Low,Approve
+1687,54,Male,Driver,Tirunelveli,19257,2500,149,0,99,122205,27727,69.5,774,Low,Approve
+1688,51,Female,Self Employed,Madurai,36813,739,239,2,64,232346,33073,89.8,675,Medium,Review
+1689,53,Male,Carpenter,Coimbatore,28596,806,599,0,73,81257,31953,89.5,750,Low,Approve
+1690,44,Female,Nurse,Chennai,13390,1643,599,0,64,158694,22819,58.7,590,High,Reject
+1691,59,Female,Teacher,Salem,44301,1968,349,3,52,459196,43674,98.6,642,Medium,Review
+1692,51,Female,Tailor,Chennai,40220,730,499,3,73,355268,41630,96.6,718,Medium,Review
+1693,26,Male,Tailor,Erode,34255,716,239,0,63,114378,31954,93.3,725,Medium,Review
+1694,33,Female,Daily Wage Worker,Salem,35833,2344,349,2,88,423921,43108,83.1,744,Medium,Review
+1695,46,Female,Teacher,Thanjavur,34505,2284,349,1,89,248359,37417,92.2,804,Low,Approve
+1696,28,Female,Teacher,Thoothukudi,23127,851,149,0,87,37709,20655,89.3,805,Low,Approve
+1697,52,Male,Tailor,Erode,47622,1639,239,2,79,336753,44354,93.1,748,Medium,Review
+1698,25,Female,Teacher,Salem,27238,2339,599,2,74,190153,37366,72.9,647,Medium,Review
+1699,55,Male,Farmer,Erode,15807,1871,599,2,94,207308,25546,61.9,683,Medium,Review
+1700,50,Male,Farmer,Madurai,44481,1541,239,3,67,80510,43219,97.2,696,Medium,Review
+1701,45,Female,Daily Wage Worker,Thanjavur,40148,2224,599,1,72,39222,46012,87.3,717,Medium,Review
+1702,37,Female,Self Employed,Erode,48431,1744,349,2,43,24757,50349,96.2,616,Medium,Review
+1703,23,Male,Electrician,Trichy,46270,410,399,3,46,234472,41675,90.1,584,High,Reject
+1704,43,Female,Electrician,Chennai,24005,1314,299,2,77,54533,29488,81.4,693,Medium,Review
+1705,25,Female,Daily Wage Worker,Trichy,19126,380,399,0,69,354859,20472,93.4,749,Medium,Review
+1706,57,Female,Shopkeeper,Chennai,38782,391,399,3,76,214630,35422,91.3,709,Medium,Review
+1707,57,Male,Teacher,Coimbatore,21494,1676,599,2,50,332346,28144,76.4,565,High,Reject
+1708,44,Female,Driver,Thoothukudi,49644,608,299,2,56,34920,43974,88.6,638,Medium,Review
+1709,57,Female,Driver,Thanjavur,14026,688,399,2,44,306971,18514,75.8,539,High,Reject
+1710,51,Female,Driver,Trichy,13024,1536,349,3,82,293088,18921,68.8,643,Medium,Review
+1711,33,Female,Carpenter,Tirunelveli,48957,2410,599,1,96,19753,55740,87.8,815,Low,Approve
+1712,54,Male,Self Employed,Thoothukudi,21956,2214,349,3,99,306808,32164,68.3,709,Medium,Review
+1713,24,Male,Electrician,Thoothukudi,17682,1284,239,2,94,238269,21553,82.0,764,Low,Approve
+1714,41,Male,Driver,Erode,25493,1475,239,2,83,325218,27140,93.9,767,Low,Approve
+1715,46,Male,Daily Wage Worker,Madurai,20577,413,299,2,69,264480,22091,93.1,708,Medium,Review
+1716,48,Female,Farmer,Salem,18443,1417,239,0,56,424014,21609,85.3,665,Medium,Review
+1717,56,Male,Farmer,Thoothukudi,9304,526,199,2,78,166226,8659,93.1,744,Medium,Review
+1718,47,Female,Daily Wage Worker,Erode,17211,1266,199,0,73,358241,22178,77.6,702,Medium,Review
+1719,54,Female,Teacher,Coimbatore,23602,800,399,2,93,316355,25467,92.7,802,Low,Approve
+1720,36,Female,Driver,Madurai,15000,1017,299,2,68,224106,17543,85.5,674,Medium,Review
+1721,58,Male,Teacher,Vellore,32556,762,399,3,70,367951,31302,96.1,704,Medium,Review
+1722,38,Male,Electrician,Thoothukudi,32100,1562,149,0,93,397684,35544,90.3,833,Low,Approve
+1723,24,Male,Shopkeeper,Vellore,33211,1566,399,0,74,464533,34960,95.0,776,Low,Approve
+1724,49,Female,Farmer,Erode,24746,1532,199,1,59,120303,25828,95.8,699,Medium,Review
+1725,49,Female,Carpenter,Chennai,25959,628,599,3,87,226510,27796,93.4,761,Low,Approve
+1726,48,Male,Tailor,Tirunelveli,41183,571,399,3,78,392327,39908,96.9,739,Medium,Review
+1727,41,Female,Farmer,Chennai,20041,2116,239,0,65,114897,28555,70.2,640,Medium,Review
+1728,40,Female,Self Employed,Coimbatore,15263,946,299,1,94,321435,21003,72.7,746,Medium,Review
+1729,47,Female,Teacher,Thoothukudi,16749,1367,239,2,91,157742,19406,86.3,769,Low,Approve
+1730,26,Female,Electrician,Madurai,33788,1845,299,0,100,22042,38377,88.0,852,Low,Approve
+1731,60,Male,Daily Wage Worker,Thoothukudi,20993,1372,239,0,65,334012,24707,85.0,700,Medium,Review
+1732,59,Female,Tailor,Coimbatore,32112,996,199,0,85,285690,31829,99.1,836,Low,Approve
+1733,50,Female,Daily Wage Worker,Salem,21313,1080,349,2,87,269086,24291,87.7,758,Low,Approve
+1734,29,Female,Driver,Thanjavur,22127,1459,299,3,51,224184,24124,91.7,610,Medium,Review
+1735,22,Female,Shopkeeper,Salem,48480,2147,299,2,77,368753,52066,93.1,740,Medium,Review
+1736,50,Male,Farmer,Thoothukudi,16729,1624,499,1,85,211062,26674,62.7,670,Medium,Review
+1737,48,Female,Daily Wage Worker,Coimbatore,44503,540,149,2,99,133124,39811,89.5,814,Low,Approve
+1738,43,Male,Farmer,Tirunelveli,41065,1860,349,3,82,204459,41167,99.8,767,Low,Approve
+1739,56,Male,Self Employed,Madurai,25058,995,599,2,96,255411,26898,93.2,816,Low,Approve
+1740,26,Female,Nurse,Erode,17292,1366,199,2,42,77041,21978,78.7,542,High,Reject
+1741,38,Female,Carpenter,Tirunelveli,25250,1380,399,3,97,96499,28496,88.6,782,Low,Approve
+1742,52,Male,Nurse,Thoothukudi,11487,1073,239,0,54,106018,12686,90.5,678,Medium,Review
+1743,51,Female,Tailor,Thoothukudi,36601,775,599,0,68,196919,39980,91.5,738,Medium,Review
+1744,56,Female,Teacher,Thoothukudi,15372,906,199,2,45,116815,16840,91.3,605,Medium,Review
+1745,32,Male,Nurse,Tirunelveli,44912,1169,149,1,66,492561,39426,87.8,695,Medium,Review
+1746,36,Female,Daily Wage Worker,Trichy,9701,1464,199,3,63,319507,13076,74.2,588,High,Reject
+1747,41,Male,Farmer,Coimbatore,38161,2265,599,2,78,354984,41427,92.1,740,Medium,Review
+1748,42,Male,Self Employed,Thoothukudi,29293,829,299,0,91,347454,28459,97.2,852,Low,Approve
+1749,41,Male,Daily Wage Worker,Vellore,47471,1862,199,3,56,103328,45982,96.9,651,Medium,Review
+1750,46,Male,Farmer,Salem,18678,1891,499,2,81,404557,28856,64.7,642,Medium,Review
+1751,30,Male,Shopkeeper,Thoothukudi,36335,1570,239,2,82,60390,37270,97.5,778,Low,Approve
+1752,53,Male,Teacher,Thoothukudi,33433,2251,349,3,45,406618,39003,85.7,562,High,Reject
+1753,44,Male,Carpenter,Erode,14091,465,399,3,83,127561,18629,75.6,674,Medium,Review
+1754,30,Female,Nurse,Vellore,13503,1490,599,3,45,485638,22466,60.1,460,High,Reject
+1755,40,Male,Tailor,Tirunelveli,24295,2442,499,2,76,35023,34709,70.0,644,Medium,Review
+1756,25,Male,Nurse,Coimbatore,41466,2040,499,0,69,356478,48224,86.0,720,Medium,Review
+1757,57,Female,Electrician,Tirunelveli,46375,634,149,0,87,356857,41619,89.7,806,Low,Approve
+1758,32,Male,Carpenter,Chennai,13458,2004,349,2,77,389634,22301,60.3,609,Medium,Review
+1759,49,Female,Electrician,Madurai,21832,1058,199,2,95,363060,21160,96.9,827,Low,Approve
+1760,48,Male,Farmer,Erode,15646,354,239,3,69,372705,16162,96.8,703,Medium,Review
+1761,59,Female,Shopkeeper,Thanjavur,48418,1777,499,2,45,75582,47940,99.0,636,Medium,Review
+1762,21,Male,Daily Wage Worker,Chennai,20335,409,299,3,81,86102,22618,89.9,723,Medium,Review
+1763,36,Female,Nurse,Salem,13642,1532,599,1,70,231186,19011,71.8,647,Medium,Review
+1764,28,Male,Tailor,Thoothukudi,39788,2231,149,3,77,137207,40595,98.0,740,Medium,Review
+1765,39,Female,Farmer,Trichy,8516,720,499,3,94,269891,15424,55.2,636,Medium,Review
+1766,59,Female,Farmer,Thoothukudi,34193,2291,599,1,85,41826,42637,80.2,740,Medium,Review
+1767,22,Female,Self Employed,Trichy,44258,560,349,3,96,258165,38395,86.8,771,Low,Approve
+1768,52,Female,Teacher,Erode,9363,960,349,1,70,190275,14711,63.6,614,Medium,Review
+1769,35,Male,Self Employed,Trichy,47459,2218,239,2,86,382970,48948,97.0,792,Low,Approve
+1770,47,Female,Teacher,Madurai,48753,1148,349,0,82,263173,44443,91.2,792,Low,Approve
+1771,32,Male,Tailor,Thanjavur,40255,713,499,3,59,133060,37763,93.8,651,Medium,Review
+1772,56,Male,Farmer,Trichy,25092,1762,239,1,92,460605,30157,83.2,780,Low,Approve
+1773,23,Male,Electrician,Erode,15469,1228,199,1,71,145173,18666,82.9,695,Medium,Review
+1774,43,Male,Nurse,Tirunelveli,17907,2411,199,0,99,239547,26305,68.1,768,Low,Approve
+1775,28,Male,Self Employed,Thanjavur,14676,471,199,1,80,71897,13898,94.7,778,Low,Approve
+1776,44,Male,Shopkeeper,Thoothukudi,41154,2341,199,1,81,200702,43620,94.3,781,Low,Approve
+1777,29,Male,Driver,Thoothukudi,35246,326,299,3,61,160343,33029,93.7,658,Medium,Review
+1778,31,Male,Shopkeeper,Trichy,35198,1777,299,1,88,405054,38996,90.3,793,Low,Approve
+1779,47,Male,Tailor,Erode,35093,1976,599,2,100,25604,41395,84.8,799,Low,Approve
+1780,30,Male,Nurse,Coimbatore,13556,1685,399,3,89,96153,21331,63.6,650,Medium,Review
+1781,24,Female,Farmer,Madurai,45654,536,349,3,65,474405,44036,96.5,686,Medium,Review
+1782,56,Female,Electrician,Trichy,8517,1445,239,3,68,347578,13185,64.6,570,High,Reject
+1783,55,Female,Electrician,Erode,20929,1535,199,0,74,185370,24669,84.8,735,Medium,Review
+1784,29,Female,Driver,Coimbatore,41532,1578,399,1,41,24623,44152,94.1,620,Medium,Review
+1785,58,Female,Driver,Tirunelveli,35705,2369,199,0,93,205548,38759,92.1,840,Low,Approve
+1786,53,Female,Daily Wage Worker,Chennai,16175,2138,349,0,69,187723,23218,69.7,654,Medium,Review
+1787,58,Male,Electrician,Tirunelveli,26647,873,499,1,46,181886,30031,88.7,618,Medium,Review
+1788,58,Male,Electrician,Thoothukudi,14421,900,499,3,45,58364,16637,86.7,566,High,Reject
+1789,48,Male,Teacher,Salem,37239,619,399,3,77,303060,36710,98.6,742,Medium,Review
+1790,46,Female,Self Employed,Thoothukudi,49711,2034,599,3,86,228587,51030,97.4,773,Low,Approve
+1791,30,Male,Teacher,Thoothukudi,16479,2402,199,1,69,258174,21650,76.1,660,Medium,Review
+1792,31,Female,Daily Wage Worker,Thanjavur,34779,751,199,2,76,161828,29748,85.5,706,Medium,Review
+1793,54,Male,Daily Wage Worker,Trichy,27983,1833,349,2,71,24668,30680,91.2,708,Medium,Review
+1794,30,Female,Farmer,Tirunelveli,26578,1183,239,3,40,74135,29391,90.4,561,High,Reject
+1795,43,Male,Farmer,Erode,39534,1568,599,2,90,207816,43584,90.7,782,Low,Approve
+1796,59,Male,Tailor,Vellore,49711,2187,599,3,49,464214,56270,88.3,589,High,Reject
+1797,41,Male,Self Employed,Thanjavur,34845,1886,299,3,61,293636,35187,99.0,680,Medium,Review
+1798,49,Female,Daily Wage Worker,Madurai,9625,1565,199,0,52,334379,16990,56.7,534,High,Reject
+1799,57,Male,Self Employed,Vellore,20412,2249,149,0,82,288847,24989,81.7,754,Low,Approve
+1800,22,Female,Driver,Salem,45981,2119,199,2,65,318749,44220,96.2,704,Medium,Review
+1801,52,Male,Electrician,Erode,19829,1999,149,2,64,144835,22796,87.0,664,Medium,Review
+1802,28,Male,Nurse,Madurai,26700,889,239,2,89,56991,25091,94.0,792,Low,Approve
+1803,40,Female,Tailor,Chennai,48270,1632,239,0,85,40671,46497,96.3,825,Low,Approve
+1804,45,Male,Electrician,Madurai,35054,1627,349,3,100,443974,35333,99.2,836,Low,Approve
+1805,24,Male,Driver,Thanjavur,46406,1268,599,3,100,70335,46194,99.5,838,Low,Approve
+1806,24,Female,Teacher,Vellore,34678,568,599,0,66,342158,33720,97.2,752,Low,Approve
+1807,22,Female,Nurse,Thanjavur,14652,1308,239,2,76,223252,19518,75.1,664,Medium,Review
+1808,26,Male,Tailor,Trichy,43418,988,299,3,98,301059,41778,96.2,816,Low,Approve
+1809,23,Male,Teacher,Thanjavur,26956,985,149,0,99,493294,27646,97.5,886,Low,Approve
+1810,38,Female,Carpenter,Trichy,49432,1171,349,0,50,397544,48396,97.9,691,Medium,Review
+1811,57,Male,Shopkeeper,Coimbatore,33906,803,239,2,96,236472,30975,91.4,809,Low,Approve
+1812,60,Female,Electrician,Tirunelveli,37669,1418,299,2,61,120427,38965,96.7,690,Medium,Review
+1813,59,Female,Farmer,Madurai,8134,2251,149,0,83,100982,17087,47.6,622,Medium,Review
+1814,56,Female,Carpenter,Vellore,13318,617,149,3,83,74705,14205,93.8,747,Medium,Review
+1815,45,Female,Carpenter,Madurai,8552,811,599,2,99,111182,15518,55.1,676,Medium,Review
+1816,21,Male,Farmer,Tirunelveli,31450,1084,199,2,91,386338,29899,95.1,804,Low,Approve
+1817,35,Female,Electrician,Chennai,26399,2318,299,0,52,440505,35013,75.4,609,Medium,Review
+1818,46,Male,Shopkeeper,Thanjavur,40789,2323,239,1,82,397351,45469,89.7,766,Low,Approve
+1819,59,Male,Daily Wage Worker,Thanjavur,16404,566,239,2,99,308793,16166,98.5,850,Low,Approve
+1820,54,Female,Driver,Chennai,42926,1335,599,0,100,233930,46722,91.9,867,Low,Approve
+1821,24,Female,Carpenter,Erode,25959,798,599,3,63,281191,26107,99.4,689,Medium,Review
+1822,35,Male,Shopkeeper,Erode,42892,2138,399,0,65,112030,45798,93.7,734,Medium,Review
+1823,26,Male,Driver,Erode,12878,1323,299,1,61,172951,15500,83.1,656,Medium,Review
+1824,27,Male,Teacher,Erode,9574,1669,349,1,46,258290,16079,59.5,502,High,Reject
+1825,42,Male,Electrician,Vellore,23515,598,599,0,80,244071,27738,84.8,759,Low,Approve
+1826,28,Male,Farmer,Chennai,32732,1583,199,1,43,491881,34729,94.2,628,Medium,Review
+1827,24,Female,Self Employed,Erode,12311,717,149,0,58,455607,14032,87.7,682,Medium,Review
+1828,46,Male,Self Employed,Erode,23277,343,599,3,69,426895,25292,92.0,684,Medium,Review
+1829,60,Male,Electrician,Chennai,37758,2418,399,1,46,63838,40170,94.0,640,Medium,Review
+1830,59,Male,Self Employed,Salem,45566,816,349,2,66,262391,45444,99.7,722,Medium,Review
+1831,60,Female,Tailor,Salem,17022,480,149,1,59,316458,17299,98.4,709,Medium,Review
+1832,53,Female,Shopkeeper,Thanjavur,43464,896,239,3,59,326318,40076,92.2,644,Medium,Review
+1833,39,Female,Farmer,Vellore,46432,892,149,1,72,439488,43488,93.7,742,Medium,Review
+1834,24,Female,Electrician,Salem,21131,1124,199,2,52,360151,23889,88.5,622,Medium,Review
+1835,50,Female,Self Employed,Thanjavur,29997,1527,499,2,50,64970,34818,86.2,604,Medium,Review
+1836,23,Female,Driver,Chennai,49862,1213,299,3,79,121745,46091,92.4,725,Medium,Review
+1837,51,Female,Carpenter,Salem,34234,1054,149,2,40,48656,32726,95.6,602,Medium,Review
+1838,22,Male,Tailor,Tirunelveli,36862,1096,399,0,41,114397,35685,96.8,651,Medium,Review
+1839,39,Male,Driver,Tirunelveli,19421,1691,299,1,52,21268,23134,84.0,624,Medium,Review
+1840,37,Male,Farmer,Madurai,32833,754,399,1,59,249182,31441,95.8,699,Medium,Review
+1841,44,Female,Tailor,Vellore,48842,2076,199,0,49,472801,47040,96.3,681,Medium,Review
+1842,33,Male,Nurse,Erode,32527,1602,499,1,98,34219,38467,84.6,810,Low,Approve
+1843,58,Male,Nurse,Tirunelveli,17736,1642,299,0,80,427129,22442,79.0,736,Medium,Review
+1844,29,Female,Driver,Coimbatore,38845,565,239,3,88,472643,37532,96.6,778,Low,Approve
+1845,53,Female,Teacher,Vellore,38426,1033,399,2,73,374123,39023,98.5,746,Medium,Review
+1846,52,Female,Shopkeeper,Thanjavur,34276,449,299,1,97,116430,32311,94.3,845,Low,Approve
+1847,36,Female,Driver,Tirunelveli,35854,1844,239,2,56,298647,35665,99.5,682,Medium,Review
+1848,29,Male,Shopkeeper,Thoothukudi,42001,1740,299,0,69,278572,45040,93.3,749,Medium,Review
+1849,42,Female,Teacher,Thoothukudi,36344,1975,399,3,60,153140,40299,90.2,640,Medium,Review
+1850,22,Male,Teacher,Salem,25407,610,399,0,58,451766,27067,93.9,707,Medium,Review
+1851,53,Male,Shopkeeper,Salem,14449,785,199,2,42,296274,14931,96.8,615,Medium,Review
+1852,42,Male,Electrician,Tirunelveli,27838,1424,299,1,94,404465,33224,83.8,791,Low,Approve
+1853,55,Female,Farmer,Tirunelveli,26471,1719,499,3,92,314062,34412,76.9,715,Medium,Review
+1854,21,Female,Nurse,Madurai,34050,1232,299,1,70,132538,35785,95.2,740,Medium,Review
+1855,58,Female,Teacher,Trichy,13627,1582,299,3,89,375922,20042,68.0,668,Medium,Review
+1856,34,Female,Teacher,Vellore,9972,1834,239,1,59,396822,14304,69.7,594,High,Reject
+1857,52,Female,Electrician,Salem,35469,2043,499,2,60,317733,37729,94.0,676,Medium,Review
+1858,57,Male,Tailor,Madurai,29643,1901,499,1,100,214805,32831,90.3,841,Low,Approve
+1859,55,Female,Driver,Thoothukudi,15119,1646,599,2,45,99875,21325,70.9,523,High,Reject
+1860,56,Male,Farmer,Thanjavur,40021,409,239,1,44,487807,35725,89.3,613,Medium,Review
+1861,39,Male,Driver,Tirunelveli,42366,586,599,0,63,281859,38118,90.0,712,Medium,Review
+1862,31,Female,Carpenter,Erode,18291,753,239,3,70,399620,17119,93.6,694,Medium,Review
+1863,45,Male,Tailor,Salem,28300,2070,599,1,78,311513,35254,80.3,713,Medium,Review
+1864,58,Male,Nurse,Thoothukudi,26051,1126,149,1,68,43538,26806,97.2,740,Medium,Review
+1865,59,Male,Nurse,Trichy,45304,2310,599,3,76,30491,48021,94.3,721,Medium,Review
+1866,39,Female,Electrician,Tirunelveli,33630,1017,499,1,51,481840,37024,90.8,647,Medium,Review
+1867,48,Female,Carpenter,Madurai,45264,691,499,0,55,474278,41260,91.2,684,Medium,Review
+1868,38,Female,Daily Wage Worker,Salem,40341,1984,199,2,44,406045,39661,98.3,629,Medium,Review
+1869,53,Female,Carpenter,Thoothukudi,18802,1335,299,0,69,24007,20372,92.3,745,Medium,Review
+1870,50,Female,Electrician,Erode,20740,1924,149,0,56,70126,28288,73.3,617,Medium,Review
+1871,29,Female,Teacher,Thoothukudi,38235,579,199,1,85,239493,32644,85.4,761,Low,Approve
+1872,51,Female,Tailor,Madurai,9183,711,239,2,47,290312,12303,74.6,546,High,Reject
+1873,31,Male,Farmer,Tirunelveli,18059,2104,399,1,53,384557,23337,77.4,601,Medium,Review
+1874,55,Male,Teacher,Chennai,49601,2441,199,3,84,171650,51673,96.0,760,Low,Approve
+1875,24,Male,Farmer,Erode,21221,1322,399,1,52,57912,22587,94.0,664,Medium,Review
+1876,47,Male,Farmer,Trichy,20592,558,299,0,91,447982,23537,87.5,814,Low,Approve
+1877,31,Male,Farmer,Erode,41587,741,399,2,75,338616,37977,91.3,725,Medium,Review
+1878,60,Male,Nurse,Erode,36041,794,299,1,46,196948,34049,94.5,642,Medium,Review
+1879,32,Male,Carpenter,Trichy,8785,1894,299,3,54,44611,19386,45.3,437,High,Reject
+1880,38,Female,Farmer,Coimbatore,22323,1983,349,3,46,383571,29974,74.5,522,High,Reject
+1881,57,Male,Shopkeeper,Coimbatore,47312,1628,499,1,61,101923,50557,93.6,698,Medium,Review
+1882,41,Female,Daily Wage Worker,Trichy,9156,2138,499,1,72,318002,22640,40.4,529,High,Reject
+1883,21,Male,Farmer,Thanjavur,16130,1565,299,3,88,137688,23633,68.3,665,Medium,Review
+1884,26,Male,Tailor,Trichy,40684,1514,299,1,64,117156,43254,94.1,712,Medium,Review
+1885,23,Male,Self Employed,Thoothukudi,29541,849,349,2,81,422599,27144,91.9,751,Low,Approve
+1886,54,Female,Shopkeeper,Chennai,23008,1656,399,1,53,292754,25664,89.7,650,Medium,Review
+1887,36,Male,Self Employed,Erode,42175,1617,239,3,80,13168,39649,94.0,736,Medium,Review
+1888,52,Male,Driver,Chennai,49573,879,299,1,45,101056,47420,95.7,642,Medium,Review
+1889,56,Male,Driver,Vellore,13122,2045,599,2,50,388364,22087,59.4,497,High,Reject
+1890,36,Female,Tailor,Thanjavur,24316,1541,349,3,80,115592,27635,88.0,712,Medium,Review
+1891,51,Male,Electrician,Erode,32754,987,599,3,67,274918,36935,88.7,662,Medium,Review
+1892,48,Male,Teacher,Chennai,32996,2050,199,2,78,291646,34439,95.8,755,Low,Approve
+1893,56,Male,Shopkeeper,Erode,38385,1552,599,2,64,304724,43672,87.9,667,Medium,Review
+1894,51,Male,Electrician,Madurai,38753,1101,239,1,40,16728,38419,99.1,636,Medium,Review
+1895,44,Female,Carpenter,Erode,33863,1828,499,3,59,346094,40213,84.2,612,Medium,Review
+1896,25,Female,Farmer,Coimbatore,33219,965,299,3,56,414367,35743,92.9,635,Medium,Review
+1897,43,Female,Electrician,Chennai,33253,2036,299,1,70,28091,37098,89.6,718,Medium,Review
+1898,22,Male,Shopkeeper,Thanjavur,37849,903,349,1,78,313217,39111,96.8,779,Low,Approve
+1899,31,Male,Daily Wage Worker,Coimbatore,33188,1928,199,1,96,231744,34212,97.0,852,Low,Approve
+1900,48,Female,Shopkeeper,Vellore,42943,1867,349,3,88,469486,47574,90.3,753,Low,Approve
+1901,26,Male,Self Employed,Trichy,17352,1401,299,3,84,171533,18929,91.7,742,Medium,Review
+1902,31,Female,Farmer,Coimbatore,12577,2011,499,2,86,235941,20494,61.4,649,Medium,Review
+1903,32,Female,Tailor,Madurai,20977,2292,239,0,68,307319,26602,78.9,687,Medium,Review
+1904,32,Male,Farmer,Madurai,20575,1362,499,3,80,488659,28015,73.4,653,Medium,Review
+1905,27,Male,Daily Wage Worker,Tirunelveli,13616,1847,199,2,44,189386,17115,79.6,554,High,Reject
+1906,58,Male,Teacher,Thoothukudi,14606,338,149,2,88,13788,16678,87.6,762,Low,Approve
+1907,58,Male,Daily Wage Worker,Salem,42231,329,499,2,99,264765,39968,94.6,834,Low,Approve
+1908,42,Female,Electrician,Trichy,30483,1591,299,2,82,218913,33242,91.7,754,Low,Approve
+1909,60,Male,Electrician,Trichy,14565,312,599,3,86,448001,15829,92.0,752,Low,Approve
+1910,22,Male,Nurse,Tirunelveli,24288,1809,599,3,72,226597,33866,71.7,614,Medium,Review
+1911,33,Male,Electrician,Chennai,49535,1775,149,2,83,242944,46833,94.5,770,Low,Approve
+1912,59,Female,Carpenter,Thanjavur,13332,1726,499,3,82,459367,24291,54.9,587,High,Reject
+1913,27,Female,Shopkeeper,Thanjavur,20784,886,149,1,71,427763,19076,91.8,731,Medium,Review
+1914,40,Female,Tailor,Thoothukudi,15581,2274,299,1,53,99355,26356,59.1,528,High,Reject
+1915,26,Male,Carpenter,Chennai,18501,1637,499,2,54,387054,24450,75.7,578,High,Reject
+1916,51,Male,Tailor,Vellore,49520,2315,199,2,95,127338,52186,94.9,819,Low,Approve
+1917,59,Male,Electrician,Erode,33011,2089,299,1,56,70654,36539,90.3,665,Medium,Review
+1918,26,Male,Daily Wage Worker,Trichy,46810,1070,199,2,48,457390,42887,91.6,618,Medium,Review
+1919,45,Male,Shopkeeper,Chennai,46670,2493,299,3,67,177584,49690,93.9,683,Medium,Review
+1920,29,Male,Daily Wage Worker,Erode,8602,2186,399,1,92,165621,17610,48.8,643,Medium,Review
+1921,52,Female,Tailor,Thanjavur,26572,897,149,2,59,273390,28678,92.7,666,Medium,Review
+1922,28,Female,Self Employed,Thoothukudi,49358,1183,599,2,85,207503,46491,94.2,776,Low,Approve
+1923,42,Male,Driver,Salem,11444,1033,599,3,59,437301,20479,55.9,499,High,Reject
+1924,31,Male,Nurse,Erode,30112,2030,599,2,88,215186,37204,80.9,735,Medium,Review
+1925,25,Female,Shopkeeper,Salem,43914,1912,199,1,60,404404,46125,95.2,700,Medium,Review
+1926,24,Female,Teacher,Madurai,45824,863,599,3,58,480400,43089,94.0,648,Medium,Review
+1927,34,Male,Driver,Chennai,31738,717,239,3,100,233929,32736,97.0,828,Low,Approve
+1928,31,Male,Daily Wage Worker,Trichy,39055,1035,149,0,72,350838,36348,93.1,760,Low,Approve
+1929,58,Female,Tailor,Erode,24056,439,199,1,65,266180,22071,91.7,706,Medium,Review
+1930,59,Male,Carpenter,Coimbatore,38387,1865,349,3,63,16083,38944,98.6,686,Medium,Review
+1931,28,Male,Daily Wage Worker,Thoothukudi,41406,1221,149,3,57,373712,36974,89.3,625,Medium,Review
+1932,58,Male,Carpenter,Thoothukudi,36420,1522,239,0,60,43291,39983,91.1,704,Medium,Review
+1933,55,Male,Carpenter,Chennai,33807,2497,599,0,73,448904,43615,77.5,702,Medium,Review
+1934,55,Male,Driver,Coimbatore,19840,1037,149,3,91,174781,19219,96.9,791,Low,Approve
+1935,23,Male,Self Employed,Salem,18565,659,349,0,45,75387,21426,86.6,626,Medium,Review
+1936,40,Female,Nurse,Madurai,35725,300,299,2,42,282337,31575,88.4,581,High,Reject
+1937,55,Female,Tailor,Thanjavur,40141,1581,399,1,84,61909,44056,91.1,780,Low,Approve
+1938,23,Male,Farmer,Salem,17284,1527,299,1,78,299444,21096,81.9,719,Medium,Review
+1939,58,Female,Shopkeeper,Madurai,48783,2028,199,2,56,210163,51052,95.6,666,Medium,Review
+1940,31,Female,Teacher,Coimbatore,24657,2042,239,1,44,340075,29011,85.0,596,High,Reject
+1941,33,Female,Self Employed,Vellore,47645,971,499,1,60,423025,46544,97.7,710,Medium,Review
+1942,45,Male,Self Employed,Salem,13080,1406,199,0,83,297503,18012,72.6,722,Medium,Review
+1943,25,Female,Daily Wage Worker,Trichy,29857,1419,239,1,57,15171,29275,98.1,700,Medium,Review
+1944,45,Male,Carpenter,Coimbatore,16093,1019,349,3,46,287327,19600,82.1,552,High,Reject
+1945,57,Female,Nurse,Tirunelveli,47810,705,149,1,60,404197,42451,88.8,675,Medium,Review
+1946,32,Female,Nurse,Vellore,46968,1949,599,1,56,14979,52787,89.0,660,Medium,Review
+1947,53,Male,Tailor,Madurai,32825,1395,149,2,85,417648,32072,97.7,790,Low,Approve
+1948,59,Female,Teacher,Madurai,36767,1749,599,2,57,234272,42465,86.6,634,Medium,Review
+1949,35,Female,Daily Wage Worker,Tirunelveli,34641,1580,199,0,44,392705,34590,99.9,675,Medium,Review
+1950,26,Male,Self Employed,Chennai,13543,1470,599,0,100,232289,24052,56.3,725,Medium,Review
+1951,53,Male,Teacher,Thoothukudi,41751,2480,199,3,40,333111,43469,96.0,584,High,Reject
+1952,21,Female,Nurse,Trichy,24005,2463,149,3,50,363643,31536,76.1,544,High,Reject
+1953,35,Male,Daily Wage Worker,Trichy,16737,2404,399,0,67,269788,26302,63.6,622,Medium,Review
+1954,31,Female,Daily Wage Worker,Trichy,24368,782,349,2,70,163902,24582,99.1,736,Medium,Review
+1955,34,Male,Self Employed,Erode,22251,1548,149,3,97,333878,26183,85.0,768,Low,Approve
+1956,24,Female,Farmer,Thanjavur,38169,1645,349,2,46,12702,39771,96.0,628,Medium,Review
+1957,32,Female,Electrician,Chennai,14641,2064,599,1,45,287398,25973,56.4,485,High,Reject
+1958,30,Female,Daily Wage Worker,Thoothukudi,8452,937,349,1,70,217281,13367,63.2,612,Medium,Review
+1959,40,Female,Carpenter,Madurai,43155,1403,199,3,82,450065,42327,98.1,760,Low,Approve
+1960,31,Male,Electrician,Erode,8380,1771,299,0,52,159369,13509,62.0,556,High,Reject
+1961,29,Female,Carpenter,Trichy,10071,956,299,3,82,149355,12245,82.2,696,Medium,Review
+1962,47,Female,Nurse,Thoothukudi,16351,1630,499,3,48,67531,21475,76.1,536,High,Reject
+1963,22,Male,Tailor,Trichy,40768,355,299,0,83,445072,36228,88.9,787,Low,Approve
+1964,48,Male,Carpenter,Thoothukudi,26970,1455,599,0,88,234894,31217,86.4,797,Low,Approve
+1965,60,Male,Nurse,Madurai,24349,1451,199,2,84,139684,29333,83.0,728,Medium,Review
+1966,48,Male,Teacher,Coimbatore,40920,1042,299,1,54,73156,37379,91.3,661,Medium,Review
+1967,46,Male,Shopkeeper,Salem,17581,2046,149,1,45,463168,20857,84.3,597,High,Reject
+1968,45,Female,Nurse,Tirunelveli,49504,1247,299,2,67,261236,44485,89.9,687,Medium,Review
+1969,53,Female,Farmer,Tirunelveli,15212,1402,399,2,100,194037,23798,63.9,715,Medium,Review
+1970,47,Male,Electrician,Chennai,19911,467,149,0,82,400465,18622,93.5,802,Low,Approve
+1971,34,Female,Teacher,Tirunelveli,47749,712,499,1,56,267575,45017,94.3,681,Medium,Review
+1972,42,Female,Daily Wage Worker,Coimbatore,8895,833,399,2,87,434691,13600,65.4,669,Medium,Review
+1973,58,Female,Driver,Tirunelveli,21764,1873,199,0,48,340070,28425,76.6,598,High,Reject
+1974,28,Male,Self Employed,Salem,20643,2125,199,0,100,296564,28676,72.0,788,Low,Approve
+1975,42,Female,Teacher,Salem,42967,929,149,1,52,229263,40790,94.9,667,Medium,Review
+1976,37,Female,Electrician,Thoothukudi,49278,780,499,0,70,229678,47824,97.0,768,Low,Approve
+1977,53,Male,Tailor,Thanjavur,25966,828,349,0,76,41873,29559,87.8,755,Low,Approve
+1978,33,Female,Teacher,Vellore,41651,607,239,3,88,277008,37806,90.8,755,Low,Approve
+1979,56,Female,Carpenter,Thanjavur,25792,1147,239,0,50,309839,25917,99.5,698,Medium,Review
+1980,58,Male,Nurse,Thoothukudi,41018,2450,349,2,94,125519,44833,91.5,802,Low,Approve
+1981,38,Male,Tailor,Salem,10989,2485,299,2,42,345342,19336,56.8,455,High,Reject
+1982,38,Male,Shopkeeper,Chennai,24318,1160,199,0,81,192170,27868,87.3,773,Low,Approve
+1983,59,Female,Electrician,Coimbatore,43997,1381,239,3,97,330592,42048,95.6,810,Low,Approve
+1984,41,Male,Farmer,Trichy,22370,1445,239,2,41,291746,27972,80.0,544,High,Reject
+1985,58,Male,Carpenter,Tirunelveli,49040,1144,599,1,60,150925,47270,96.4,705,Medium,Review
+1986,58,Female,Tailor,Thoothukudi,23186,2077,399,1,97,261137,27815,83.4,801,Low,Approve
+1987,52,Male,Teacher,Madurai,19541,1073,599,1,81,157872,21888,89.3,761,Low,Approve
+1988,40,Male,Tailor,Erode,47834,1069,199,1,44,233553,43144,90.2,616,Medium,Review
+1989,50,Female,Daily Wage Worker,Vellore,16997,348,199,3,64,20861,14482,85.2,636,Medium,Review
+1990,21,Male,Tailor,Salem,13478,1396,239,0,90,14926,16149,83.5,794,Low,Approve
+1991,55,Female,Daily Wage Worker,Salem,17124,2267,599,1,59,183935,28482,60.1,556,High,Reject
+1992,30,Male,Farmer,Vellore,25528,804,149,0,46,295549,24260,95.0,664,Medium,Review
+1993,27,Female,Tailor,Chennai,22700,398,299,3,64,87267,22038,97.1,684,Medium,Review
+1994,39,Male,Carpenter,Coimbatore,40231,994,199,1,46,157751,37679,93.7,638,Medium,Review
+1995,25,Female,Daily Wage Worker,Trichy,13557,477,239,1,67,288124,14408,94.1,724,Medium,Review
+1996,59,Male,Carpenter,Madurai,27763,1475,399,0,57,490370,32391,85.7,670,Medium,Review
+1997,44,Female,Daily Wage Worker,Chennai,17741,900,399,1,64,244197,23893,74.3,633,Medium,Review
+1998,51,Male,Daily Wage Worker,Thanjavur,36013,1440,239,0,60,76865,34971,97.1,728,Medium,Review
+1999,45,Female,Electrician,Thoothukudi,35776,2271,499,2,48,430552,44053,81.2,576,High,Reject
+2000,36,Female,Carpenter,Vellore,40578,2486,599,1,64,53839,48957,82.9,667,Medium,Review
