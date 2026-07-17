@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>ScoreSure | Applicant History</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="applicanthistory.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- ===========================
+         LEFT SIDEBAR
+    ============================ -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <span class="white">Score</span><span class="blue">Sure</span>
+
+        </div>
+
+        <!-- MAIN MENU -->
+
+        <p class="menu-title">MAIN MENU</p>
+
+        <ul class="nav-links">
+
+            <li>
+
+                <a href="dashboard.html">
+
+                    <i class="fa-solid fa-table-columns"></i>
+
+                    <span>Dashboard</span>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="newapplication.html">
+
+                    <i class="fa-regular fa-file-lines"></i>
+
+                    <span>New Application</span>
+
+                </a>
+
+            </li>
+
+            <li class="active">
+
+                <a href="applicanthistory.html">
+
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+
+                    <span>Applicant History</span>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="anlytics.html">
+
+                    <i class="fa-solid fa-chart-line"></i>
+
+                    <span>Analytics</span>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="reports.html">
+
+                    <i class="fa-regular fa-file"></i>
+
+                    <span>Reports</span>
+
+                </a>
+
+            </li>
+
+        </ul>
+
+        <!-- ACCOUNT -->
+
+        <p class="menu-title">ACCOUNT</p>
+
+        <ul class="nav-links">
+
+            <li>
+
+                <a href="settings.html">
+
+                    <i class="fa-solid fa-gear"></i>
+
+                    <span>Settings</span>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="#">
+
+                    <i class="fa-solid fa-right-from-bracket"></i>
+
+                    <span>Sign Out</span>
+
+                </a>
+
+            </li>
+
+        </ul>
+
+        <!-- PROFILE -->
+
+        <div class="profile">
+
+            <div class="avatar">
+
+                AS
+
+            </div>
+
+            <div class="profile-info">
+
+                <h4>Arjun Singh</h4>
+
+                <p>Administrator</p>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+    <!-- ===========================
+         MAIN CONTENT
+    ============================ -->
+
+    <main class="main-content">
+
+        <!-- TOP HEADER -->
+
+        <header class="topbar">
+
+            <div class="search-box">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input type="text"
+                       placeholder="Search applicant...">
+
+            </div>
+
+            <div class="top-right">
+
+                <span class="date">
+
+                    16 July 2026
+
+                </span>
+
+                <i class="fa-regular fa-bell notification"></i>
+
+                <div class="user">
+
+                    <div class="circle">
+
+                        AS
+
+                    </div>
+
+                    <div>
+
+                        <h4>Arjun Singh</h4>
+
+                        <small>Administrator</small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <!-- PAGE TITLE -->
+
+        <section class="dashboard-title">
+
+            <h1>
+
+                Applicant History
+
+            </h1>
+
+            <p>
+
+                View, search, and manage previous loan applications,
+                credit scores, approval history, and applicant details.
+
+            </p>
+
+        </section>
+        <!-- ==========================================
+             APPLICANT STATISTICS
+        =========================================== -->
+
+        <section class="stats-container">
+
+            <!-- Total Applications -->
+
+            <div class="stat-card">
+
+                <div class="percentage positive">
+
+                    ↑ 8.5%
+
+                </div>
+
+                <div class="icon">
+
+                    <i class="fa-solid fa-users"></i>
+
+                </div>
+
+                <h2>2,548</h2>
+
+                <p>Total Applications</p>
+
+                <span>This Year</span>
+
+            </div>
+
+            <!-- Approved -->
+
+            <div class="stat-card">
+
+                <div class="percentage positive">
+
+                    ↑ 4.3%
+
+                </div>
+
+                <div class="icon">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                </div>
+
+                <h2>1,986</h2>
+
+                <p>Approved Applications</p>
+
+                <span>78% Approval Rate</span>
+
+            </div>
+
+            <!-- Pending -->
+
+            <div class="stat-card">
+
+                <div class="percentage positive">
+
+                    ↑ 12%
+
+                </div>
+
+                <div class="icon">
+
+                    <i class="fa-solid fa-hourglass-half"></i>
+
+                </div>
+
+                <h2>324</h2>
+
+                <p>Pending Review</p>
+
+                <span>Under Verification</span>
+
+            </div>
+
+            <!-- Rejected -->
+
+            <div class="stat-card">
+
+                <div class="percentage negative">
+
+                    ↓ 2.1%
+
+                </div>
+
+                <div class="icon">
+
+                    <i class="fa-solid fa-circle-xmark"></i>
+
+                </div>
+
+                <h2>238</h2>
+
+                <p>Rejected Applications</p>
+
+                <span>Improved Screening</span>
+
+            </div>
+
+            <!-- Average Credit Score -->
+
+            <div class="stat-card">
+
+                <div class="percentage positive">
+
+                    ↑ 15
+
+                </div>
+
+                <div class="icon">
+
+                    <i class="fa-solid fa-chart-line"></i>
+
+                </div>
+
+                <h2>742</h2>
+
+                <p>Average Credit Score</p>
+
+                <span>Excellent Portfolio</span>
+
+            </div>
+
+        </section>
+
+        <!-- ==========================================
+             FILTER BAR
+        =========================================== -->
+
+        <section class="filter-bar">
+
+            <div class="filter-group">
+
+                <label>Status</label>
+
+                <select>
+
+                    <option>All Status</option>
+                    <option>Approved</option>
+                    <option>Pending</option>
+                    <option>Rejected</option>
+
+                </select>
+
+            </div>
+
+            <div class="filter-group">
+
+                <label>Loan Type</label>
+
+                <select>
+
+                    <option>All Loans</option>
+                    <option>Home Loan</option>
+                    <option>Personal Loan</option>
+                    <option>Vehicle Loan</option>
+                    <option>Education Loan</option>
+
+                </select>
+
+            </div>
+
+            <div class="filter-group">
+
+                <label>Date Range</label>
+
+                <input type="date">
+
+            </div>
+
+            <button class="filter-btn">
+
+                <i class="fa-solid fa-filter"></i>
+
+                Apply Filter
+
+            </button>
+
+        </section>
+        <!-- ==========================================
+             APPLICANT HISTORY TABLE
+        =========================================== -->
+
+        <section class="table-section">
+
+            <div class="table-card">
+
+                <div class="card-header">
+
+                    <h3>Recent Applications</h3>
+
+                    <a href="#">View All</a>
+
+                </div>
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Applicant</th>
+                            <th>Loan Type</th>
+                            <th>Amount</th>
+                            <th>Credit Score</th>
+                            <th>Status</th>
+                            <th>Date</th>
+                            <th>Action</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>
+
+                                <div class="applicant-info">
+
+                                    <div class="applicant-avatar">
+
+                                        RS
+
+                                    </div>
+
+                                    <div>
+
+                                        <h4>Rahul Sharma</h4>
+
+                                        <small>ID : APP10241</small>
+
+                                    </div>
+
+                                </div>
+
+                            </td>
+
+                            <td>Home Loan</td>
+
+                            <td>₹35,00,000</td>
+
+                            <td>782</td>
+
+                            <td>
+
+                                <span class="approved">
+
+                                    Approved
+
+                                </span>
+
+                            </td>
+
+                            <td>15 Jul 2026</td>
+
+                            <td>
+
+                                <button class="view-btn">
+
+                                    View
+
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>
+
+                                <div class="applicant-info">
+
+                                    <div class="applicant-avatar">
+
+                                        PM
+
+                                    </div>
+
+                                    <div>
+
+                                        <h4>Priya Menon</h4>
+
+                                        <small>ID : APP10242</small>
+
+                                    </div>
+
+                                </div>
+
+                            </td>
+
+                            <td>Personal Loan</td>
+
+                            <td>₹4,50,000</td>
+
+                            <td>695</td>
+
+                            <td>
+
+                                <span class="pending">
+
+                                    Pending
+
+                                </span>
+
+                            </td>
+
+                            <td>14 Jul 2026</td>
+
+                            <td>
+
+                                <button class="view-btn">
+
+                                    View
+
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>
+
+                                <div class="applicant-info">
+
+                                    <div class="applicant-avatar">
+
+                                        DK
+
+                                    </div>
+
+                                    <div>
+
+                                        <h4>Deepak Kumar</h4>
+
+                                        <small>ID : APP10243</small>
+
+                                    </div>
+
+                                </div>
+
+                            </td>
+
+                            <td>Vehicle Loan</td>
+
+                            <td>₹9,80,000</td>
+
+                            <td>756</td>
+
+                            <td>
+
+                                <span class="approved">
+
+                                    Approved
+
+                                </span>
+
+                            </td>
+
+                            <td>13 Jul 2026</td>
+
+                            <td>
+
+                                <button class="view-btn">
+
+                                    View
+
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>
+
+                                <div class="applicant-info">
+
+                                    <div class="applicant-avatar">
+
+                                        AN
+
+                                    </div>
+
+                                    <div>
+
+                                        <h4>Anjali Nair</h4>
+
+                                        <small>ID : APP10244</small>
+
+                                    </div>
+
+                                </div>
+
+                            </td>
+
+                            <td>Education Loan</td>
+
+                            <td>₹8,20,000</td>
+
+                            <td>621</td>
+
+                            <td>
+
+                                <span class="rejected">
+
+                                    Rejected
+
+                                </span>
+
+                            </td>
+
+                            <td>12 Jul 2026</td>
+
+                            <td>
+
+                                <button class="view-btn">
+
+                                    View
+
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>
+
+                                <div class="applicant-info">
+
+                                    <div class="applicant-avatar">
+
+                                        VK
+
+                                    </div>
+
+                                    <div>
+
+                                        <h4>Vignesh Kumar</h4>
+
+                                        <small>ID : APP10245</small>
+
+                                    </div>
+
+                                </div>
+
+                            </td>
+
+                            <td>Business Loan</td>
+
+                            <td>₹22,50,000</td>
+
+                            <td>804</td>
+
+                            <td>
+
+                                <span class="approved">
+
+                                    Approved
+
+                                </span>
+
+                            </td>
+
+                            <td>11 Jul 2026</td>
+
+                            <td>
+
+                                <button class="view-btn">
+
+                                    View
+
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>
+
+                                <div class="applicant-info">
+
+                                    <div class="applicant-avatar">
+
+                                        SJ
+
+                                    </div>
+
+                                    <div>
+
+                                        <h4>Sneha Joseph</h4>
+
+                                        <small>ID : APP10246</small>
+
+                                    </div>
+
+                                </div>
+
+                            </td>
+
+                            <td>Home Loan</td>
+
+                            <td>₹42,00,000</td>
+
+                            <td>771</td>
+
+                            <td>
+
+                                <span class="approved">
+
+                                    Approved
+
+                                </span>
+
+                            </td>
+
+                            <td>10 Jul 2026</td>
+
+                            <td>
+
+                                <button class="view-btn">
+
+                                    View
+
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+        <!-- ==========================================
+             HISTORY ANALYTICS
+        =========================================== -->
+
+        <section class="analytics-layout">
+
+            <!-- LEFT CONTENT -->
+
+            <div class="analytics-content">
+
+                <section class="charts-row">
+
+                    <!-- Monthly Applications -->
+
+                    <div class="chart-card">
+
+                        <div class="card-header">
+
+                            <h3>Monthly Applications</h3>
+
+                            <button>2026</button>
+
+                        </div>
+
+                        <canvas id="applicationsChart"></canvas>
+
+                    </div>
+
+                    <!-- Status Distribution -->
+
+                    <div class="chart-card">
+
+                        <div class="card-header">
+
+                            <h3>Application Status</h3>
+
+                        </div>
+
+                        <canvas id="statusChart"></canvas>
+
+                    </div>
+
+                </section>
+
+                <!-- Credit Score Analysis -->
+
+                <section class="chart-card">
+
+                    <div class="card-header">
+
+                        <h3>Credit Score Distribution</h3>
+
+                    </div>
+
+                    <canvas id="creditScoreChart"></canvas>
+
+                </section>
+
+            </div>
+
+            <!-- ==========================================
+                 AI INSIGHTS
+            =========================================== -->
+
+            <aside class="right-section">
+
+                <div class="insights-panel">
+
+                    <div class="card-header">
+
+                        <h3>AI Insights</h3>
+
+                    </div>
+
+                    <!-- Insight -->
+
+                    <div class="insight">
+
+                        <i class="fa-solid fa-chart-line"></i>
+
+                        <div>
+
+                            <h4>Approval Trend</h4>
+
+                            <p>
+
+                                Approval rate has increased by
+                                <strong>8.5%</strong> compared
+                                with the previous month.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Insight -->
+
+                    <div class="insight">
+
+                        <i class="fa-solid fa-user-check"></i>
+
+                        <div>
+
+                            <h4>High Credit Applicants</h4>
+
+                            <p>
+
+                                Nearly
+                                <strong>68%</strong>
+                                of applicants have a credit
+                                score above 700.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Insight -->
+
+                    <div class="insight">
+
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+
+                        <div>
+
+                            <h4>Risk Alert</h4>
+
+                            <p>
+
+                                Only
+                                <strong>5%</strong>
+                                of applications require
+                                manual verification.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Insight -->
+
+                    <div class="insight">
+
+                        <i class="fa-solid fa-lightbulb"></i>
+
+                        <div>
+
+                            <h4>Recommendation</h4>
+
+                            <p>
+
+                                AI recommends prioritizing
+                                applicants with credit scores
+                                above 760 for faster approval.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Summary Cards -->
+
+                    <div class="stats-card">
+
+                        <div class="icon">
+
+                            <i class="fa-solid fa-users"></i>
+
+                        </div>
+
+                        <div class="stats-info">
+
+                            <p>Total Applicants</p>
+
+                            <h2>2,548</h2>
+
+                            <span>Current Database</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="stats-card">
+
+                        <div class="icon">
+
+                            <i class="fa-solid fa-circle-check"></i>
+
+                        </div>
+
+                        <div class="stats-info">
+
+                            <p>Approval Rate</p>
+
+                            <h2>78%</h2>
+
+                            <span>Overall Performance</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="stats-card">
+
+                        <div class="icon">
+
+                            <i class="fa-solid fa-brain"></i>
+
+                        </div>
+
+                        <div class="stats-info">
+
+                            <p>AI Accuracy</p>
+
+                            <h2>96%</h2>
+
+                            <span>Prediction Model</span>
+
+                        </div>
+
+                    </div>
+
+                    <!-- AI Summary -->
+
+                    <div class="summary-box">
+
+                        <h4>AI Summary</h4>
+
+                        <p>
+
+                            The applicant portfolio remains healthy with
+                            increasing approval rates and a higher average
+                            credit score. Current trends indicate stable
+                            lending performance with reduced financial risk.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </section>
+        <!-- ==========================================
+             FOOTER
+        =========================================== -->
+
+        <footer class="footer">
+
+            <p>
+
+                © 2026 <strong>ScoreSure</strong> |
+                AI Credit Scoring & Loan Management System.
+                All Rights Reserved.
+
+            </p>
+
+        </footer>
+
+    </main>
+
+</div>
+
+<!-- ==========================================
+     CHART.JS
+========================================== -->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- ==========================================
+     APPLICANT HISTORY JAVASCRIPT
+========================================== -->
+
+<script src="applicanthistory.js"></script>
+
+</body>
+
+</html>

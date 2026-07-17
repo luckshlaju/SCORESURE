@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Application | ScoreSure</title>
+
+    <link rel="stylesheet" href="newapplication.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= Sidebar ================= -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <img src="logo.png" alt="">
+            <h2>ScoreSure</h2>
+        </div>
+
+        <p class="menu-title">MAIN MENU</p>
+
+        <ul class="menu">
+
+            <li>
+                <i class="fa-solid fa-table-columns"></i>
+                Dashboard
+            </li>
+
+            <li class="active">
+                <i class="fa-regular fa-file-lines"></i>
+                New Application
+            </li>
+
+            <li>
+                <i class="fa-regular fa-clock"></i>
+                Applicant History
+            </li>
+
+            <li>
+                <i class="fa-solid fa-chart-column"></i>
+                Analytics
+            </li>
+
+            <li>
+                <i class="fa-regular fa-file"></i>
+                Reports
+            </li>
+
+        </ul>
+
+        <p class="menu-title">ACCOUNT</p>
+
+        <ul class="menu">
+
+            <li>
+                <i class="fa-solid fa-gear"></i>
+                Settings
+            </li>
+
+        </ul>
+
+        <div class="sidebar-footer">
+
+            <div class="profile">
+
+                <div class="avatar">
+                    AS
+                </div>
+
+                <div>
+
+                    <h4>Arjun Singh</h4>
+
+                    <span>Admin - NBFC</span>
+
+                </div>
+
+            </div>
+
+            <button class="logout-btn">
+
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+
+                Sign Out
+
+            </button>
+
+        </div>
+
+    </aside>
+
+    <!-- ================= Main Content ================= -->
+
+    <main class="main-content">
+
+        <!-- Header -->
+
+        <header class="topbar">
+
+            <div class="search-box">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input type="text"
+                    placeholder="Search applications, applicants...">
+
+            </div>
+
+            <div class="top-right">
+
+                <span class="date">
+                    Mon, 14 Jul 2026
+                </span>
+
+                <i class="fa-regular fa-bell notification"></i>
+
+                <div class="profile-info">
+
+                    <div class="avatar">
+                        AS
+                    </div>
+
+                    <div>
+
+                        <h4>Arjun Singh</h4>
+
+                        <span>Administrator</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <!-- Page Layout -->
+
+        <div class="page-layout">
+
+            <!-- Left Section -->
+
+            <div class="left-section">
+
+                <!-- Page Heading -->
+
+                <div class="page-heading">
+
+                    <h1>New Applicant Credit Evaluation</h1>
+
+                    <p>
+                        Submit a new applicant for AI-based credit
+                        scoring and risk assessment
+                    </p>
+
+                </div>
+
+                <!-- Personal Information -->
+
+                <section class="card">
+
+                    <div class="card-title">
+
+                        <div class="icon-circle">
+
+                            <i class="fa-regular fa-user"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h2>Personal Information</h2>
+
+                            <p>Basic applicant details</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="form-grid">
+
+                        <div class="full">
+
+                            <label>
+                                Full Name <span>*</span>
+                            </label>
+
+                            <input type="text"
+                                placeholder="Enter full legal name">
+
+                        </div>
+
+                        <div>
+
+                            <label>
+                                Age <span>*</span>
+                            </label>
+
+                            <input type="number"
+                                placeholder="Enter age">
+
+                        </div>
+
+                        <div>
+
+                            <label>
+                                Gender <span>*</span>
+                            </label>
+
+                            <select>
+
+                                <option>Select Gender</option>
+
+                                <option>Male</option>
+
+                                <option>Female</option>
+
+                                <option>Other</option>
+
+                            </select>
+
+                        </div>
+
+                        <div>
+
+                            <label>
+                                Mobile Number <span>*</span>
+                            </label>
+
+                            <input type="tel"
+                                placeholder="Enter mobile number">
+
+                        </div>
+
+                        <div>
+
+                            <label>
+                                Aadhaar Number (Demo) <span>*</span>
+                            </label>
+
+                            <input type="text"
+                                placeholder="XXXX-XXXX-XXXX">
+
+                        </div>
+
+                        <div>
+
+                            <label>
+                                Occupation <span>*</span>
+                            </label>
+
+                            <input type="text"
+                                placeholder="Enter occupation">
+
+                        </div>
+
+                        <div>
+
+                            <label>
+                                District <span>*</span>
+                            </label>
+
+                            <input type="text"
+                                placeholder="Enter district">
+
+                        </div>
+
+                    </div>
+
+                </section>
+                <!-- ================= Financial Information ================= -->
+
+                <section class="card">
+
+                    <div class="card-title">
+
+                        <div class="icon-circle green">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+
+                        <div>
+                            <h2>Financial Information</h2>
+                            <p>Income, loan details, and repayment history</p>
+                        </div>
+
+                    </div>
+
+                    <div class="form-grid">
+
+                        <div>
+
+                            <label>
+                                Declared Monthly Income <span>*</span>
+                            </label>
+
+                            <input
+                                type="number"
+                                placeholder="Enter monthly income">
+
+                        </div>
+
+                        <div>
+
+                            <label>
+                                Loan Amount Requested <span>*</span>
+                            </label>
+
+                            <input
+                                type="number"
+                                placeholder="Enter loan amount">
+
+                        </div>
+
+                        <div>
+
+                            <label>
+                                Existing Loans <span>*</span>
+                            </label>
+
+                            <input
+                                type="number"
+                                placeholder="Number of active loans">
+
+                        </div>
+
+                        <div>
+
+                            <label>
+                                Monthly EMI <span>*</span>
+                            </label>
+
+                            <input
+                                type="number"
+                                placeholder="Total monthly EMI">
+
+                        </div>
+
+                        <div class="full">
+
+                            <label>
+                                Repayment History <span>*</span>
+                            </label>
+
+                            <input
+                                type="number"
+                                placeholder="Enter repayment percentage">
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!-- ================= Consumption Data ================= -->
+
+                <section class="card">
+
+                    <div class="card-title">
+
+                        <div class="icon-circle yellow">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+
+                        <div>
+                            <h2>Consumption Data</h2>
+                            <p>Utility bills and consumption patterns</p>
+                        </div>
+
+                    </div>
+
+                    <div class="form-grid">
+
+                        <div>
+
+                            <label>
+                                Average Electricity Bill <span>*</span>
+                            </label>
+
+                            <input
+                                type="number"
+                                placeholder="Monthly average">
+
+                        </div>
+
+                        <div>
+
+                            <label>
+                                Monthly Mobile Recharge <span>*</span>
+                            </label>
+
+                            <input
+                                type="number"
+                                placeholder="Average recharge">
+
+                        </div>
+
+                        <div>
+
+                            <label>
+                                Water Bill (Optional)
+                            </label>
+
+                            <input
+                                type="number"
+                                placeholder="Monthly water bill">
+
+                        </div>
+
+                        <div>
+
+                            <label>
+                                Internet Bill (Optional)
+                            </label>
+
+                            <input
+                                type="number"
+                                placeholder="Monthly internet bill">
+
+                        </div>
+
+                    </div>
+
+                </section>
+                <!-- ================= Document Verification ================= -->
+
+                <section class="card">
+
+                    <div class="card-title">
+
+                        <div class="icon-circle purple">
+                            <i class="fa-solid fa-upload"></i>
+                        </div>
+
+                        <div>
+                            <h2>Document Verification</h2>
+                            <p>Upload required documents (PDF, JPG, PNG)</p>
+                        </div>
+
+                    </div>
+
+                    <div class="upload-box">
+
+                        <i class="fa-regular fa-file-lines upload-icon"></i>
+
+                        <h3>Upload Income Certificate <span>*</span></h3>
+
+                        <p>Click to upload or drag and drop</p>
+
+                        <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+
+                    </div>
+
+                    <div class="upload-box">
+
+                        <i class="fa-regular fa-id-card upload-icon"></i>
+
+                        <h3>Upload Identity Proof <span>*</span></h3>
+
+                        <p>Click to upload or drag and drop</p>
+
+                        <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+
+                    </div>
+
+                    <div class="upload-box">
+
+                        <i class="fa-solid fa-house upload-icon"></i>
+
+                        <h3>Upload Address Proof <span>*</span></h3>
+
+                        <p>Click to upload or drag and drop</p>
+
+                        <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+
+                    </div>
+
+                </section>
+
+                <!-- ================= Buttons ================= -->
+
+                <div class="button-group">
+
+                    <button class="generate-btn">
+
+                        <i class="fa-solid fa-bolt"></i>
+
+                        Generate AI Score
+
+                    </button>
+
+                    <button class="save-btn">
+
+                        <i class="fa-regular fa-floppy-disk"></i>
+
+                        Save Draft
+
+                    </button>
+
+                    <button class="reset-btn" type="reset">
+
+                        <i class="fa-solid fa-rotate-left"></i>
+
+                        Reset Form
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- ================= Right Sidebar ================= -->
+
+            <aside class="right-section">
+
+                <div class="ai-card">
+
+                    <div class="card-title">
+
+                        <div class="icon-circle blue">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+
+                        <h2>AI Verification</h2>
+
+                    </div>
+
+                    <div class="status-card">
+                        <small>Estimated Income</small>
+                        <h3>Waiting...</h3>
+                    </div>
+
+                    <div class="status-card">
+                        <small>Income Match</small>
+                        <h3>Waiting...</h3>
+                    </div>
+
+                    <div class="status-card">
+                        <small>Risk Prediction</small>
+                        <h3>Waiting...</h3>
+                    </div>
+
+                    <div class="status-card">
+                        <small>Composite Score</small>
+                        <h3>Waiting...</h3>
+                    </div>
+
+                    <div class="analysis-status">
+
+                        <h4>
+                            <i class="fa-solid fa-bolt"></i>
+                            AI Analysis Status
+                        </h4>
+
+                        <p>
+                            Submit the form to generate AI-powered
+                            credit score and risk assessment.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+</body>
+</html>

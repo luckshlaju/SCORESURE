@@ -1,0 +1,897 @@
+/* ======================================
+   Google Font
+====================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#1f2937;
+}
+
+.container{
+    display:flex;
+    min-height:100vh;
+}
+
+/* ======================================
+   Sidebar
+====================================== */
+
+.sidebar{
+    width:270px;
+    background:#111827;
+    color:#fff;
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.logo{
+    padding:30px;
+}
+
+.logo h2{
+    font-size:30px;
+    font-weight:700;
+}
+
+.logo span{
+    color:#2563eb;
+}
+
+.menu-title{
+    color:#9ca3af;
+    font-size:12px;
+    padding:0 30px;
+    margin-bottom:15px;
+    letter-spacing:1px;
+}
+
+.menu{
+    list-style:none;
+}
+
+.menu li{
+    margin:8px 15px;
+}
+
+.menu li a{
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+    color:#d1d5db;
+    padding:14px 18px;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.menu li a i{
+    width:25px;
+    margin-right:10px;
+}
+
+.menu li:hover a,
+.menu li.active a{
+    background:#2563eb;
+    color:#fff;
+}
+
+.account{
+    margin-top:25px;
+}
+
+/* ======================================
+   Profile
+====================================== */
+
+.profile{
+    padding:25px;
+    border-top:1px solid rgba(255,255,255,.1);
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.avatar{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:#2563eb;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:600;
+}
+
+.avatar.small{
+    width:42px;
+    height:42px;
+    font-size:14px;
+}
+
+.profile-info h4{
+    font-size:16px;
+}
+
+.profile-info p{
+    color:#9ca3af;
+    font-size:13px;
+}
+
+/* ======================================
+   Main Content
+====================================== */
+
+.main-content{
+    margin-left:270px;
+    flex:1;
+    padding:30px;
+}
+/* ======================================
+   Top Navigation
+====================================== */
+
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.search-box{
+    width:420px;
+}
+
+.search-box input{
+    width:100%;
+    padding:14px 18px;
+    border:none;
+    outline:none;
+    border-radius:12px;
+    background:#ffffff;
+    box-shadow:0 2px 10px rgba(0,0,0,0.05);
+    font-size:14px;
+}
+
+.user{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.user span{
+    color:#6b7280;
+    font-size:14px;
+}
+
+.user i{
+    font-size:18px;
+    cursor:pointer;
+    color:#374151;
+}
+
+.user small{
+    color:#6b7280;
+    font-size:12px;
+}
+
+/* ======================================
+   Breadcrumb
+====================================== */
+
+.breadcrumb{
+    font-size:14px;
+    color:#6b7280;
+    margin-bottom:25px;
+}
+
+.breadcrumb span{
+    color:#2563eb;
+    font-weight:500;
+}
+
+.breadcrumb strong{
+    color:#111827;
+}
+
+/* ======================================
+   Main Score Card
+====================================== */
+
+.score-card{
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
+    border-radius:20px;
+    padding:35px;
+    color:#fff;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:30px;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.applicant h2{
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+.applicant p{
+    margin-bottom:10px;
+    font-size:14px;
+    opacity:.95;
+}
+
+/* ======================================
+   Credit Score Circle
+====================================== */
+
+.score-circle{
+    text-align:center;
+}
+
+.score-circle h1{
+    font-size:70px;
+    font-weight:700;
+    line-height:1;
+}
+
+.score-circle p{
+    font-size:22px;
+    margin-top:10px;
+    font-weight:600;
+}
+
+.score-circle span{
+    display:block;
+    margin-top:8px;
+    font-size:14px;
+    opacity:.9;
+}
+
+/* ======================================
+   Decision Box
+====================================== */
+
+.approved{
+    background:#ffffff;
+    color:#16a34a;
+    padding:18px;
+    border-radius:12px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.approved h2{
+    font-size:28px;
+    margin-bottom:5px;
+}
+
+.approved p{
+    font-size:13px;
+}
+
+.loan-info{
+    background:rgba(255,255,255,0.15);
+    padding:18px;
+    border-radius:12px;
+}
+
+.loan-info p{
+    margin-bottom:10px;
+    font-size:14px;
+}
+/* ======================================
+   Analysis Section
+====================================== */
+
+.analysis-section{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:25px;
+    margin-bottom:30px;
+}
+
+/* ======================================
+   Explainable AI Analysis
+====================================== */
+
+.analysis-card{
+    background:#ffffff;
+    border-radius:18px;
+    padding:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+}
+
+.card-title{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.card-title h2{
+    font-size:22px;
+    color:#111827;
+}
+
+.card-title span{
+    background:#dbeafe;
+    color:#2563eb;
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:600;
+}
+
+.analysis-item{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:16px 0;
+    border-bottom:1px solid #e5e7eb;
+}
+
+.analysis-item:last-child{
+    border-bottom:none;
+}
+
+.analysis-item i:first-child{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:#2563eb;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:16px;
+}
+
+.analysis-item p{
+    flex:1;
+    font-size:14px;
+    color:#4b5563;
+    line-height:1.6;
+}
+
+.analysis-item i:last-child{
+    color:#9ca3af;
+    cursor:pointer;
+}
+
+/* ======================================
+   Income Verification
+====================================== */
+
+.income-card{
+    background:#ffffff;
+    border-radius:18px;
+    padding:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+}
+
+.income-card h2{
+    font-size:22px;
+    margin-bottom:25px;
+    color:#111827;
+}
+
+.income-score{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.income-score h1{
+    font-size:60px;
+    color:#2563eb;
+    margin-bottom:8px;
+}
+
+.income-score p{
+    color:#374151;
+    font-size:15px;
+}
+
+.income-score span{
+    display:inline-block;
+    margin-top:10px;
+    background:#dcfce7;
+    color:#15803d;
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:600;
+}
+
+.income-details{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.income-box{
+    background:#f8fafc;
+    border-radius:12px;
+    padding:16px;
+}
+
+.income-box h4{
+    color:#6b7280;
+    font-size:14px;
+    margin-bottom:6px;
+}
+
+.income-box h2{
+    margin:0;
+    font-size:24px;
+    color:#111827;
+}
+
+.income-box small{
+    color:#9ca3af;
+}
+
+/* ======================================
+   Progress Bar
+====================================== */
+
+.progress{
+    width:100%;
+    height:10px;
+    background:#e5e7eb;
+    border-radius:20px;
+    overflow:hidden;
+    margin-top:15px;
+}
+
+.progress-fill{
+    width:96%;
+    height:100%;
+    background:#2563eb;
+    border-radius:20px;
+}
+
+.progress-text{
+    display:flex;
+    justify-content:space-between;
+    margin-top:10px;
+    font-size:13px;
+    color:#6b7280;
+}
+/* ======================================
+   Financial Behavior Analysis
+====================================== */
+
+.behavior-section{
+    margin-top:30px;
+}
+
+.section-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:10px;
+}
+
+.section-header h2{
+    font-size:24px;
+    color:#111827;
+}
+
+.overall-score{
+    background:#2563eb;
+    color:#fff;
+    padding:8px 16px;
+    border-radius:25px;
+    font-size:14px;
+    font-weight:600;
+}
+
+.section-subtitle{
+    color:#6b7280;
+    font-size:14px;
+    margin-bottom:25px;
+}
+
+.behavior-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.behavior-card{
+    background:#ffffff;
+    border-radius:16px;
+    padding:22px;
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+    transition:.3s;
+}
+
+.behavior-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 12px 25px rgba(0,0,0,.10);
+}
+
+.behavior-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+}
+
+.behavior-top h3{
+    font-size:17px;
+    color:#111827;
+}
+
+.behavior-top span{
+    font-weight:700;
+    color:#2563eb;
+    font-size:18px;
+}
+
+.progress-bar{
+    width:100%;
+    height:10px;
+    background:#e5e7eb;
+    border-radius:20px;
+    overflow:hidden;
+    margin-bottom:10px;
+}
+
+.fill{
+    height:100%;
+    border-radius:20px;
+}
+
+.fill.green{
+    background:#22c55e;
+}
+
+.fill.blue{
+    background:#2563eb;
+}
+
+.fill.purple{
+    background:#8b5cf6;
+}
+
+.fill.orange{
+    background:#f59e0b;
+}
+
+.range{
+    display:flex;
+    justify-content:space-between;
+    font-size:12px;
+    color:#9ca3af;
+}
+/* ======================================
+   Charts Section
+====================================== */
+
+.charts-section{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+    margin-top:30px;
+}
+
+.chart-card{
+    background:#ffffff;
+    border-radius:18px;
+    padding:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+    transition:.3s;
+}
+
+.chart-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 12px 25px rgba(0,0,0,.10);
+}
+
+.chart-card h2{
+    font-size:22px;
+    color:#111827;
+    margin-bottom:5px;
+}
+
+.chart-card p{
+    color:#6b7280;
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+.chart-card canvas{
+    width:100% !important;
+    height:280px !important;
+}
+
+/* ======================================
+   Risk Legend
+====================================== */
+
+.risk-legend{
+    margin-top:20px;
+}
+
+.legend-item{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:15px;
+}
+
+.legend-item p{
+    flex:1;
+    margin-left:12px;
+    color:#374151;
+    font-size:14px;
+}
+
+.legend-item strong{
+    color:#111827;
+}
+
+.dot{
+    width:14px;
+    height:14px;
+    border-radius:50%;
+}
+
+.dot.green{
+    background:#22c55e;
+}
+
+.dot.orange{
+    background:#f59e0b;
+}
+
+.dot.red{
+    background:#ef4444;
+}
+
+/* ======================================
+   Credit Trend
+====================================== */
+
+.trend-badge{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:8px 16px;
+    border-radius:20px;
+    background:#dcfce7;
+    color:#15803d;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.trend-badge i{
+    font-size:14px;
+}
+
+/* ======================================
+   Responsive Layout
+====================================== */
+
+@media(max-width:1200px){
+
+    .analysis-section,
+    .charts-section{
+        grid-template-columns:1fr;
+    }
+
+    .behavior-grid{
+        grid-template-columns:1fr;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .main-content{
+        margin-left:0;
+        padding:20px;
+    }
+
+    .sidebar{
+        display:none;
+    }
+
+    .score-card{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .topbar{
+        flex-direction:column;
+        gap:20px;
+        align-items:flex-start;
+    }
+
+    .search-box{
+        width:100%;
+    }
+
+    .section-header{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:10px;
+    }
+
+}
+/* ======================================
+   Recommended Actions
+====================================== */
+
+.actions-section{
+    margin-top:30px;
+}
+
+.actions-card{
+    background:#ffffff;
+    border-radius:18px;
+    padding:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+}
+
+.actions-card h2{
+    font-size:24px;
+    color:#111827;
+    margin-bottom:10px;
+}
+
+.actions-card p{
+    color:#6b7280;
+    margin-bottom:25px;
+}
+
+.action-buttons{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+}
+
+.action-btn{
+    padding:16px;
+    border:none;
+    border-radius:12px;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.action-btn i{
+    margin-right:8px;
+}
+
+/* Button Colors */
+
+.approve-btn{
+    background:#22c55e;
+    color:#fff;
+}
+
+.review-btn{
+    background:#f59e0b;
+    color:#fff;
+}
+
+.reject-btn{
+    background:#ef4444;
+    color:#fff;
+}
+
+.download-btn{
+    background:#2563eb;
+    color:#fff;
+}
+
+.share-btn{
+    background:#8b5cf6;
+    color:#fff;
+}
+
+.report-btn{
+    background:#111827;
+    color:#fff;
+}
+
+/* Hover */
+
+.action-btn:hover{
+    transform:translateY(-4px);
+    box-shadow:0 10px 18px rgba(0,0,0,.15);
+}
+
+/* ======================================
+   Footer
+====================================== */
+
+.footer{
+    margin-top:40px;
+    text-align:center;
+    padding:20px;
+    border-top:1px solid #e5e7eb;
+    color:#6b7280;
+    font-size:14px;
+}
+
+.footer strong{
+    color:#111827;
+}
+
+/* ======================================
+   Scrollbar
+====================================== */
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#2563eb;
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-track{
+    background:#f1f5f9;
+}
+
+/* ======================================
+   Small Mobile
+====================================== */
+
+@media(max-width:600px){
+
+    .action-buttons{
+        grid-template-columns:1fr;
+    }
+
+    .analysis-item{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .user{
+        flex-wrap:wrap;
+    }
+
+    .score-circle h1{
+        font-size:50px;
+    }
+
+    .applicant h2{
+        font-size:24px;
+    }
+
+    .approved h2{
+        font-size:22px;
+    }
+
+    .chart-card canvas{
+        height:220px !important;
+    }
+
+}
+
+/* ======================================
+   End of Analytics CSS
+====================================== */

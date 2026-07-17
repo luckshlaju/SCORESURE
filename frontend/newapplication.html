@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>ScoreSure | New Application</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="newapplication.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- ==========================================
+         SIDEBAR
+    =========================================== -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <span class="white">Score</span><span class="blue">Sure</span>
+
+        </div>
+
+        <p class="menu-title">MAIN MENU</p>
+
+        <ul class="nav-links">
+
+            <li>
+
+                <a href="dashboard.html">
+
+                    <i class="fa-solid fa-table-columns"></i>
+
+                    <span>Dashboard</span>
+
+                </a>
+
+            </li>
+
+            <li class="active">
+
+                <a href="newapplication.html">
+
+                    <i class="fa-regular fa-file-lines"></i>
+
+                    <span>New Application</span>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="applicanthistory.html">
+
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+
+                    <span>Applicant History</span>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="anlytics.html">
+
+                    <i class="fa-solid fa-chart-line"></i>
+
+                    <span>Analytics</span>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="reports.html">
+
+                    <i class="fa-regular fa-file"></i>
+
+                    <span>Reports</span>
+
+                </a>
+
+            </li>
+
+        </ul>
+
+        <p class="menu-title">ACCOUNT</p>
+
+        <ul class="nav-links">
+
+            <li>
+
+                <a href="settings.html">
+
+                    <i class="fa-solid fa-gear"></i>
+
+                    <span>Settings</span>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="#">
+
+                    <i class="fa-solid fa-right-from-bracket"></i>
+
+                    <span>Sign Out</span>
+
+                </a>
+
+            </li>
+
+        </ul>
+
+        <div class="profile">
+
+            <div class="avatar">
+
+                AS
+
+            </div>
+
+            <div class="profile-info">
+
+                <h4>Arjun Singh</h4>
+
+                <p>Administrator</p>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+    <!-- ==========================================
+         MAIN CONTENT
+    =========================================== -->
+
+    <main class="main-content">
+
+        <!-- HEADER -->
+
+        <header class="topbar">
+
+            <div class="search-box">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input type="text"
+                       placeholder="Search applicant...">
+
+            </div>
+
+            <div class="top-right">
+
+                <span class="date">
+
+                    16 July 2026
+
+                </span>
+
+                <i class="fa-regular fa-bell notification"></i>
+
+                <div class="user">
+
+                    <div class="circle">
+
+                        AS
+
+                    </div>
+
+                    <div>
+
+                        <h4>Arjun Singh</h4>
+
+                        <small>Administrator</small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <!-- PAGE TITLE -->
+
+        <section class="dashboard-title">
+
+            <h1>
+
+                New Loan Application
+
+            </h1>
+
+            <p>
+
+                Enter applicant details, employment information,
+                financial records, and loan requirements.
+                AI will instantly analyze the application and
+                predict the approval probability.
+
+            </p>
+
+        </section>
+        <!-- ==========================================
+             APPLICATION LAYOUT
+        =========================================== -->
+
+        <section class="application-layout">
+
+            <!-- ==========================================
+                 LEFT SIDE - APPLICATION FORM
+            =========================================== -->
+
+            <div class="form-container">
+
+                <div class="form-card">
+
+                    <div class="card-header">
+
+                        <h3>
+
+                            Applicant Information
+
+                        </h3>
+
+                    </div>
+
+                    <form>
+
+                        <div class="form-grid">
+
+                            <!-- Full Name -->
+
+                            <div class="form-group">
+
+                                <label>
+
+                                    Full Name
+
+                                </label>
+
+                                <input type="text"
+                                       placeholder="Enter full name">
+
+                            </div>
+
+                            <!-- Email -->
+
+                            <div class="form-group">
+
+                                <label>
+
+                                    Email Address
+
+                                </label>
+
+                                <input type="email"
+                                       placeholder="Enter email">
+
+                            </div>
+
+                            <!-- Phone -->
+
+                            <div class="form-group">
+
+                                <label>
+
+                                    Phone Number
+
+                                </label>
+
+                                <input type="tel"
+                                       placeholder="+91 XXXXX XXXXX">
+
+                            </div>
+
+                            <!-- Date of Birth -->
+
+                            <div class="form-group">
+
+                                <label>
+
+                                    Date of Birth
+
+                                </label>
+
+                                <input type="date">
+
+                            </div>
+
+                            <!-- Gender -->
+
+                            <div class="form-group">
+
+                                <label>
+
+                                    Gender
+
+                                </label>
+
+                                <select>
+
+                                    <option>Select Gender</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Other</option>
+
+                                </select>
+
+                            </div>
+
+                            <!-- Marital Status -->
+
+                            <div class="form-group">
+
+                                <label>
+
+                                    Marital Status
+
+                                </label>
+
+                                <select>
+
+                                    <option>Select Status</option>
+                                    <option>Single</option>
+                                    <option>Married</option>
+                                    <option>Divorced</option>
+
+                                </select>
+
+                            </div>
+
+                            <!-- PAN -->
+
+                            <div class="form-group">
+
+                                <label>
+
+                                    PAN Number
+
+                                </label>
+
+                                <input type="text"
+                                       placeholder="ABCDE1234F">
+
+                            </div>
+
+                            <!-- Aadhaar -->
+
+                            <div class="form-group">
+
+                                <label>
+
+                                    Aadhaar Number
+
+                                </label>
+
+                                <input type="text"
+                                       placeholder="XXXX XXXX XXXX">
+
+                            </div>
+
+                        </div>
+
+                        <!-- Address -->
+
+                        <div class="form-group full-width">
+
+                            <label>
+
+                                Residential Address
+
+                            </label>
+
+                            <textarea rows="4"
+                                      placeholder="Enter complete address"></textarea>
+
+                        </div>
+
+                        <!-- Upload -->
+
+                        <div class="form-group full-width">
+
+                            <label>
+
+                                Upload Identity Proof
+
+                            </label>
+
+                            <input type="file">
+
+                        </div>
+                        <!-- ==========================================
+                             EMPLOYMENT DETAILS
+                        =========================================== -->
+
+                        <div class="card-header">
+
+                            <h3>
+
+                                Employment Details
+
+                            </h3>
+
+                        </div>
+
+                        <div class="form-grid">
+
+                            <!-- Employer Name -->
+
+                            <div class="form-group">
+
+                                <label>
+
+                                    Employer Name
+
+                                </label>
+
+                                <input type="text"
+                                       placeholder="Enter employer name">
+
+                            </div>
+
+                            <!-- Employment Type -->
+
+                            <div class="form-group">
+
+                                <label>
+
+                                    Employment Type
+
+                                </label>
+
+                                <select>
+
+                                    <option>Select Employment Type</option>
+                                    <option>Salaried</option>
+                                    <option>Self Employed</option>
+                                    <option>Business</option>
+                                    <option>Government Employee</option>
+
+                                </select>
+
+                            </div>
+
+                            <!-- Occupation -->
+
+                            <div class="form-group">
+
+                                <label>
+
+                                    Occupation
+
+                                </label>
+
+                                <input type="text"
+                                       placeholder="Software Engineer">
+
+                            </div>
+
+                            <!-- Work Experience -->
+
+                            <div class="form-group">
+
+                                <label>
+
+                                    Work Experience
+
+                                </label>
+
+                                <input type="number"
+                                       placeholder="Years">
+
+                            </div>
+
+                            <!-- Monthly Income -->
+
+                            <div class="form-group">
+
+                                <label>
+
+                                    Monthly Income (₹)
+
+                                </label>
+
+                                <input type="number"
+                                       placeholder="50000">
+
+                            </div>
+
+                            <!-- Existing EMI -->
+
+                            <div class="form-group">
+
+                                <label>
+
+                                    Existing EMI (₹)
+
+                                </label>
+
+                                <input type="number"
+                                       placeholder="15000">
+
+                            </div>
+
+                        </div>
+
+                        <!-- ==========================================
+                             LOAN DETAILS
+                        =========================================== -->
+
+                        <div class="card-header">
+
+                            <h3>
+
+                                Loan Details
+
+                            </h3>
+
+                        </div>
+
+                        <div class="form-grid">
+
+                            <!-- Loan Type -->
+
+                            <div class="form-group">
+
+                                <label>
+
+                                    Loan Type
+
+                                </label>
+
+                                <select>
+
+                                    <option>Select Loan Type</option>
+                                    <option>Home Loan</option>
+                                    <option>Personal Loan</option>
+                                    <option>Vehicle Loan</option>
+                                    <option>Education Loan</option>
+                                    <option>Business Loan</option>
+
+                                </select>
+
+                            </div>
+
+                            <!-- Loan Amount -->
+
+                            <div class="form-group">
+
+                                <label>
+
+                                    Loan Amount (₹)
+
+                                </label>
+
+                                <input type="number"
+                                       placeholder="1000000">
+
+                            </div>
+
+                            <!-- Loan Tenure -->
+
+                            <div class="form-group">
+
+                                <label>
+
+                                    Loan Tenure
+
+                                </label>
+
+                                <select>
+
+                                    <option>Select Tenure</option>
+                                    <option>12 Months</option>
+                                    <option>24 Months</option>
+                                    <option>36 Months</option>
+                                    <option>60 Months</option>
+                                    <option>120 Months</option>
+                                    <option>240 Months</option>
+
+                                </select>
+
+                            </div>
+
+                            <!-- Interest Preference -->
+
+                            <div class="form-group">
+
+                                <label>
+
+                                    Interest Preference
+
+                                </label>
+
+                                <select>
+
+                                    <option>Fixed</option>
+                                    <option>Floating</option>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Loan Purpose -->
+
+                        <div class="form-group full-width">
+
+                            <label>
+
+                                Purpose of Loan
+
+                            </label>
+
+                            <textarea rows="4"
+                                      placeholder="Describe the purpose of the loan..."></textarea>
+
+                        </div>
+
+                        <!-- ACTION BUTTONS -->
+
+                        <div class="form-actions">
+
+                            <button type="reset"
+                                    class="reset-btn">
+
+                                <i class="fa-solid fa-rotate-left"></i>
+
+                                Reset
+
+                            </button>
+
+                            <button type="submit"
+                                    class="submit-btn">
+
+                                <i class="fa-solid fa-paper-plane"></i>
+
+                                Submit Application
+
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+            <!-- ==========================================
+                 RIGHT SIDE - AI PANEL
+            =========================================== -->
+
+            <aside class="right-section">
+
+                <div class="insights-panel">
+
+                    <div class="card-header">
+
+                        <h3>
+
+                            AI Credit Assessment
+
+                        </h3>
+
+                    </div>
+
+                    <!-- Credit Score -->
+
+                    <div class="stats-card">
+
+                        <div class="icon">
+
+                            <i class="fa-solid fa-gauge-high"></i>
+
+                        </div>
+
+                        <div class="stats-info">
+
+                            <p>Predicted Credit Score</p>
+
+                            <h2>782</h2>
+
+                            <span>Excellent</span>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Approval -->
+
+                    <div class="stats-card">
+
+                        <div class="icon">
+
+                            <i class="fa-solid fa-circle-check"></i>
+
+                        </div>
+
+                        <div class="stats-info">
+
+                            <p>Approval Probability</p>
+
+                            <h2>94%</h2>
+
+                            <span>High Chance</span>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Risk -->
+
+                    <div class="stats-card">
+
+                        <div class="icon">
+
+                            <i class="fa-solid fa-shield-halved"></i>
+
+                        </div>
+
+                        <div class="stats-info">
+
+                            <p>Risk Level</p>
+
+                            <h2>Low</h2>
+
+                            <span>Safe Applicant</span>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Income Analysis -->
+
+                    <div class="insight">
+
+                        <i class="fa-solid fa-wallet"></i>
+
+                        <div>
+
+                            <h4>Income Analysis</h4>
+
+                            <p>
+
+                                Monthly income is sufficient to
+                                support the requested loan amount.
+                                Debt-to-income ratio is within the
+                                acceptable range.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Credit History -->
+
+                    <div class="insight">
+
+                        <i class="fa-solid fa-chart-line"></i>
+
+                        <div>
+
+                            <h4>Credit History</h4>
+
+                            <p>
+
+                                Applicant has maintained a healthy
+                                repayment history with no major
+                                defaults reported.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Recommendation -->
+
+                    <div class="insight">
+
+                        <i class="fa-solid fa-lightbulb"></i>
+
+                        <div>
+
+                            <h4>AI Recommendation</h4>
+
+                            <p>
+
+                                Recommended for approval.
+                                Standard interest rate can be
+                                offered based on current profile.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Documents -->
+
+                    <div class="summary-box">
+
+                        <h4>
+
+                            Required Documents
+
+                        </h4>
+
+                        <ul class="document-list">
+
+                            <li>
+
+                                <i class="fa-solid fa-check"></i>
+
+                                Aadhaar Card
+
+                            </li>
+
+                            <li>
+
+                                <i class="fa-solid fa-check"></i>
+
+                                PAN Card
+
+                            </li>
+
+                            <li>
+
+                                <i class="fa-solid fa-check"></i>
+
+                                Salary Slip (3 Months)
+
+                            </li>
+
+                            <li>
+
+                                <i class="fa-solid fa-check"></i>
+
+                                Bank Statement
+
+                            </li>
+
+                            <li>
+
+                                <i class="fa-solid fa-check"></i>
+
+                                Passport Size Photograph
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <!-- AI Summary -->
+
+                    <div class="summary-box">
+
+                        <h4>
+
+                            AI Summary
+
+                        </h4>
+
+                        <p>
+
+                            Based on the applicant's income,
+                            employment stability, repayment
+                            behaviour and predicted credit score,
+                            the application qualifies as a
+                            low-risk profile with a high approval
+                            probability.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </section>
+        <!-- ==========================================
+             FOOTER
+        =========================================== -->
+
+        <footer class="footer">
+
+            <p>
+
+                © 2026 <strong>ScoreSure</strong> |
+                AI Credit Scoring & Loan Management System.
+                All Rights Reserved.
+
+            </p>
+
+        </footer>
+
+    </main>
+
+</div>
+
+<!-- ==========================================
+     JAVASCRIPT
+========================================== -->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="newapplication.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>ScoreSure | Sign Out</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="signout.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- ======================================
+            SIDEBAR
+======================================= -->
+
+<aside class="sidebar">
+
+    <div class="logo">
+        <span class="white">Score</span><span class="blue">Sure</span>
+    </div>
+
+    <p class="menu-title">MAIN MENU</p>
+
+    <ul class="nav-links">
+
+        <li>
+            <a href="dashboard.html">
+                <i class="fa-solid fa-table-columns"></i>
+                <span>Dashboard</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="newapplication.html">
+                <i class="fa-regular fa-file-lines"></i>
+                <span>New Application</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="applicanthistory.html">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <span>Applicant History</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="analytics.html">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>Analytics</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="reports.html">
+                <i class="fa-regular fa-file-lines"></i>
+                <span>Reports</span>
+            </a>
+        </li>
+
+    </ul>
+
+    <p class="menu-title">ACCOUNT</p>
+
+    <ul class="nav-links">
+
+        <li>
+            <a href="settings.html">
+                <i class="fa-solid fa-gear"></i>
+                <span>Settings</span>
+            </a>
+        </li>
+
+        <li class="active">
+            <a href="signout.html">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <span>Sign Out</span>
+            </a>
+        </li>
+
+    </ul>
+
+    <div class="profile">
+
+        <div class="profile-avatar">
+            AS
+        </div>
+
+        <div class="profile-info">
+            <h4>Arjun Singh</h4>
+            <p>Administrator</p>
+        </div>
+
+    </div>
+
+</aside>
+
+<!-- ======================================
+        MAIN CONTENT STARTS
+======================================= -->
+
+<main class="main-content">
+    <!-- ===========================
+            TOP NAVIGATION
+    ============================ -->
+
+    <header class="topbar">
+
+        <!-- Search Box -->
+
+        <div class="search-box">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input
+                type="text"
+                placeholder="Search settings, reports...">
+
+        </div>
+
+        <!-- Right Side -->
+
+        <div class="top-right">
+
+            <div class="date">
+
+                Mon, 14 Jul 2026
+
+            </div>
+
+            <div class="notification">
+
+                <i class="fa-regular fa-bell"></i>
+
+            </div>
+
+            <div class="user">
+
+                <div class="avatar">
+
+                    AS
+
+                </div>
+
+                <div class="user-info">
+
+                    <h4>Arjun Singh</h4>
+
+                    <p>Administrator</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ===========================
+            PAGE HEADER
+    ============================ -->
+
+    <section class="page-header">
+
+        <h1>Sign Out</h1>
+
+        <p>
+
+            Securely sign out of your ScoreSure administrator account.
+
+        </p>
+
+    </section>
+
+    <!-- ===========================
+        SIGN OUT CONTENT STARTS
+    ============================ -->
+
+    <section class="signout-section">
+        <div class="signout-card">
+
+            <!-- User Avatar -->
+
+            <div class="logout-avatar">
+
+                <i class="fa-solid fa-user"></i>
+
+            </div>
+
+            <!-- Heading -->
+
+            <h2>Are you sure you want to sign out?</h2>
+
+            <p>
+
+                You are currently signed in as
+                <strong>Arjun Singh</strong>.
+
+                Signing out will end your current session and you
+                will need to log in again to access the ScoreSure
+                Dashboard.
+
+            </p>
+
+            <!-- Session Information -->
+
+            <div class="session-info">
+
+                <div class="session-item">
+
+                    <i class="fa-solid fa-user-shield"></i>
+
+                    <div>
+
+                        <h4>Current Role</h4>
+
+                        <span>Administrator</span>
+
+                    </div>
+
+                </div>
+
+                <div class="session-item">
+
+                    <i class="fa-solid fa-clock"></i>
+
+                    <div>
+
+                        <h4>Session Status</h4>
+
+                        <span class="active-session">
+                            Active Now
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Warning -->
+
+            <div class="warning-box">
+
+                <i class="fa-solid fa-triangle-exclamation"></i>
+
+                <p>
+
+                    Make sure all recent changes have been saved
+                    before signing out.
+
+                </p>
+
+            </div>
+
+            <!-- Buttons -->
+
+            <div class="signout-actions">
+
+                <a href="dashboard.html" class="btn-outline">
+
+                    <i class="fa-solid fa-arrow-left"></i>
+
+                    Cancel
+
+                </a>
+
+                <a href="index.html" class="primary-btn">
+
+                    <i class="fa-solid fa-right-from-bracket"></i>
+
+                    Sign Out
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <p>
+            © 2026 ScoreSure. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- Font Awesome Icons -->
+
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js">
+    </script>
+
+
+</body>
+
+</html>
