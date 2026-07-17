@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 import joblib
 
 # Load dataset
-df = pd.read_csv("ml/dataset/dataset.csv")
+df = pd.read_csv("dataset.csv")
 
 # Encode categorical columns
 encoders = {}
@@ -26,7 +26,7 @@ y = df["risk"]
 # Split data
 X_train, X_test, y_train, y_test = train_test_split(
     X, y,
-    test_size=0.2,
+    test_size=0.2,  
     random_state=42
 )
 
@@ -53,3 +53,8 @@ joblib.dump(model, "backend/scoresure_model.pkl")
 joblib.dump(encoders, "backend/label_encoders.pkl")
 
 print("Model saved successfully!")
+import pandas as pd
+
+
+
+print(df.columns)

@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 model = joblib.load("scoresure_model.pkl")
 
 # Load dataset
-df = pd.read_csv("ml/dataset/dataset.csv")
+df = pd.read_csv("ml/dataset.csv")
 
 # Load encoders
 encoders = joblib.load("label_encoders.pkl")
