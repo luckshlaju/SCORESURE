@@ -26,144 +26,159 @@ class Applicant(BaseModel):
 @app.get("/")
 def home():
     return {"message": "ScoreSure API is Running 🚀"}
+
+from fastapi import HTTPException
+import traceback
+
+# ---------------------- GET PREDICT ----------------------
+
+from fastapi import HTTPException
+import traceback
+
 @app.post("/predict")
 def predict(data: Applicant):
+    try:
 
-    # Feature Engineering
-    estimated_income = max(
-        data.declared_income * 0.8,
-        data.electricity_bill * 20 + data.mobile_recharge * 10
-    )
+        # ---------------- Feature Engineering ----------------
+        estimated_income = max(
+            data.declared_income * 0.8,
+            data.electricity_bill * 20 + data.mobile_recharge * 10
+        )
 
-    income_match = (
-        min(data.declared_income, estimated_income)
-        / max(data.declared_income, estimated_income)
-    ) * 100
+        income_match = (
+            min(data.declared_income, estimated_income)
+            / max(data.declared_income, estimated_income)
+        ) * 100
 
-    score = (
-        data.repayment_rate * 4
-        + income_match * 4
-        + (100 - data.existing_loans * 20)
-    )
+        score = (
+            data.repayment_rate * 4
+            + income_match * 4
+            + (100 - data.existing_loans * 20)
+        )
 
-    score = max(300, min(900, int(score)))
+        score = max(300, min(900, int(score)))
 
-    # Create DataFrame
-    df = pd.DataFrame([{
-        "age": data.age,
-        "gender": data.gender,
-        "occupation": data.occupation,
-        "district": data.district,
-        "declared_income": data.declared_income,
-        "electricity_bill": data.electricity_bill,
-        "mobile_recharge": data.mobile_recharge,
-        "existing_loans": data.existing_loans,
-        "repayment_rate": data.repayment_rate,
-        "loan_amount": data.loan_amount,
-        "estimated_income": estimated_income,
-        "income_match": income_match,
-        "composite_score": score
-    }])
+        # ---------------- Create DataFrame ----------------
+        df = pd.DataFrame([{
+            "age": data.age,
+            "gender": data.gender,
+            "occupation": data.occupation,
+            "district": data.district,
+            "declared_income": data.declared_income,
+            "electricity_bill": data.electricity_bill,
+            "mobile_recharge": data.mobile_recharge,
+            "existing_loans": data.existing_loans,
+            "repayment_rate": data.repayment_rate,
+            "loan_amount": data.loan_amount,
+            "estimated_income": estimated_income,
+            "income_match": income_match,
+            "composite_score": score
+        }])
 
-    # Encode categorical values
-    for col in ["gender", "occupation", "district"]:
-        df[col] = encoders[col].transform(df[col])
+        # ---------------- Encode Categorical Columns ----------------
+        for col in ["gender", "occupation", "district"]:
+            df[col] = encoders[col].transform(df[col])
 
-    # Prediction
-    prediction = model.predict(df)[0]
-    probabilities = model.predict_proba(df)[0]
-    confidence = round(max(probabilities) * 100, 2)
+        # ---------------- Prediction ----------------
+        prediction = model.predict(df)[0]
+        probabilities = model.predict_proba(df)[0]
 
-    # Convert numeric prediction back to label
-    risk = encoders["risk"].inverse_transform([prediction])[0]
+        confidence = round(max(probabilities) * 100, 2)
 
-    # Decision
-    if risk == "Low":
-        decision = "APPROVE"
-    elif risk == "Medium":
-        decision = "REVIEW"
-    else:
-        decision = "REJECT"
+        risk = encoders["risk"].inverse_transform([prediction])[0]
 
-    # AI Explanation
-    reasons = []
+        # ---------------- Decision ----------------
+        if risk == "Low":
+            decision = "APPROVE"
+        elif risk == "Medium":
+            decision = "REVIEW"
+        else:
+            decision = "REJECT"
 
-    if data.repayment_rate >= 90:
-        reasons.append("Excellent repayment history")
-    elif data.repayment_rate >= 70:
-        reasons.append("Good repayment history")
-    else:
-        reasons.append("Poor repayment history")
+        # ---------------- AI Explanation ----------------
+        reasons = []
 
-    if income_match >= 95:
-        reasons.append("Declared income matches estimated income")
-    elif income_match >= 80:
-        reasons.append("Income consistency is good")
-    else:
-        reasons.append("Income mismatch detected")
+        if data.repayment_rate >= 90:
+            reasons.append("Excellent repayment history")
+        elif data.repayment_rate >= 70:
+            reasons.append("Good repayment history")
+        else:
+            reasons.append("Poor repayment history")
 
-    if data.existing_loans == 0:
-        reasons.append("No existing loans")
-    elif data.existing_loans <= 2:
-        reasons.append("Manageable existing loans")
-    else:
-        reasons.append("High number of existing loans")
+        if income_match >= 95:
+            reasons.append("Declared income matches estimated income")
+        elif income_match >= 80:
+            reasons.append("Income consistency is good")
+        else:
+            reasons.append("Income mismatch detected")
 
-    if data.electricity_bill < 2500:
-        reasons.append("Stable electricity usage")
-    else:
-        reasons.append("High electricity expenditure")
+        if data.existing_loans == 0:
+            reasons.append("No existing loans")
+        elif data.existing_loans <= 2:
+            reasons.append("Manageable existing loans")
+        else:
+            reasons.append("High number of existing loans")
 
-    # Suggestions
-    suggestions = []
+        if data.electricity_bill < 2500:
+            reasons.append("Stable electricity usage")
+        else:
+            reasons.append("High electricity expenditure")
 
-    if data.repayment_rate < 80:
-        suggestions.append("Improve repayment history")
+        # ---------------- Suggestions ----------------
+        suggestions = []
 
-    if data.existing_loans > 2:
-        suggestions.append("Reduce existing loans")
+        if data.repayment_rate < 80:
+            suggestions.append("Improve repayment history")
 
-    if data.loan_amount > data.declared_income * 10:
-        suggestions.append("Apply for a smaller loan amount")
+        if data.existing_loans > 2:
+            suggestions.append("Reduce existing loans")
 
-    if data.declared_income < 25000:
-        suggestions.append("Increase verifiable income")
+        if data.loan_amount > data.declared_income * 10:
+            suggestions.append("Apply for a smaller loan amount")
 
-    if len(suggestions) == 0:
-        suggestions.append("Maintain your current financial behaviour")
+        if data.declared_income < 25000:
+            suggestions.append("Increase verifiable income")
 
-    # Fraud Risk
-    if income_match >= 95:
-        fraud_risk = "Low"
-    elif income_match >= 80:
-        fraud_risk = "Medium"
-    else:
-        fraud_risk = "High"
+        if not suggestions:
+            suggestions.append("Maintain your current financial behaviour")
 
-    # Loan Recommendation
-    if score >= 850:
-        recommended_loan = int(data.declared_income * 12)
-        interest_rate = 8.5
-    elif score >= 700:
-        recommended_loan = int(data.declared_income * 8)
-        interest_rate = 10.5
-    else:
-        recommended_loan = int(data.declared_income * 5)
-        interest_rate = 13.5
+        # ---------------- Fraud Risk ----------------
+        if income_match >= 95:
+            fraud_risk = "Low"
+        elif income_match >= 80:
+            fraud_risk = "Medium"
+        else:
+            fraud_risk = "High"
 
-    return {
-        "composite_score": score,
-        "risk": risk,
-        "decision": decision,
-        "estimated_income": round(estimated_income, 2),
-        "income_match": round(income_match, 2),
-        "confidence": confidence,
-        "fraud_risk": fraud_risk,
-        "recommended_loan": recommended_loan,
-        "interest_rate": interest_rate,
-        "ai_explanation": reasons,
-        "suggestions": suggestions
-    }
+        # ---------------- Loan Recommendation ----------------
+        if score >= 850:
+            recommended_loan = int(data.declared_income * 12)
+            interest_rate = 8.5
+        elif score >= 700:
+            recommended_loan = int(data.declared_income * 8)
+            interest_rate = 10.5
+        else:
+            recommended_loan = int(data.declared_income * 5)
+            interest_rate = 13.5
+
+        return {
+            "composite_score": score,
+            "risk": risk,
+            "decision": decision,
+            "estimated_income": round(estimated_income, 2),
+            "income_match": round(income_match, 2),
+            "confidence": confidence,
+            "fraud_risk": fraud_risk,
+            "recommended_loan": recommended_loan,
+            "interest_rate": interest_rate,
+            "ai_explanation": reasons,
+            "suggestions": suggestions
+        }
+
+    except Exception as e:
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=str(e))
+
 @app.get("/dashboard")
 def dashboard():
 
