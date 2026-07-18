@@ -590,24 +590,27 @@ section{
 
 .notification{
 
-    width:45px;
-    height:45px;
+    width:46px;
+
+    height:46px;
 
     border-radius:50%;
 
     background:#ffffff;
 
     display:flex;
+
     justify-content:center;
+
     align-items:center;
 
-    font-size:18px;
+    font-size:20px;
 
     color:var(--text);
 
-    box-shadow:0 5px 15px rgba(0,0,0,.05);
-
     cursor:pointer;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
 
     transition:.3s;
 

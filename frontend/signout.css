@@ -1,0 +1,1302 @@
+/* ======================================================
+   ScoreSure Sign Out
+   Global Styles
+====================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ======================================================
+   RESET
+====================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#f4f7fc;
+
+    color:#1f2937;
+
+    overflow-x:hidden;
+
+}
+
+/* ======================================================
+   VARIABLES
+====================================================== */
+
+:root{
+
+    --primary:#2563eb;
+    --primary-dark:#1d4ed8;
+
+    --sidebar:#111827;
+
+    --background:#f4f7fc;
+
+    --card:#ffffff;
+
+    --text:#111827;
+
+    --text-light:#6b7280;
+
+    --border:#e5e7eb;
+
+    --success:#22c55e;
+
+    --warning:#f59e0b;
+
+    --danger:#ef4444;
+
+    --shadow:0 8px 24px rgba(0,0,0,.08);
+
+    --radius:18px;
+
+}
+
+/* ======================================================
+   COMMON
+====================================================== */
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+button{
+
+    border:none;
+
+    outline:none;
+
+    cursor:pointer;
+
+    font-family:'Poppins',sans-serif;
+
+}
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+section{
+
+    margin-bottom:30px;
+
+}
+
+/* ======================================================
+   LAYOUT
+====================================================== */
+
+.container{
+
+    display:flex;
+
+    min-height:100vh;
+
+}
+
+.main-content{
+
+    flex:1;
+
+    margin-left:270px;
+
+    padding:30px;
+
+}
+
+.signout-content{
+
+    width:100%;
+
+}
+
+/* ======================================================
+   COMMON CARD
+====================================================== */
+
+.signout-card{
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+
+}
+
+.signout-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+/* ======================================================
+   SIDEBAR
+====================================================== */
+
+.sidebar{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:270px;
+
+    height:100vh;
+
+    background:var(--sidebar);
+
+    color:#ffffff;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+/* ======================================================
+   LOGO
+====================================================== */
+
+.logo{
+
+    padding:35px 30px;
+
+    font-size:38px;
+
+    font-weight:700;
+
+    letter-spacing:.5px;
+
+}
+
+.logo .white{
+
+    color:#ffffff;
+
+}
+
+.logo .blue{
+
+    color:var(--primary);
+
+}
+
+/* ======================================================
+   MENU TITLE
+====================================================== */
+
+.menu-title{
+
+    padding:0 30px;
+
+    margin:10px 0 15px;
+
+    font-size:13px;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+    color:#94a3b8;
+
+}
+
+/* ======================================================
+   NAVIGATION
+====================================================== */
+
+.nav-links{
+
+    padding:0 18px;
+
+}
+
+.nav-links li{
+
+    margin-bottom:10px;
+
+}
+
+.nav-links li a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:16px;
+
+    height:56px;
+
+    padding:0 18px;
+
+    border-radius:14px;
+
+    color:#cbd5e1;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+.nav-links li a:hover{
+
+    background:#1e293b;
+
+    color:#ffffff;
+
+    transform:translateX(5px);
+
+}
+
+.nav-links li.active a{
+
+    background:var(--primary);
+
+    color:#ffffff;
+
+    box-shadow:0 8px 20px rgba(37,99,235,.35);
+
+}
+
+.nav-links li a i{
+
+    width:22px;
+
+    text-align:center;
+
+    font-size:18px;
+
+}
+
+/* ======================================================
+   PROFILE
+====================================================== */
+
+.profile{
+
+    margin-top:auto;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:25px 30px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+.avatar{
+
+    width:52px;
+
+    height:52px;
+
+    border-radius:50%;
+
+    background:var(--primary);
+
+    color:#ffffff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+.profile-info{
+
+    flex:1;
+
+}
+
+.profile-info h4{
+
+    color:#ffffff;
+
+    font-size:16px;
+
+    margin-bottom:3px;
+
+}
+
+.profile-info p{
+
+    color:#94a3b8;
+
+    font-size:13px;
+
+}
+
+/* ======================================================
+   SIDEBAR SCROLLBAR
+====================================================== */
+
+.sidebar::-webkit-scrollbar{
+
+    width:6px;
+
+}
+
+.sidebar::-webkit-scrollbar-thumb{
+
+    background:#334155;
+
+    border-radius:20px;
+
+}
+
+.sidebar::-webkit-scrollbar-track{
+
+    background:transparent;
+
+}
+/* ======================================================
+   TOPBAR
+====================================================== */
+
+.topbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:35px;
+
+}
+
+/* ======================================================
+   SEARCH BOX
+====================================================== */
+
+.search-box{
+
+    width:420px;
+
+    height:55px;
+
+    background:#ffffff;
+
+    border:1px solid var(--border);
+
+    border-radius:16px;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:0 20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
+
+}
+
+.search-box i{
+
+    color:#94a3b8;
+
+    font-size:18px;
+
+    margin-right:12px;
+
+}
+
+.search-box input{
+
+    flex:1;
+
+    border:none;
+
+    outline:none;
+
+    background:transparent;
+
+    font-size:15px;
+
+    font-family:'Poppins',sans-serif;
+
+    color:var(--text);
+
+}
+
+.search-box input::placeholder{
+
+    color:#9ca3af;
+
+}
+
+/* ======================================================
+   TOP RIGHT
+====================================================== */
+
+.top-right{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+}
+
+/* Date */
+
+.date{
+
+    font-size:15px;
+
+    font-weight:500;
+
+    color:var(--text-light);
+
+}
+
+/* Notification */
+
+.notification{
+
+    width:46px;
+
+    height:46px;
+
+    border-radius:50%;
+
+    background:#ffffff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:20px;
+
+    color:var(--text);
+
+    cursor:pointer;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
+
+    transition:.3s;
+
+}
+
+.notification:hover{
+
+    background:var(--primary);
+
+    color:#ffffff;
+
+}
+
+/* User */
+
+.user{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.user .avatar{
+
+    width:50px;
+
+    height:50px;
+
+    border-radius:50%;
+
+    background:var(--primary);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#ffffff;
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+.user-info h4{
+
+    font-size:16px;
+
+    font-weight:600;
+
+    color:var(--text);
+
+}
+
+.user-info p{
+
+    font-size:13px;
+
+    color:var(--text-light);
+
+}
+
+/* ======================================================
+   PAGE HEADER
+====================================================== */
+
+.page-header{
+
+    margin-bottom:35px;
+
+}
+
+.page-header h1{
+
+    font-size:38px;
+
+    font-weight:700;
+
+    color:var(--text);
+
+    margin-bottom:8px;
+
+}
+
+.page-header p{
+
+    font-size:16px;
+
+    color:var(--text-light);
+
+}
+
+/* ======================================================
+   SIGN OUT SECTION
+====================================================== */
+
+.signout-section{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:20px 0 40px;
+
+}
+/* ======================================================
+   SIGN OUT CARD
+====================================================== */
+
+.signout-card{
+
+    width:100%;
+
+    max-width:700px;
+
+    background:#ffffff;
+
+    border-radius:22px;
+
+    padding:45px;
+
+    box-shadow:var(--shadow);
+
+    text-align:center;
+
+}
+
+/* ======================================================
+   LOGOUT AVATAR
+====================================================== */
+
+.logout-avatar{
+
+    width:95px;
+
+    height:95px;
+
+    margin:0 auto 25px;
+
+    border-radius:50%;
+
+    background:#eef4ff;
+
+    color:var(--primary);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:42px;
+
+}
+
+/* ======================================================
+   TITLE
+====================================================== */
+
+.signout-card h2{
+
+    font-size:32px;
+
+    font-weight:700;
+
+    color:var(--text);
+
+    margin-bottom:18px;
+
+}
+
+/* ======================================================
+   DESCRIPTION
+====================================================== */
+
+.signout-card>p{
+
+    font-size:15px;
+
+    line-height:1.8;
+
+    color:var(--text-light);
+
+    margin-bottom:35px;
+
+}
+
+.signout-card strong{
+
+    color:var(--text);
+
+}
+
+/* ======================================================
+   SESSION INFO
+====================================================== */
+
+.session-info{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:20px;
+
+    margin-bottom:35px;
+
+}
+
+/* ======================================================
+   SESSION ITEM
+====================================================== */
+
+.session-item{
+
+    background:#f8fafc;
+
+    border:1px solid var(--border);
+
+    border-radius:16px;
+
+    padding:20px;
+
+}
+
+.session-item span{
+
+    display:block;
+
+    font-size:13px;
+
+    color:var(--text-light);
+
+    margin-bottom:10px;
+
+}
+
+.session-item strong{
+
+    font-size:16px;
+
+    font-weight:600;
+
+    color:var(--text);
+
+}
+
+/* Active Session */
+
+.active-session{
+
+    color:var(--success);
+
+}
+/* ======================================================
+   WARNING BOX
+====================================================== */
+
+.warning-box{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:18px;
+
+    padding:22px;
+
+    margin-bottom:35px;
+
+    background:#fff7ed;
+
+    border:1px solid #fed7aa;
+
+    border-radius:18px;
+
+}
+
+.warning-box i{
+
+    width:52px;
+
+    height:52px;
+
+    border-radius:50%;
+
+    background:#ffedd5;
+
+    color:#ea580c;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:22px;
+
+    flex-shrink:0;
+
+}
+
+.warning-box h3{
+
+    font-size:18px;
+
+    font-weight:600;
+
+    color:#9a3412;
+
+    margin-bottom:8px;
+
+}
+
+.warning-box p{
+
+    font-size:14px;
+
+    line-height:1.7;
+
+    color:#7c2d12;
+
+}
+
+/* ======================================================
+   BUTTON AREA
+====================================================== */
+
+.signout-actions{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:18px;
+
+    margin-top:10px;
+
+}
+
+/* ======================================================
+   PRIMARY BUTTON
+====================================================== */
+
+.primary-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+    min-width:180px;
+
+    height:54px;
+
+    padding:0 30px;
+
+    background:var(--danger);
+
+    color:#ffffff;
+
+    border-radius:14px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:all .3s ease;
+
+}
+
+.primary-btn:hover{
+
+    background:#dc2626;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 24px rgba(239,68,68,.25);
+
+}
+
+/* ======================================================
+   OUTLINE BUTTON
+====================================================== */
+
+.btn-outline{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    min-width:180px;
+
+    height:54px;
+
+    padding:0 30px;
+
+    background:#ffffff;
+
+    color:var(--text);
+
+    border:2px solid var(--border);
+
+    border-radius:14px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:all .3s ease;
+
+}
+
+.btn-outline:hover{
+
+    background:#f8fafc;
+
+    border-color:var(--primary);
+
+    color:var(--primary);
+
+    transform:translateY(-3px);
+
+}
+
+/* ======================================================
+   CARD HOVER
+====================================================== */
+
+.signout-card{
+
+    transition:all .35s ease;
+
+}
+
+.signout-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.10);
+
+}
+/* ======================================================
+   FOOTER
+====================================================== */
+
+.footer{
+
+
+    margin-left:270px;
+
+
+    padding:20px;
+
+
+    text-align:center;
+
+
+    color:var(--text-light);
+
+
+    font-size:14px;
+
+
+    border-top:1px solid var(--border);
+
+
+}
+
+/* ======================================================
+   SCROLLBAR
+====================================================== */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+    height:8px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#eef2f7;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#cbd5e1;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:var(--primary);
+
+}
+
+/* ======================================================
+   ANIMATIONS
+====================================================== */
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+    }
+
+    to{
+
+        opacity:1;
+
+    }
+
+}
+
+.page-header,
+.signout-card{
+
+    animation:fadeUp .5s ease;
+
+}
+
+/* ======================================================
+   LARGE LAPTOP
+====================================================== */
+
+@media (max-width:1400px){
+
+    .signout-card{
+
+        max-width:650px;
+
+    }
+
+}
+
+/* ======================================================
+   LAPTOP
+====================================================== */
+
+@media (max-width:1200px){
+
+    .session-info{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/* ======================================================
+   TABLET
+====================================================== */
+
+@media (max-width:992px){
+
+    .sidebar{
+
+        width:230px;
+
+    }
+
+    .main-content{
+
+        margin-left:230px;
+
+        padding:20px;
+
+    }
+
+    .topbar{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:20px;
+
+    }
+
+    .top-right{
+
+        width:100%;
+
+        justify-content:space-between;
+
+    }
+
+    .search-box{
+
+        width:100%;
+
+    }
+
+}
+
+/* ======================================================
+   MOBILE
+====================================================== */
+
+@media (max-width:768px){
+
+    .container{
+
+        display:block;
+
+    }
+
+    .sidebar{
+
+        position:relative;
+
+        width:100%;
+
+        height:auto;
+
+    }
+
+    .main-content{
+
+        margin-left:0;
+
+        padding:18px;
+
+    }
+
+    .logo{
+
+        text-align:center;
+
+    }
+
+    .profile{
+
+        justify-content:center;
+
+    }
+
+    .page-header h1{
+
+        font-size:30px;
+
+    }
+
+    .page-header p{
+
+        font-size:14px;
+
+    }
+
+    .signout-card{
+
+        padding:30px 22px;
+
+    }
+
+    .session-info{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .warning-box{
+
+        flex-direction:column;
+
+        text-align:center;
+
+        align-items:center;
+
+    }
+
+    .warning-box i{
+
+        margin-bottom:10px;
+
+    }
+
+    .signout-actions{
+
+        flex-direction:column;
+
+    }
+
+    .primary-btn,
+    .btn-outline{
+
+        width:100%;
+
+    }
+
+}
+
+/* ======================================================
+   SMALL MOBILE
+====================================================== */
+
+@media (max-width:480px){
+
+    .top-right{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:15px;
+
+    }
+
+    .user{
+
+        width:100%;
+
+    }
+
+    .signout-card h2{
+
+        font-size:26px;
+
+    }
+
+    .logout-avatar{
+
+        width:80px;
+
+        height:80px;
+
+        font-size:34px;
+
+    }
+
+    .footer{
+
+        font-size:12px;
+
+    }
+
+}
+
+/* ======================================================
+   END OF FILE
+====================================================== */
