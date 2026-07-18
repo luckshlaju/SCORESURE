@@ -697,25 +697,62 @@
 
                     <!-- Credit Score -->
 
-                    <div class="stats-card">
+                    <!-- AI Credit Score -->
 
-                        <div class="icon">
+<div class="stats-card score-card">
 
-                            <i class="fa-solid fa-gauge-high"></i>
+    <div class="icon">
 
-                        </div>
+        <i class="fa-solid fa-gauge-high"></i>
 
-                        <div class="stats-info">
+    </div>
 
-                            <p>Predicted Credit Score</p>
+    <div class="stats-info">
 
-                            <h2>782</h2>
+        <p>Predicted Credit Score</p>
 
-                            <span>Excellent</span>
+<h2 id="creditScore">782</h2>
 
-                        </div>
+<span id="scoreLabel">Excellent</span>
 
-                    </div>
+    </div>
+    <div class="score-gauge">
+
+    <div class="gauge-bar">
+
+        <div class="gauge-fill" id="gaugeFill"></div>
+
+    </div>
+
+</div>
+
+</div>
+
+<div class="gauge">
+
+    <div id="gaugeFill"></div>
+
+</div>
+
+<div id="loadingBox">
+
+    <div class="loader"></div>
+
+    <p id="loadingText">
+
+        Click Generate AI Score
+
+    </p>
+
+</div>
+
+<button id="generateScore" class="generate-btn">
+
+    <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+    Generate AI Score
+
+</button>
 
                     <!-- Approval -->
 
@@ -731,9 +768,9 @@
 
                             <p>Approval Probability</p>
 
-                            <h2>94%</h2>
+<h2 id="approvalPercent">94%</h2>
 
-                            <span>High Chance</span>
+<span id="approvalLabel">High Chance</span>
 
                         </div>
 
@@ -753,9 +790,9 @@
 
                             <p>Risk Level</p>
 
-                            <h2>Low</h2>
+<h2 id="riskLevel">Low</h2>
 
-                            <span>Safe Applicant</span>
+<span id="riskText">Safe Applicant</span>
 
                         </div>
 
@@ -886,26 +923,33 @@
 
                     <!-- AI Summary -->
 
-                    <div class="summary-box">
+                   
+                    <!-- AI Engine Footer -->
 
-                        <h4>
+<div class="ai-engine-footer">
 
-                            AI Summary
+    <i class="fa-solid fa-microchip"></i>
 
-                        </h4>
+    <div>
 
-                        <p>
+        <h4>Powered by ScoreSure AI Engine v3.2</h4>
 
-                            Based on the applicant's income,
-                            employment stability, repayment
-                            behaviour and predicted credit score,
-                            the application qualifies as a
-                            low-risk profile with a high approval
-                            probability.
+        <p>
+            AI-driven Credit Risk Prediction • Updated July 2026
+        </p>
 
-                        </p>
+    </div>
 
-                    </div>
+</div>
+                    <div class="summary-box ai-engine">
+
+    <p>
+
+        Powered by <strong>ScoreSure AI Engine v3.2</strong>
+
+    </p>
+
+</div>
 
                 </div>
 
