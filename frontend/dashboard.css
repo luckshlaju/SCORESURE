@@ -247,28 +247,32 @@ section{
 =========================== */
 
 .logo{
-
-    padding:35px 30px;
-
-    font-size:38px;
-    font-weight:700;
-
-    letter-spacing:.5px;
-
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 20px;
 }
 
-.logo .white{
-
-    color:#ffffff;
-
+.logo-img{
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
 }
 
-.logo .blue{
-
-    color:var(--primary);
-
+.logo-text{
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    white-space: nowrap;
 }
 
+.score{
+    color: #2563eb;   /* Blue */
+}
+
+.sure{
+    color: #ffffff;   /* White */
+}
 /* ===========================
    Menu Title
 =========================== */
@@ -2147,6 +2151,13 @@ input[type=file]:hover{
 
     }
 
+}
+/* Risk Distribution Chart */
+#riskChart{
+    width: 340px !important;
+    height: 340px !important;
+    display: block;
+    margin: 15px auto;
 }
 /* ======================================================
    END OF FILE

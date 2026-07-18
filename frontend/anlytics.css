@@ -176,34 +176,41 @@ section{
     z-index:1000;
 
 }
-
-/* ===========================
+/* ===============================
    Logo
-=========================== */
+================================ */
+
+/* ==========================
+   Logo
+========================== */
 
 .logo{
-
-    padding:35px 30px;
-
-    font-size:38px;
-    font-weight:700;
-
-    letter-spacing:.5px;
-
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 20px;
 }
 
-.logo .white{
-
-    color:#ffffff;
-
+.logo-img{
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
 }
 
-.logo .blue{
-
-    color:var(--primary);
-
+.logo-text{
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    white-space: nowrap;
 }
 
+.score{
+    color: #2563eb;   /* Blue */
+}
+
+.sure{
+    color: #ffffff;   /* White */
+}
 /* ===========================
    Menu Title
 =========================== */
@@ -786,18 +793,20 @@ section{
    CHART CARD
 ========================================== */
 
+.chart-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 25px;
+    min-height: 430px;
+}
 .chart-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    background:#ffffff;
-
-    border-radius:18px;
-
-    padding:25px;
-
-    box-shadow:var(--shadow);
-
-    transition:.3s;
-
+.chart-card .card-header{
+    width: 100%;
 }
 
 .chart-card:hover{
@@ -1815,4 +1824,11 @@ input[type=file]:hover{
 
     }
 
+}
+/* Loan Category Chart */
+#loanCategoryChart{
+    width: 380px !important;
+    height: 380px !important;
+    display: block;
+    margin: 10px auto 20px;
 }
