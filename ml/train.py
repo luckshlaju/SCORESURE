@@ -14,7 +14,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 dataset_path = os.path.join(BASE_DIR, "dataset.csv")
 
 df = pd.read_csv(dataset_path)
-
+print(df.columns.tolist())
 # Encode categorical columns
 encoders = {}
 categorical_cols = ["gender", "occupation", "district", "risk", "decision"]
@@ -61,8 +61,17 @@ print("Model Accuracy (%):", model_accuracy)
 # Save Files
 os.makedirs("backend", exist_ok=True)
 
-joblib.dump(model, "backend/scoresure_model.pkl")
-joblib.dump(encoders, "backend/label_encoders.pkl")
-joblib.dump(round(accuracy * 100, 2), "model_accuracy.pkl")
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BACKEND_DIR = os.path.join(BASE_DIR, "..", "backend")
+
+os.makedirs(BACKEND_DIR, exist_ok=True)
+
+joblib.dump(model, os.path.join(BACKEND_DIR, "scoresure_model.pkl"))
+joblib.dump(encoders, os.path.join(BACKEND_DIR, "label_encoders.pkl"))
+joblib.dump(model_accuracy, os.path.join(BACKEND_DIR, "model_accuracy.pkl"))
 
 print("Model saved successfully!")
+
+
