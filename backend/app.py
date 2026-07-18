@@ -190,13 +190,14 @@ def predict(data: Applicant):
         # =====================================================
 
         if risk == "Low Risk":
-            decision = "APPROVE"
+
+            decision = "Approved"
 
         elif risk == "Medium Risk":
-            decision = "REVIEW"
+            decision = "Manual Review"
 
         else:
-            decision = "REJECT"
+            decision = "Rejected"
 
         # =====================================================
         # Fraud Risk
@@ -461,28 +462,6 @@ def dashboard():
             "high": high_risk
         }
 
-        # =====================================================
-        # Decision Distribution
-        # =====================================================
-
-        decision_distribution = {
-            "approved": approved,
-            "review": review,
-            "rejected": rejected
-        }
-
-        # =====================================================
-        # AI Insights
-        # =====================================================
-
-        ai_insights = {
-            "average_income": average_income,
-            "average_repayment": average_repayment,
-            "average_income_match": average_income_match,
-            "average_existing_loans": average_existing_loans,
-            "average_loan_amount": average_loan_amount,
-            "loan_processed": int(df["loan_amount"].sum())
-        }
 
         # =====================================================
         # Response
@@ -496,7 +475,10 @@ def dashboard():
             "model_accuracy": model_accuracy,
             "risk_distribution": risk_distribution,
             "decision_distribution": decision_distribution,
-            "ai_insights": ai_insights
+            "ai_insights": ai_insights,
+            "average_credit_score": average_credit_score,
+            "loan_trend": loan_trend,
+            "monthly_applications": monthly_applications
         }
 
     except Exception as e:
@@ -505,28 +487,6 @@ def dashboard():
             status_code=500,
             detail=str(e)
         )
-# ==========================================================
-# ANALYTICS DASHBOARD
-# ==========================================================
-
-@app.get("/analytics-dashboard")
-def analytics_dashboard():
-
-    try:
-
-        if not os.path.exists(DATASET_PATH):
-            raise HTTPException(
-                status_code=404,
-                detail="Dataset not found."
-            )
-
-        df = pd.read_csv(DATASET_PATH)
-
-        if df.empty:
-            raise HTTPException(
-                status_code=404,
-                detail="Dataset is empty."
-            )
 
         # =====================================================
         # Basic Statistics
@@ -534,10 +494,9 @@ def analytics_dashboard():
 
         total_applications = len(df)
 
-        approved = len(df[df["decision"] == "APPROVE"])
-        review = len(df[df["decision"] == "REVIEW"])
-        rejected = len(df[df["decision"] == "REJECT"])
-
+        approved = int((df["decision"] == "Approved").sum())
+        review = int((df["decision"] == "Manual Review").sum())
+        rejected = int((df["decision"] == "Rejected").sum())
         average_income = round(
             df["declared_income"].mean(),
             2
@@ -547,6 +506,29 @@ def analytics_dashboard():
             df["repayment_rate"].mean(),
             2
         )
+
+        # =====================================================
+        # Recalculate Estimated Income
+        # =====================================================
+
+        df["estimated_income"] = (
+            df["electricity_bill"] * 22
+            + df["mobile_recharge"] * 28
+        )
+
+        df["estimated_income"] = (
+            df["estimated_income"] + df["declared_income"]
+        ) / 2
+
+        # =====================================================
+        # Recalculate Income Match
+        # =====================================================
+
+        df["income_match"] = (
+            df[["declared_income", "estimated_income"]].min(axis=1)
+            /
+            df[["declared_income", "estimated_income"]].max(axis=1)
+        ) * 100
 
         average_income_match = round(
             df["income_match"].mean(),
@@ -612,7 +594,7 @@ def analytics_dashboard():
         )
 
         # =====================================================
-        # Average Repayment by Risk
+        # Repayment by Risk
         # =====================================================
 
         repayment_by_risk = (
@@ -623,7 +605,7 @@ def analytics_dashboard():
         )
 
         # =====================================================
-        # Existing Loan Distribution
+        # Existing Loans Distribution
         # =====================================================
 
         existing_loans_distribution = (
@@ -637,7 +619,7 @@ def analytics_dashboard():
         # Loan Tenure Distribution
         # =====================================================
 
-        tenure_distribution = (
+        loan_tenure_distribution = (
             df["loan_tenure_months"]
             .value_counts()
             .sort_index()
@@ -648,7 +630,7 @@ def analytics_dashboard():
         # Payment Default Distribution
         # =====================================================
 
-        default_distribution = (
+        payment_default_distribution = (
             df["payment_defaults"]
             .value_counts()
             .sort_index()
@@ -663,13 +645,11 @@ def analytics_dashboard():
             df["credit_history_years"]
             .value_counts()
             .sort_index()
-            .astype(int)
             .to_dict()
         )
 
-
         # =====================================================
-        # Income Match Categories
+        # Income Match Distribution
         # =====================================================
 
         perfect = int((df["income_match"] >= 95).sum())
@@ -685,11 +665,9 @@ def analytics_dashboard():
         poor = int((df["income_match"] < 80).sum())
 
         income_match_distribution = {
-
             "Excellent": perfect,
             "Good": moderate,
             "Poor": poor
-
         }
 
         # =====================================================
@@ -697,37 +675,19 @@ def analytics_dashboard():
         # =====================================================
 
         ai_insights = {
-
             "average_income": average_income,
-
             "average_repayment": average_repayment,
-
             "average_income_match": average_income_match,
-
             "average_loan_amount": average_loan,
-
-            "total_loan_processed": int(
-                df["loan_amount"].sum()
-            ),
-
+            "total_loan_processed": int(df["loan_amount"].sum()),
             "high_risk_percentage": round(
-
-                risk_distribution["high"] /
-                total_applications * 100,
-
+                risk_distribution["high"] / total_applications * 100,
                 2
-
             ),
-
             "approval_rate": round(
-
-                approved /
-                total_applications * 100,
-
+                approved / total_applications * 100,
                 2
-
             )
-
         }
 
         # =====================================================
@@ -735,41 +695,23 @@ def analytics_dashboard():
         # =====================================================
 
         return {
-
             "total_applications": total_applications,
-
             "approved": approved,
-
             "review": review,
-
             "rejected": rejected,
-
             "model_accuracy": model_accuracy,
-
             "risk_distribution": risk_distribution,
-
             "decision_distribution": decision_distribution,
-
             "occupation_analysis": occupation_analysis,
-
             "district_analysis": district_analysis,
-
             "loan_by_risk": loan_by_risk,
-
             "repayment_by_risk": repayment_by_risk,
-
             "existing_loans_distribution": existing_loans_distribution,
-
-            "loan_tenure_distribution": tenure_distribution,
-
-            "payment_default_distribution": default_distribution,
-
+            "loan_tenure_distribution": loan_tenure_distribution,
+            "payment_default_distribution": payment_default_distribution,
             "credit_history_distribution": credit_history_distribution,
-
             "income_match_distribution": income_match_distribution,
-
             "ai_insights": ai_insights
-
         }
 
     except Exception as e:
@@ -868,3 +810,20 @@ def history():
             status_code=500,
             detail=str(e)
         )
+@app.get("/risk-distribution")
+def risk_distribution():
+
+    df = pd.read_csv(DATASET_PATH)
+
+    return {
+        "labels": [
+            "Low Risk",
+            "Medium Risk",
+            "High Risk"
+        ],
+        "values": [
+            int((df["risk"] == "Low Risk").sum()),
+            int((df["risk"] == "Medium Risk").sum()),
+            int((df["risk"] == "High Risk").sum())
+        ]
+    }
