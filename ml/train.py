@@ -4,9 +4,16 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 import joblib
+import os
+import os
 
-# Load dataset
-df = pd.read_csv("dataset.csv")
+import os
+import pandas as pd
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+dataset_path = os.path.join(BASE_DIR, "dataset.csv")
+
+df = pd.read_csv(dataset_path)
 
 # Encode categorical columns
 encoders = {}
@@ -23,17 +30,20 @@ X = df.drop(columns=["risk", "decision", "applicant_id"])
 # Target
 y = df["risk"]
 
-# Split data
+# Train/Test Split
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y,
-    test_size=0.2,  
-    random_state=42
+    X,
+    y,
+    test_size=0.2,
+    random_state=42,
+    stratify=y      # Keeps the same class distribution
 )
 
-# Train model
+# Train Model
 model = RandomForestClassifier(
-    n_estimators=100,
-    random_state=42
+    n_estimators=300,
+    random_state=42,
+    n_jobs=-1
 )
 
 model.fit(X_train, y_train)
@@ -45,16 +55,14 @@ y_pred = model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 
-import os
+model_accuracy = round(accuracy * 100, 2)
+print("Model Accuracy (%):", model_accuracy)
 
+# Save Files
 os.makedirs("backend", exist_ok=True)
 
 joblib.dump(model, "backend/scoresure_model.pkl")
 joblib.dump(encoders, "backend/label_encoders.pkl")
+joblib.dump(round(accuracy * 100, 2), "model_accuracy.pkl")
 
 print("Model saved successfully!")
-import pandas as pd
-
-
-
-print(df.columns)
