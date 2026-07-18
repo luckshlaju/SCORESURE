@@ -499,7 +499,9 @@ section{
 
     align-items:center;
 
-    font-size:18px;
+    font-size:20px;
+
+    color:var(--text);
 
     cursor:pointer;
 

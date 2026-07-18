@@ -522,13 +522,15 @@ section{
 
     align-items:center;
 
-    box-shadow:0 5px 15px rgba(0,0,0,.05);
+    font-size:20px;
+
+    color:var(--text);
 
     cursor:pointer;
 
-    transition:.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
 
-    font-size:18px;
+    transition:.3s;
 
 }
 
@@ -539,7 +541,6 @@ section{
     color:#ffffff;
 
 }
-
 /* User */
 
 .user{

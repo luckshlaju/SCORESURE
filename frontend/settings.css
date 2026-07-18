@@ -1,16 +1,18 @@
 /* ======================================================
-   GOOGLE FONT
+   ScoreSure Settings
+   Global Styles
 ====================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 /* ======================================================
    RESET
 ====================================================== */
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
 }
 
 html{
@@ -18,36 +20,91 @@ html{
 }
 
 body{
-    background:#F5F7FC;
-    color:#1C2333;
+
+    font-family:'Poppins',sans-serif;
+
+    background:#f4f7fc;
+
+    color:#1f2937;
+
     overflow-x:hidden;
+
 }
 
 /* ======================================================
    VARIABLES
 ====================================================== */
+
 :root{
 
-    --primary:#3366FF;
-    --primary-dark:#2454E8;
+    --primary:#2563eb;
+    --primary-dark:#1d4ed8;
 
     --sidebar:#111827;
 
-    --background:#F5F7FC;
+    --background:#f4f7fc;
 
-    --white:#FFFFFF;
+    --card:#ffffff;
 
-    --text:#1C2333;
+    --text:#111827;
 
-    --text-light:#6F7A8A;
+    --text-light:#6b7280;
 
-    --border:#E7EDF6;
+    --border:#e5e7eb;
 
-    --success:#16A34A;
+    --success:#22c55e;
 
-    --shadow:0 10px 30px rgba(0,0,0,.05);
+    --warning:#f59e0b;
 
-    --radius:22px;
+    --danger:#ef4444;
+
+    --shadow:0 8px 24px rgba(0,0,0,.08);
+
+    --radius:18px;
+
+}
+
+/* ======================================================
+   COMMON
+====================================================== */
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+button{
+
+    border:none;
+
+    outline:none;
+
+    cursor:pointer;
+
+    font-family:'Poppins',sans-serif;
+
+}
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+section{
+
+    margin-bottom:30px;
 
 }
 
@@ -56,9 +113,51 @@ body{
 ====================================================== */
 
 .container{
+
     display:flex;
+
     min-height:100vh;
+
+}
+
+.main-content{
+
+    flex:1;
+
+    margin-left:270px;
+
+    padding:30px;
+
+}
+
+.settings-content{
+
     width:100%;
+
+}
+
+/* ======================================================
+   COMMON CARDS
+====================================================== */
+
+.stat-card,
+.settings-card{
+
+    background:#ffffff;
+
+    border-radius:18px;
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+
+}
+
+.stat-card:hover,
+.settings-card:hover{
+
+    transform:translateY(-5px);
+
 }
 
 /* ======================================================
@@ -70,19 +169,20 @@ body{
     position:fixed;
 
     top:0;
+
     left:0;
 
-    width:295px;
+    width:270px;
+
     height:100vh;
 
     background:var(--sidebar);
 
+    color:#ffffff;
+
     display:flex;
+
     flex-direction:column;
-
-    overflow-y:auto;
-
-    z-index:1000;
 
 }
 
@@ -92,9 +192,10 @@ body{
 
 .logo{
 
-    padding:32px 30px 42px;
+    padding:35px 30px;
 
-    font-size:42px;
+    font-size:38px;
+
     font-weight:700;
 
     letter-spacing:.5px;
@@ -102,11 +203,15 @@ body{
 }
 
 .logo .white{
-    color:#fff;
+
+    color:#ffffff;
+
 }
 
 .logo .blue{
+
     color:var(--primary);
+
 }
 
 /* ======================================================
@@ -117,7 +222,7 @@ body{
 
     padding:0 30px;
 
-    margin-bottom:18px;
+    margin:10px 0 15px;
 
     font-size:13px;
 
@@ -125,9 +230,7 @@ body{
 
     letter-spacing:2px;
 
-    text-transform:uppercase;
-
-    color:#94A3B8;
+    color:#94a3b8;
 
 }
 
@@ -137,11 +240,7 @@ body{
 
 .nav-links{
 
-    list-style:none;
-
-    padding:0 16px;
-
-    margin-bottom:18px;
+    padding:0 18px;
 
 }
 
@@ -157,23 +256,41 @@ body{
 
     align-items:center;
 
-    gap:18px;
+    gap:16px;
 
-    height:60px;
+    height:56px;
 
-    padding:0 20px;
+    padding:0 18px;
 
-    border-radius:16px;
+    border-radius:14px;
 
-    text-decoration:none;
+    color:#cbd5e1;
 
-    color:#CBD5E1;
-
-    font-size:16px;
+    font-size:15px;
 
     font-weight:500;
 
     transition:.3s;
+
+}
+
+.nav-links li a:hover{
+
+    background:#1e293b;
+
+    color:#ffffff;
+
+    transform:translateX(5px);
+
+}
+
+.nav-links li.active a{
+
+    background:var(--primary);
+
+    color:#ffffff;
+
+    box-shadow:0 8px 20px rgba(37,99,235,.35);
 
 }
 
@@ -187,26 +304,6 @@ body{
 
 }
 
-.nav-links li a:hover{
-
-    background:#1F2937;
-
-    color:#fff;
-
-    transform:translateX(4px);
-
-}
-
-.nav-links li.active a{
-
-    background:var(--primary);
-
-    color:#fff;
-
-    box-shadow:0 12px 28px rgba(51,102,255,.35);
-
-}
-
 /* ======================================================
    PROFILE
 ====================================================== */
@@ -215,27 +312,29 @@ body{
 
     margin-top:auto;
 
-    padding:28px 30px;
-
     display:flex;
 
     align-items:center;
 
     gap:15px;
 
+    padding:25px 30px;
+
     border-top:1px solid rgba(255,255,255,.08);
 
 }
 
-.profile-avatar{
+.avatar{
 
-    width:56px;
+    width:52px;
 
-    height:56px;
+    height:52px;
 
     border-radius:50%;
 
     background:var(--primary);
+
+    color:#ffffff;
 
     display:flex;
 
@@ -243,31 +342,33 @@ body{
 
     align-items:center;
 
-    color:#fff;
-
     font-size:18px;
 
     font-weight:600;
 
 }
 
-.profile-info h4{
+.profile-info{
 
-    color:#fff;
+    flex:1;
+
+}
+
+.profile-info h4{
 
     font-size:16px;
 
-    font-weight:600;
+    margin-bottom:3px;
 
-    margin-bottom:4px;
+    color:#ffffff;
 
 }
 
 .profile-info p{
 
-    color:#94A3B8;
-
     font-size:13px;
+
+    color:#94a3b8;
 
 }
 
@@ -289,27 +390,13 @@ body{
 
 }
 
-/* ======================================================
-   MAIN CONTENT
-====================================================== */
+.sidebar::-webkit-scrollbar-track{
 
-.main-content{
-
-    flex:1;
-
-    margin-left:295px;
-
-    width:calc(100% - 295px);
-
-    min-height:100vh;
-
-    padding:22px 30px 30px;
-
-    background:var(--background);
+    background:transparent;
 
 }
 /* ======================================================
-   TOP NAVIGATION
+   TOPBAR
 ====================================================== */
 
 .topbar{
@@ -320,65 +407,73 @@ body{
 
     align-items:center;
 
-    margin-bottom:40px;
+    margin-bottom:35px;
 
 }
 
-/* Search Box */
+/* ===========================
+   Search Box
+=========================== */
 
 .search-box{
 
-    width:500px;
+    width:420px;
 
-    height:62px;
+    height:55px;
 
-    background:#fff;
+    background:#ffffff;
 
-    border-radius:20px;
+    border:1px solid var(--border);
+
+    border-radius:16px;
 
     display:flex;
 
     align-items:center;
 
-    padding:0 22px;
+    padding:0 20px;
 
-    box-shadow:var(--shadow);
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
 
 }
 
 .search-box i{
 
-    font-size:22px;
+    font-size:18px;
 
-    color:#94A3B8;
+    color:#94a3b8;
+
+    margin-right:12px;
 
 }
 
 .search-box input{
 
-    width:100%;
+    flex:1;
 
     border:none;
 
     outline:none;
 
-    margin-left:15px;
+    background:transparent;
 
-    font-size:16px;
+    font-size:15px;
 
     color:var(--text);
 
-    background:transparent;
+    font-family:'Poppins',sans-serif;
 
 }
 
 .search-box input::placeholder{
 
-    color:#94A3B8;
+    color:#9ca3af;
 
 }
 
-/* Right Side */
+/* ===========================
+   Right Header
+=========================== */
 
 .top-right{
 
@@ -386,15 +481,13 @@ body{
 
     align-items:center;
 
-    gap:24px;
+    gap:25px;
 
 }
 
-/* Date */
-
 .date{
 
-    font-size:16px;
+    font-size:15px;
 
     font-weight:500;
 
@@ -402,17 +495,15 @@ body{
 
 }
 
-/* Notification */
-
 .notification{
 
-    width:56px;
+    width:46px;
 
-    height:56px;
+    height:46px;
 
     border-radius:50%;
 
-    background:#fff;
+    background:#ffffff;
 
     display:flex;
 
@@ -420,9 +511,13 @@ body{
 
     align-items:center;
 
-    box-shadow:var(--shadow);
+    font-size:20px;
+
+    color:var(--text);
 
     cursor:pointer;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
 
     transition:.3s;
 
@@ -430,19 +525,11 @@ body{
 
 .notification:hover{
 
-    transform:translateY(-3px);
+    background:var(--primary);
+
+    color:#ffffff;
 
 }
-
-.notification i{
-
-    font-size:22px;
-
-    color:var(--text);
-
-}
-
-/* User */
 
 .user{
 
@@ -450,31 +537,7 @@ body{
 
     align-items:center;
 
-    gap:14px;
-
-}
-
-.avatar{
-
-    width:56px;
-
-    height:56px;
-
-    border-radius:50%;
-
-    background:var(--primary);
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    color:#fff;
-
-    font-size:20px;
-
-    font-weight:600;
+    gap:15px;
 
 }
 
@@ -486,13 +549,11 @@ body{
 
     color:var(--text);
 
-    margin-bottom:4px;
-
 }
 
 .user-info p{
 
-    font-size:14px;
+    font-size:13px;
 
     color:var(--text-light);
 
@@ -510,30 +571,40 @@ body{
 
 .page-header h1{
 
-    font-size:56px;
+    font-size:38px;
 
     font-weight:700;
 
     color:var(--text);
 
-    margin-bottom:10px;
+    margin-bottom:8px;
 
 }
 
 .page-header p{
 
-    font-size:20px;
+    font-size:16px;
 
     color:var(--text-light);
-
-    max-width:700px;
-
-    line-height:1.6;
 
 }
 
 /* ======================================================
-   SETTINGS OVERVIEW CARDS
+   SETTINGS CONTAINER
+====================================================== */
+
+.settings-container{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
+
+}
+
+/* ======================================================
+   OVERVIEW CARDS
 ====================================================== */
 
 .stats-grid{
@@ -542,31 +613,15 @@ body{
 
     grid-template-columns:repeat(4,1fr);
 
-    gap:24px;
-
-    margin-bottom:35px;
+    gap:20px;
 
 }
 
 .stat-card{
 
-    background:#fff;
+    padding:22px;
 
-    border-radius:var(--radius);
-
-    padding:28px;
-
-    box-shadow:var(--shadow);
-
-    transition:.3s;
-
-}
-
-.stat-card:hover{
-
-    transform:translateY(-5px);
-
-    box-shadow:0 18px 40px rgba(0,0,0,.08);
+    position:relative;
 
 }
 
@@ -578,21 +633,23 @@ body{
 
     align-items:center;
 
-    margin-bottom:24px;
+    margin-bottom:22px;
 
 }
 
+/* ===========================
+   Icon Box
+=========================== */
+
 .icon-box{
 
-    width:60px;
+    width:58px;
 
-    height:60px;
+    height:58px;
 
-    border-radius:18px;
+    border-radius:16px;
 
-    background:#EEF3FF;
-
-    color:var(--primary);
+    background:#eff6ff;
 
     display:flex;
 
@@ -600,21 +657,23 @@ body{
 
     align-items:center;
 
-}
+    color:var(--primary);
 
-.icon-box i{
-
-    font-size:26px;
+    font-size:24px;
 
 }
+
+/* ===========================
+   Badge
+=========================== */
 
 .badge{
 
-    padding:7px 14px;
+    padding:6px 14px;
 
-    border-radius:25px;
+    border-radius:30px;
 
-    font-size:13px;
+    font-size:12px;
 
     font-weight:600;
 
@@ -622,49 +681,67 @@ body{
 
 .badge.blue{
 
-    background:#EEF3FF;
+    background:#dbeafe;
 
-    color:var(--primary);
+    color:#2563eb;
 
 }
 
 .badge.green{
 
-    background:#EAFBF2;
+    background:#dcfce7;
 
-    color:#16A34A;
-
-}
-
-.badge.orange{
-
-    background:#FFF4E6;
-
-    color:#EA7C00;
+    color:#15803d;
 
 }
+
+/* ===========================
+   Card Content
+=========================== */
 
 .stat-card h2{
 
-    font-size:34px;
-
-    font-weight:700;
-
-    color:var(--text);
+    font-size:26px;
 
     margin-bottom:8px;
+
+    color:var(--text);
 
 }
 
 .stat-card p{
 
-    font-size:16px;
-
     color:var(--text-light);
+
+    font-size:15px;
+
+}
+
+/* ===========================
+   Hover Effect
+=========================== */
+
+.stat-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.10);
+
+}
+
+.icon-box{
+
+    transition:.3s;
+
+}
+
+.stat-card:hover .icon-box{
+
+    transform:scale(1.08);
 
 }
 /* ======================================================
-   SETTINGS LAYOUT
+   PROFILE + ACCOUNT STATUS
 ====================================================== */
 
 .settings-section{
@@ -675,18 +752,7 @@ body{
 
     gap:25px;
 
-    margin-bottom:35px;
-
-}
-
-.settings-left,
-.settings-right{
-
-    display:flex;
-
-    flex-direction:column;
-
-    gap:25px;
+    align-items:start;
 
 }
 
@@ -696,17 +762,21 @@ body{
 
 .settings-card{
 
-    background:#fff;
+    background:#ffffff;
 
-    border-radius:22px;
+    border-radius:18px;
 
-    padding:28px;
+    padding:25px;
 
     box-shadow:var(--shadow);
 
 }
 
-.settings-card .card-header{
+/* ======================================================
+   CARD HEADER
+====================================================== */
+
+.card-header{
 
     display:flex;
 
@@ -714,11 +784,11 @@ body{
 
     align-items:center;
 
-    margin-bottom:28px;
+    margin-bottom:25px;
 
 }
 
-.settings-card .card-header h3{
+.card-header h3{
 
     font-size:22px;
 
@@ -729,28 +799,24 @@ body{
 }
 
 /* ======================================================
-   BUTTONS
+   PRIMARY BUTTON
 ====================================================== */
 
 .primary-btn{
 
-    border:none;
-
-    outline:none;
-
     background:var(--primary);
 
-    color:#fff;
+    color:#ffffff;
 
-    padding:12px 24px;
+    padding:12px 22px;
+
+    border:none;
 
     border-radius:12px;
 
-    font-size:15px;
+    font-size:14px;
 
     font-weight:500;
-
-    cursor:pointer;
 
     transition:.3s;
 
@@ -760,35 +826,7 @@ body{
 
     background:var(--primary-dark);
 
-}
-
-.btn-outline{
-
-    border:2px solid var(--border);
-
-    background:#fff;
-
-    color:var(--primary);
-
-    padding:12px 24px;
-
-    border-radius:12px;
-
-    font-size:15px;
-
-    font-weight:500;
-
-    cursor:pointer;
-
-    transition:.3s;
-
-}
-
-.btn-outline:hover{
-
-    background:var(--primary);
-
-    color:#fff;
+    transform:translateY(-2px);
 
 }
 
@@ -808,9 +846,13 @@ body{
 
     grid-template-columns:repeat(2,1fr);
 
-    gap:22px;
+    gap:20px;
 
 }
+
+/* ======================================================
+   FORM GROUP
+====================================================== */
 
 .form-group{
 
@@ -822,36 +864,40 @@ body{
 
 .form-group label{
 
-    font-size:15px;
+    font-size:14px;
 
     font-weight:500;
 
     color:var(--text);
 
-    margin-bottom:10px;
+    margin-bottom:8px;
 
 }
+
+/* ======================================================
+   INPUTS
+====================================================== */
 
 .form-group input,
 .form-group select{
 
     width:100%;
 
-    height:56px;
+    height:50px;
 
-    padding:0 18px;
+    padding:0 16px;
 
     border:1px solid var(--border);
 
-    border-radius:14px;
+    border-radius:12px;
 
-    background:#fff;
+    background:#ffffff;
 
-    font-size:15px;
+    font-size:14px;
+
+    font-family:'Poppins',sans-serif;
 
     color:var(--text);
-
-    outline:none;
 
     transition:.3s;
 
@@ -860,47 +906,11 @@ body{
 .form-group input:focus,
 .form-group select:focus{
 
-    border-color:var(--primary);
-
-    box-shadow:0 0 0 4px rgba(51,102,255,.12);
-
-}
-
-/* Full Width */
-
-.form-group.full-width{
-
-    grid-column:1 / -1;
-
-}
-
-textarea{
-
-    width:100%;
-
-    min-height:130px;
-
-    resize:none;
-
-    padding:18px;
-
-    border:1px solid var(--border);
-
-    border-radius:14px;
-
-    font-size:15px;
-
     outline:none;
 
-    transition:.3s;
-
-}
-
-textarea:focus{
-
     border-color:var(--primary);
 
-    box-shadow:0 0 0 4px rgba(51,102,255,.12);
+    box-shadow:0 0 0 4px rgba(37,99,235,.12);
 
 }
 
@@ -942,39 +952,49 @@ textarea:focus{
 
     color:var(--text-light);
 
-    font-size:15px;
+    font-size:14px;
 
 }
 
 .status-item strong{
 
-    font-size:15px;
-
     color:var(--text);
+
+    font-size:15px;
 
     font-weight:600;
 
 }
 
+/* ======================================================
+   ACTIVE TEXT
+====================================================== */
+
 .active-text{
 
-    color:#16A34A !important;
+    color:var(--success) !important;
 
 }
 
-.warning-text{
+/* ======================================================
+   CARD HOVER
+====================================================== */
 
-    color:#F59E0B !important;
+.settings-card{
+
+    transition:.3s;
 
 }
 
-.danger-text{
+.settings-card:hover{
 
-    color:#EF4444 !important;
+    transform:translateY(-5px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.10);
 
 }
 /* ======================================================
-   SETTINGS OPTIONS
+   SETTINGS BOTTOM
 ====================================================== */
 
 .settings-bottom{
@@ -984,8 +1004,6 @@ textarea:focus{
     grid-template-columns:repeat(2,1fr);
 
     gap:25px;
-
-    margin-bottom:35px;
 
 }
 
@@ -1013,17 +1031,27 @@ textarea:focus{
 
 }
 
-.setting-item h4{
+.setting-info{
 
-    font-size:16px;
+    flex:1;
 
-    color:var(--text);
-
-    margin-bottom:5px;
+    padding-right:20px;
 
 }
 
-.setting-item p{
+.setting-info h4{
+
+    font-size:16px;
+
+    font-weight:600;
+
+    color:var(--text);
+
+    margin-bottom:6px;
+
+}
+
+.setting-info p{
 
     font-size:14px;
 
@@ -1043,7 +1071,7 @@ textarea:focus{
 
     display:inline-block;
 
-    width:56px;
+    width:54px;
 
     height:30px;
 
@@ -1063,11 +1091,11 @@ textarea:focus{
 
     position:absolute;
 
-    inset:0;
-
     cursor:pointer;
 
-    background:#CBD5E1;
+    inset:0;
+
+    background:#d1d5db;
 
     border-radius:30px;
 
@@ -1075,7 +1103,7 @@ textarea:focus{
 
 }
 
-.slider:before{
+.slider::before{
 
     content:"";
 
@@ -1089,11 +1117,13 @@ textarea:focus{
 
     bottom:4px;
 
-    background:#fff;
+    background:#ffffff;
 
     border-radius:50%;
 
     transition:.3s;
+
+    box-shadow:0 2px 6px rgba(0,0,0,.2);
 
 }
 
@@ -1103,12 +1133,97 @@ textarea:focus{
 
 }
 
-.switch input:checked + .slider:before{
+.switch input:checked + .slider::before{
 
-    transform:translateX(26px);
+    transform:translateX(24px);
 
 }
 
+/* ======================================================
+   SYSTEM PREFERENCES
+====================================================== */
+
+.settings-bottom .form-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+.settings-bottom select{
+
+    width:100%;
+
+    height:50px;
+
+    padding:0 16px;
+
+    border:1px solid var(--border);
+
+    border-radius:12px;
+
+    background:#ffffff;
+
+    font-size:14px;
+
+    font-family:'Poppins',sans-serif;
+
+    color:var(--text);
+
+    transition:.3s;
+
+}
+
+.settings-bottom select:focus{
+
+    outline:none;
+
+    border-color:var(--primary);
+
+    box-shadow:0 0 0 4px rgba(37,99,235,.12);
+
+}
+
+/* ======================================================
+   CARD SPACING
+====================================================== */
+
+.settings-bottom .settings-card{
+
+    padding:25px;
+
+}
+
+.settings-bottom .card-header{
+
+    margin-bottom:20px;
+
+}
+
+/* ======================================================
+   HOVER EFFECTS
+====================================================== */
+
+.setting-item{
+
+    transition:.3s;
+
+}
+
+.setting-item:hover{
+
+    background:#f8fafc;
+
+    border-radius:12px;
+
+    padding-left:12px;
+
+    padding-right:12px;
+
+}
 /* ======================================================
    AI RECOMMENDATIONS
 ====================================================== */
@@ -1119,7 +1234,7 @@ textarea:focus{
 
     align-items:flex-start;
 
-    gap:18px;
+    gap:16px;
 
     padding:18px 0;
 
@@ -1133,15 +1248,21 @@ textarea:focus{
 
 }
 
+/* ======================================================
+   RECOMMENDATION ICON
+====================================================== */
+
 .recommendation i{
 
-    width:54px;
+    width:50px;
 
-    height:54px;
+    height:50px;
 
-    border-radius:16px;
+    min-width:50px;
 
-    background:#EEF3FF;
+    border-radius:14px;
+
+    background:#eef4ff;
 
     color:var(--primary);
 
@@ -1153,13 +1274,29 @@ textarea:focus{
 
     font-size:22px;
 
-    flex-shrink:0;
+    transition:.3s;
 
 }
 
+.recommendation:hover i{
+
+    background:var(--primary);
+
+    color:#ffffff;
+
+    transform:scale(1.08);
+
+}
+
+/* ======================================================
+   RECOMMENDATION TEXT
+====================================================== */
+
 .recommendation h4{
 
-    font-size:17px;
+    font-size:16px;
+
+    font-weight:600;
 
     color:var(--text);
 
@@ -1171,9 +1308,9 @@ textarea:focus{
 
     font-size:14px;
 
-    color:var(--text-light);
+    line-height:1.7;
 
-    line-height:1.6;
+    color:var(--text-light);
 
 }
 
@@ -1183,27 +1320,237 @@ textarea:focus{
 
 .settings-actions{
 
+    margin-top:35px;
+
     display:flex;
 
     justify-content:flex-end;
 
-    gap:18px;
-
-    margin-top:30px;
+    gap:16px;
 
 }
 
 /* ======================================================
-   RESPONSIVE
+   OUTLINE BUTTON
 ====================================================== */
 
-@media(max-width:1400px){
+.btn-outline{
+
+    background:#ffffff;
+
+    color:var(--text);
+
+    border:1px solid var(--border);
+
+    padding:13px 26px;
+
+    border-radius:12px;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+.btn-outline:hover{
+
+    background:#f8fafc;
+
+    border-color:var(--primary);
+
+    color:var(--primary);
+
+}
+
+/* ======================================================
+   PRIMARY BUTTON
+====================================================== */
+
+.primary-btn{
+
+    background:var(--primary);
+
+    color:#ffffff;
+
+    padding:13px 28px;
+
+    border-radius:12px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.primary-btn:hover{
+
+    background:var(--primary-dark);
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 24px rgba(37,99,235,.30);
+
+}
+
+/* ======================================================
+   CARD HOVER EFFECTS
+====================================================== */
+
+.settings-card{
+
+    transition:all .3s ease;
+
+}
+
+.settings-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 16px 35px rgba(0,0,0,.10);
+
+}
+
+.recommendation{
+
+    transition:.3s;
+
+}
+
+.recommendation:hover{
+
+    padding-left:10px;
+
+}
+/* ======================================================
+   FOOTER
+====================================================== */
+
+.footer{
+
+
+    margin-left:270px;
+
+
+    padding:20px;
+
+
+    text-align:center;
+
+
+    color:var(--text-light);
+
+
+    font-size:14px;
+
+
+    border-top:1px solid var(--border);
+
+
+}
+/* ======================================================
+   SCROLLBAR
+====================================================== */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+    height:8px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#eef2f7;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#cbd5e1;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:var(--primary);
+
+}
+
+/* ======================================================
+   ANIMATIONS
+====================================================== */
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+    }
+
+    to{
+
+        opacity:1;
+
+    }
+
+}
+
+.page-header,
+.stat-card,
+.settings-card,
+.settings-actions{
+
+    animation:fadeUp .5s ease;
+
+}
+
+/* ======================================================
+   LARGE LAPTOP
+====================================================== */
+
+@media (max-width:1400px){
 
     .stats-grid{
 
         grid-template-columns:repeat(2,1fr);
 
     }
+
+}
+
+/* ======================================================
+   LAPTOP
+====================================================== */
+
+@media (max-width:1200px){
 
     .settings-section{
 
@@ -1219,21 +1566,23 @@ textarea:focus{
 
 }
 
-@media(max-width:992px){
+/* ======================================================
+   TABLET
+====================================================== */
+
+@media (max-width:992px){
 
     .sidebar{
 
-        width:260px;
+        width:230px;
 
     }
 
     .main-content{
 
-        margin-left:260px;
+        margin-left:230px;
 
-        width:calc(100% - 260px);
-
-        padding:24px;
+        padding:20px;
 
     }
 
@@ -1247,12 +1596,6 @@ textarea:focus{
 
     }
 
-    .search-box{
-
-        width:100%;
-
-    }
-
     .top-right{
 
         width:100%;
@@ -1261,19 +1604,29 @@ textarea:focus{
 
     }
 
-    .form-grid{
+    .search-box{
 
-        grid-template-columns:1fr;
+        width:100%;
+
+    }
+
+    .stats-grid{
+
+        grid-template-columns:repeat(2,1fr);
 
     }
 
 }
 
-@media(max-width:768px){
+/* ======================================================
+   MOBILE
+====================================================== */
+
+@media (max-width:768px){
 
     .container{
 
-        flex-direction:column;
+        display:block;
 
     }
 
@@ -1291,7 +1644,19 @@ textarea:focus{
 
         margin-left:0;
 
-        width:100%;
+        padding:18px;
+
+    }
+
+    .logo{
+
+        text-align:center;
+
+    }
+
+    .profile{
+
+        justify-content:center;
 
     }
 
@@ -1301,11 +1666,73 @@ textarea:focus{
 
     }
 
-    .settings-section,
+    .settings-section{
+
+        grid-template-columns:1fr;
+
+    }
 
     .settings-bottom{
 
         grid-template-columns:1fr;
+
+    }
+
+    .form-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .page-header h1{
+
+        font-size:30px;
+
+    }
+
+    .page-header p{
+
+        font-size:14px;
+
+    }
+
+}
+
+/* ======================================================
+   SMALL MOBILE
+====================================================== */
+
+@media (max-width:480px){
+
+    .top-right{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:15px;
+
+    }
+
+    .user{
+
+        width:100%;
+
+    }
+
+    .card-header{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:12px;
+
+    }
+
+    .primary-btn{
+
+        width:100%;
 
     }
 
@@ -1315,99 +1742,20 @@ textarea:focus{
 
     }
 
-    .primary-btn,
-
     .btn-outline{
 
         width:100%;
 
     }
 
-    .user-info{
+    .footer{
 
-        display:none;
-
-    }
-
-}
-
-@media(max-width:480px){
-
-    .page-header h1{
-
-        font-size:36px;
-
-    }
-
-    .page-header p{
-
-        font-size:16px;
-
-    }
-
-    .search-box{
-
-        height:56px;
+        font-size:12px;
 
     }
 
 }
 
 /* ======================================================
-   SCROLLBAR
+   END OF FILE
 ====================================================== */
-
-::-webkit-scrollbar{
-
-    width:10px;
-
-}
-
-::-webkit-scrollbar-track{
-
-    background:#EEF2F8;
-
-}
-
-::-webkit-scrollbar-thumb{
-
-    background:var(--primary);
-
-    border-radius:20px;
-
-}
-
-::-webkit-scrollbar-thumb:hover{
-
-    background:var(--primary-dark);
-
-}
-
-/* ======================================================
-   SELECTION
-====================================================== */
-
-::selection{
-
-    background:var(--primary);
-
-    color:#fff;
-
-}
-
-/* ======================================================
-   TRANSITIONS
-====================================================== */
-
-button,
-input,
-select,
-textarea,
-.stat-card,
-.settings-card,
-.notification,
-.nav-links li a{
-
-    transition:all .3s ease;
-
-}

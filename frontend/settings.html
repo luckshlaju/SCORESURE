@@ -4,24 +4,30 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
     <title>ScoreSure | Settings</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="settings.css">
+
+    <link rel="stylesheet"
+          href="settings.css">
 
     <!-- Google Font -->
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+          rel="stylesheet">
 
     <!-- Remix Icon -->
+
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-        rel="stylesheet">
+          rel="stylesheet">
 
     <!-- Font Awesome -->
+
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 </head>
 
@@ -29,726 +35,1097 @@
 
 <div class="container">
 
-    <!-- ================= Sidebar ================= -->
+<!-- ==========================================
+                LEFT SIDEBAR
+=========================================== -->
 
-    <aside class="sidebar">
+<aside class="sidebar">
 
-        <!-- Logo -->
+    <!-- Logo -->
 
-        <div class="logo">
-            <span class="white">Score</span><span class="blue">Sure</span>
+    <div class="logo">
+
+        <span class="white">Score</span><span class="blue">Sure</span>
+
+    </div>
+
+
+
+    <!-- Main Menu -->
+
+    <p class="menu-title">
+
+        MAIN MENU
+
+    </p>
+
+    <ul class="nav-links">
+
+        <li>
+
+            <a href="dashboard.html">
+
+                <i class="fa-solid fa-table-columns"></i>
+
+                <span>Dashboard</span>
+
+            </a>
+
+        </li>
+
+
+
+        <li>
+
+            <a href="newapplication.html">
+
+                <i class="fa-regular fa-file-lines"></i>
+
+                <span>New Application</span>
+
+            </a>
+
+        </li>
+
+
+
+        <li>
+
+            <a href="applicanthistory.html">
+
+                <i class="fa-solid fa-clock-rotate-left"></i>
+
+                <span>Applicant History</span>
+
+            </a>
+
+        </li>
+
+
+
+        <li>
+
+            <a href="analytics.html">
+
+                <i class="fa-solid fa-chart-line"></i>
+
+                <span>Analytics</span>
+
+            </a>
+
+        </li>
+
+
+
+        <li>
+
+    <a href="reports.html">
+
+        <i class="fa-regular fa-file"></i>
+
+        <span>Reports</span>
+
+    </a>
+
+</li>
+
+    </ul>
+
+
+
+    <!-- Account -->
+
+    <p class="menu-title">
+
+        ACCOUNT
+
+    </p>
+
+    <ul class="nav-links">
+
+        <li class="active">
+
+            <a href="settings.html">
+
+                <i class="fa-solid fa-gear"></i>
+
+                <span>Settings</span>
+
+            </a>
+
+        </li>
+
+
+
+        <li>
+
+            <a href="signout.html">
+
+                <i class="fa-solid fa-right-from-bracket"></i>
+
+                <span>Sign Out</span>
+
+            </a>
+
+        </li>
+
+    </ul>
+
+
+
+    <!-- Profile -->
+
+    <div class="profile">
+
+        <div class="avatar">
+
+            AS
+
         </div>
 
-        <!-- Main Menu -->
+        <div class="profile-info">
 
-        <p class="menu-title">MAIN MENU</p>
+            <h4>
 
-        <ul class="nav-links">
+                Arjun Singh
 
-            <li>
-                <a href="dashboard.html">
-                    <i class="fa-solid fa-table-columns"></i>
-                    <span>Dashboard</span>
-                </a>
-            </li>
+            </h4>
 
-            <li>
-                <a href="newapplication.html">
-                    <i class="fa-regular fa-file-lines"></i>
-                    <span>New Application</span>
-                </a>
-            </li>
+            <p>
 
-            <li>
-                <a href="applicanthistory.html">
-                    <i class="fa-solid fa-clock-rotate-left"></i>
-                    <span>Applicant History</span>
-                </a>
-            </li>
+                Administrator
 
-            <li>
-                <a href="anlytics.html">
-                    <i class="fa-solid fa-chart-line"></i>
-                    <span>Analytics</span>
-                </a>
-            </li>
+            </p>
 
-            <li>
-                <a href="reports.html">
-                    <i class="fa-regular fa-file-lines"></i>
-                    <span>Reports</span>
-                </a>
-            </li>
+        </div>
 
-        </ul>
+    </div>
 
-        <!-- Account -->
+</aside>
 
-        <p class="menu-title">ACCOUNT</p>
 
-        <ul class="nav-links">
 
-            <li class="active">
-                <a href="settings.html">
-                    <i class="fa-solid fa-gear"></i>
-                    <span>Settings</span>
-                </a>
-            </li>
 
-            <li>
-                <a href="#">
-                    <i class="fa-solid fa-right-from-bracket"></i>
-                    <span>Sign Out</span>
-                </a>
-            </li>
 
-        </ul>
+<!-- ==========================================
+                MAIN CONTENT
+=========================================== -->
 
-        <!-- Profile -->
+<main class="main-content">
 
-        <div class="profile">
+<div class="settings-content">
 
-            <div class="profile-avatar">
+<!-- ==========================================
+                TOPBAR
+=========================================== -->
+
+<header class="topbar">
+
+    <!-- Search -->
+
+    <div class="search-box">
+
+        <i class="ri-search-line"></i>
+
+        <input
+            type="text"
+            placeholder="Search settings...">
+
+    </div>
+
+
+
+    <!-- Right -->
+
+    <div class="top-right">
+
+        <span class="date">
+
+            Mon, 14 Jul 2026
+
+        </span>
+
+
+
+        <div class="notification">
+
+            <i class="ri-notification-3-line"></i>
+
+        </div>
+
+
+
+        <div class="user">
+
+            <div class="avatar">
+
                 AS
+
             </div>
 
-            <div class="profile-info">
-                <h4>Arjun Singh</h4>
-                <p>Administrator</p>
+            <div class="user-info">
+
+                <h4>
+
+                    Arjun Singh
+
+                </h4>
+
+                <p>
+
+                    Administrator
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+
+
+<!-- ==========================================
+              PAGE HEADER
+=========================================== -->
+
+<section class="page-header">
+
+    <h1>
+
+        Settings
+
+    </h1>
+
+    <p>
+
+        Manage your account preferences,
+        security settings and system configurations.
+
+    </p>
+
+</section>
+
+
+
+
+
+<!-- ==========================================
+           SETTINGS CONTAINER
+=========================================== -->
+
+<section class="settings-container">
+<!-- ==========================================
+        SETTINGS OVERVIEW CARDS
+=========================================== -->
+
+<section class="stats-grid">
+
+    <!-- ================= Profile ================= -->
+
+    <div class="stat-card">
+
+        <div class="stat-top">
+
+            <div class="icon-box">
+
+                <i class="fa-regular fa-user"></i>
+
+            </div>
+
+            <span class="badge blue">
+
+                Active
+
+            </span>
+
+        </div>
+
+        <h2>
+
+            Profile
+
+        </h2>
+
+        <p>
+
+            Personal Information
+
+        </p>
+
+    </div>
+
+
+
+
+
+    <!-- ================= Security ================= -->
+
+    <div class="stat-card">
+
+        <div class="stat-top">
+
+            <div class="icon-box">
+
+                <i class="fa-solid fa-shield-halved"></i>
+
+            </div>
+
+            <span class="badge green">
+
+                Protected
+
+            </span>
+
+        </div>
+
+        <h2>
+
+            Security
+
+        </h2>
+
+        <p>
+
+            Authentication
+
+        </p>
+
+    </div>
+
+
+
+
+
+    <!-- ================= Alerts ================= -->
+
+    <div class="stat-card">
+
+        <div class="stat-top">
+
+            <div class="icon-box">
+
+                <i class="fa-regular fa-bell"></i>
+
+            </div>
+
+            <span class="badge blue">
+
+                Enabled
+
+            </span>
+
+        </div>
+
+        <h2>
+
+            Alerts
+
+        </h2>
+
+        <p>
+
+            Email & System
+
+        </p>
+
+    </div>
+
+
+
+
+
+    <!-- ================= Preferences ================= -->
+
+    <div class="stat-card">
+
+        <div class="stat-top">
+
+            <div class="icon-box">
+
+                <i class="fa-solid fa-sliders"></i>
+
+            </div>
+
+            <span class="badge green">
+
+                Updated
+
+            </span>
+
+        </div>
+
+        <h2>
+
+            Preferences
+
+        </h2>
+
+        <p>
+
+            Application Settings
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!-- ==========================================
+      PROFILE INFORMATION + ACCOUNT STATUS
+=========================================== -->
+
+<section class="settings-section">
+
+
+
+
+    <!-- ================= Left Side ================= -->
+
+    <div class="settings-left">
+
+
+
+
+        <!-- ================= Profile Card ================= -->
+
+        <div class="settings-card">
+
+            <div class="card-header">
+
+                <h3>
+
+                    Profile Information
+
+                </h3>
+
+                <button class="primary-btn">
+
+                    Edit Profile
+
+                </button>
+
+            </div>
+<!-- ==========================================
+              PROFILE FORM
+=========================================== -->
+
+<form class="settings-form">
+
+    <div class="form-grid">
+
+        <!-- Full Name -->
+
+        <div class="form-group">
+
+            <label for="fullname">
+
+                Full Name
+
+            </label>
+
+            <input
+                type="text"
+                id="fullname"
+                value="Arjun Singh">
+
+        </div>
+
+        <!-- Email -->
+
+        <div class="form-group">
+
+            <label for="email">
+
+                Email Address
+
+            </label>
+
+            <input
+                type="email"
+                id="email"
+                value="arjun@scoresure.com">
+
+        </div>
+
+        <!-- Phone -->
+
+        <div class="form-group">
+
+            <label for="phone">
+
+                Phone Number
+
+            </label>
+
+            <input
+                type="text"
+                id="phone"
+                value="+91 98765 43210">
+
+        </div>
+
+        <!-- Department -->
+
+        <div class="form-group">
+
+            <label for="department">
+
+                Department
+
+            </label>
+
+            <input
+                type="text"
+                id="department"
+                value="Loan Administration">
+
+        </div>
+
+        <!-- Designation -->
+
+        <div class="form-group">
+
+            <label for="designation">
+
+                Designation
+
+            </label>
+
+            <input
+                type="text"
+                id="designation"
+                value="Administrator">
+
+        </div>
+
+        <!-- Employee ID -->
+
+        <div class="form-group">
+
+            <label for="employee">
+
+                Employee ID
+
+            </label>
+
+            <input
+                type="text"
+                id="employee"
+                value="SS-1001">
+
+        </div>
+
+    </div>
+
+</form>
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- ==========================================
+            ACCOUNT STATUS
+=========================================== -->
+
+<aside class="settings-right">
+
+    <div class="settings-card">
+
+        <div class="card-header">
+
+            <h3>
+
+                Account Status
+
+            </h3>
+
+        </div>
+
+        <div class="status-list">
+
+            <div class="status-item">
+
+                <span>
+
+                    Role
+
+                </span>
+
+                <strong>
+
+                    Administrator
+
+                </strong>
+
+            </div>
+
+            <div class="status-item">
+
+                <span>
+
+                    Account
+
+                </span>
+
+                <strong class="active-text">
+
+                    Active
+
+                </strong>
+
+            </div>
+
+            <div class="status-item">
+
+                <span>
+
+                    Security Score
+
+                </span>
+
+                <strong>
+
+                    98%
+
+                </strong>
+
+            </div>
+
+            <div class="status-item">
+
+                <span>
+
+                    Last Login
+
+                </span>
+
+                <strong>
+
+                    Today, 09:15 AM
+
+                </strong>
+
+            </div>
+
+            <div class="status-item">
+
+                <span>
+
+                    Storage Used
+
+                </span>
+
+                <strong>
+
+                    62%
+
+                </strong>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</aside>
+
+</section>
+<!-- ==========================================
+            SETTINGS BOTTOM SECTION
+=========================================== -->
+
+<section class="settings-bottom">
+
+    <!-- ==========================================
+            SECURITY SETTINGS
+    =========================================== -->
+
+    <div class="settings-card">
+
+        <div class="card-header">
+
+            <h3>Security Settings</h3>
+
+        </div>
+
+        <div class="setting-item">
+
+            <div class="setting-info">
+
+                <h4>Change Password</h4>
+
+                <p>
+                    Update your account password regularly for better security.
+                </p>
+
+            </div>
+
+            <button class="primary-btn">
+
+                Change
+
+            </button>
+
+        </div>
+
+
+
+        <div class="setting-item">
+
+            <div class="setting-info">
+
+                <h4>Two-Factor Authentication</h4>
+
+                <p>
+                    Add an extra layer of protection using OTP verification.
+                </p>
+
+            </div>
+
+            <label class="switch">
+
+                <input type="checkbox" checked>
+
+                <span class="slider"></span>
+
+            </label>
+
+        </div>
+
+
+
+        <div class="setting-item">
+
+            <div class="setting-info">
+
+                <h4>Remember Trusted Devices</h4>
+
+                <p>
+                    Keep frequently used devices signed in.
+                </p>
+
+            </div>
+
+            <label class="switch">
+
+                <input type="checkbox">
+
+                <span class="slider"></span>
+
+            </label>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- ==========================================
+         NOTIFICATION PREFERENCES
+    =========================================== -->
+
+    <div class="settings-card">
+
+        <div class="card-header">
+
+            <h3>Notification Preferences</h3>
+
+        </div>
+
+        <div class="setting-item">
+
+            <div class="setting-info">
+
+                <h4>Email Notifications</h4>
+
+                <p>
+                    Receive important updates through email.
+                </p>
+
+            </div>
+
+            <label class="switch">
+
+                <input type="checkbox" checked>
+
+                <span class="slider"></span>
+
+            </label>
+
+        </div>
+
+
+
+        <div class="setting-item">
+
+            <div class="setting-info">
+
+                <h4>Loan Approval Alerts</h4>
+
+                <p>
+                    Get notified whenever a loan is approved.
+                </p>
+
+            </div>
+
+            <label class="switch">
+
+                <input type="checkbox" checked>
+
+                <span class="slider"></span>
+
+            </label>
+
+        </div>
+
+
+
+        <div class="setting-item">
+
+            <div class="setting-info">
+
+                <h4>Monthly Reports</h4>
+
+                <p>
+                    Automatically receive monthly performance reports.
+                </p>
+
+            </div>
+
+            <label class="switch">
+
+                <input type="checkbox">
+
+                <span class="slider"></span>
+
+            </label>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- ==========================================
+            SYSTEM PREFERENCES
+    =========================================== -->
+
+    <div class="settings-card">
+
+        <div class="card-header">
+
+            <h3>System Preferences</h3>
+
+        </div>
+
+        <div class="form-grid">
+
+            <div class="form-group">
+
+                <label>Theme</label>
+
+                <select>
+
+                    <option>Light</option>
+                    <option>Dark</option>
+
+                </select>
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Language</label>
+
+                <select>
+
+                    <option>English</option>
+                    <option>Tamil</option>
+
+                </select>
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Time Zone</label>
+
+                <select>
+
+                    <option>Asia/Kolkata</option>
+
+                </select>
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Date Format</label>
+
+                <select>
+
+                    <option>DD/MM/YYYY</option>
+                    <option>MM/DD/YYYY</option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- ==========================================
+            AI RECOMMENDATIONS
+    =========================================== -->
+
+    <aside class="settings-card">
+
+        <div class="card-header">
+
+            <h3>AI Recommendations</h3>
+
+        </div>
+
+        <div class="recommendation">
+
+            <i class="ri-lightbulb-flash-line"></i>
+
+            <div>
+
+                <h4>Improve Security</h4>
+
+                <p>
+
+                    Enable Two-Factor Authentication for enhanced account protection.
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="recommendation">
+
+            <i class="ri-shield-check-line"></i>
+
+            <div>
+
+                <h4>Password Update</h4>
+
+                <p>
+
+                    Your password is over 60 days old. Consider updating it.
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="recommendation">
+
+            <i class="ri-database-2-line"></i>
+
+            <div>
+
+                <h4>Backup Reminder</h4>
+
+                <p>
+
+                    Schedule automatic weekly backups for reports.
+
+                </p>
+
             </div>
 
         </div>
 
     </aside>
 
-    <!-- ================= Main Content ================= -->
+</section>
 
-    <main class="main-content">
 
-        <!-- Top Navigation -->
 
-        <header class="topbar">
 
-            <!-- Search -->
 
-            <div class="search-box">
+<!-- ==========================================
+            ACTION BUTTONS
+=========================================== -->
 
-                <i class="ri-search-line"></i>
+<div class="settings-actions">
 
-                <input
-                    type="text"
-                    placeholder="Search settings...">
+    <button class="btn-outline">
 
-            </div>
+        Reset Changes
 
-            <!-- Right Section -->
+    </button>
 
-            <div class="top-right">
+    <button class="primary-btn">
 
-                <div class="date">
-                    Mon, 14 Jul 2026
-                </div>
+        Save Changes
 
-                <div class="notification">
-                    <i class="ri-notification-3-line"></i>
-                </div>
+    </button>
 
-                <div class="user">
+</div>
 
-                    <div class="avatar">
-                        AS
-                    </div>
 
-                    <div class="user-info">
-                        <h4>Arjun Singh</h4>
-                        <p>Administrator</p>
-                    </div>
 
-                </div>
 
-            </div>
 
-        </header>
+</section>
 
-        <!-- ================= Page Header ================= -->
+</div>
 
-        <section class="page-header">
+</main>
 
-            <h1>Settings</h1>
+</div>
 
-            <p>
-                Manage your account preferences, security settings and system configurations.
-            </p>
 
-        </section>
 
-        <!-- ================= Content Starts ================= -->
 
-        <section class="settings-container">
-        <!-- ================= Main Content ================= -->
 
-        <main class="main-content">
+<!-- ==========================================
+                FOOTER
+=========================================== -->
 
-            <!-- ================= Top Navigation ================= -->
+<footer class="footer">
 
-           
+    <p>
 
-            <!-- ================= Settings Overview Cards ================= -->
+        © 2026
+        <strong>ScoreSure</strong>
+        AI Credit Scoring System.
+        All Rights Reserved.
 
-            <section class="stats-grid">
+    </p>
 
-                <!-- Profile -->
-
-                <div class="stat-card">
-
-                    <div class="stat-top">
-
-                        <div class="icon-box">
-
-                            <i class="fa-regular fa-user"></i>
-
-                        </div>
-
-                        <span class="badge blue">
-                            Active
-                        </span>
-
-                    </div>
-
-                    <h2>Profile</h2>
-
-                    <p>Personal Information</p>
-
-                </div>
-
-                <!-- Security -->
-
-                <div class="stat-card">
-
-                    <div class="stat-top">
-
-                        <div class="icon-box">
-
-                            <i class="fa-solid fa-shield-halved"></i>
-
-                        </div>
-
-                        <span class="badge green">
-                            Protected
-                        </span>
-
-                    </div>
-
-                    <h2>Security</h2>
-
-                    <p>Authentication</p>
-
-                </div>
-
-                <!-- Notifications -->
-
-                <div class="stat-card">
-
-                    <div class="stat-top">
-
-                        <div class="icon-box">
-
-                            <i class="fa-regular fa-bell"></i>
-
-                        </div>
-
-                        <span class="badge blue">
-                            Enabled
-                        </span>
-
-                    </div>
-
-                    <h2>Alerts</h2>
-
-                    <p>Email & System</p>
-
-                </div>
-
-                <!-- Preferences -->
-
-                <div class="stat-card">
-
-                    <div class="stat-top">
-
-                        <div class="icon-box">
-
-                            <i class="fa-solid fa-sliders"></i>
-
-                        </div>
-
-                        <span class="badge green">
-                            Updated
-                        </span>
-
-                    </div>
-
-                    <h2>Preferences</h2>
-
-                    <p>Application Settings</p>
-
-                </div>
-
-            </section>
-            <!-- ================= Settings Section ================= -->
-
-            <section class="settings-section">
-
-                <!-- ================= Left Side ================= -->
-
-                <div class="settings-left">
-
-                    <!-- ================= Profile Information ================= -->
-
-                    <div class="settings-card">
-
-                        <div class="card-header">
-
-                            <h3>Profile Information</h3>
-
-                            <button class="primary-btn">
-                                Edit Profile
-                            </button>
-
-                        </div>
-
-                        <form class="settings-form">
-
-                            <div class="form-grid">
-
-                                <div class="form-group">
-
-                                    <label>Full Name</label>
-
-                                    <input
-                                        type="text"
-                                        value="Arjun Singh">
-
-                                </div>
-
-                                <div class="form-group">
-
-                                    <label>Email Address</label>
-
-                                    <input
-                                        type="email"
-                                        value="arjun@scoresure.com">
-
-                                </div>
-
-                                <div class="form-group">
-
-                                    <label>Phone Number</label>
-
-                                    <input
-                                        type="text"
-                                        value="+91 98765 43210">
-
-                                </div>
-
-                                <div class="form-group">
-
-                                    <label>Department</label>
-
-                                    <input
-                                        type="text"
-                                        value="Loan Administration">
-
-                                </div>
-
-                                <div class="form-group">
-
-                                    <label>Designation</label>
-
-                                    <input
-                                        type="text"
-                                        value="Administrator">
-
-                                </div>
-
-                                <div class="form-group">
-
-                                    <label>Employee ID</label>
-
-                                    <input
-                                        type="text"
-                                        value="SS-1001">
-
-                                </div>
-
-                            </div>
-
-                        </form>
-
-                    </div>
-
-                </div>
-
-                <!-- ================= Right Side ================= -->
-
-                <aside class="settings-right">
-
-                    <!-- ================= Account Status ================= -->
-
-                    <div class="settings-card">
-
-                        <div class="card-header">
-
-                            <h3>Account Status</h3>
-
-                        </div>
-
-                        <div class="status-list">
-
-                            <div class="status-item">
-
-                                <span>Role</span>
-
-                                <strong>Administrator</strong>
-
-                            </div>
-
-                            <div class="status-item">
-
-                                <span>Account</span>
-
-                                <strong class="active-text">
-                                    Active
-                                </strong>
-
-                            </div>
-
-                            <div class="status-item">
-
-                                <span>Security Score</span>
-
-                                <strong>98%</strong>
-
-                            </div>
-
-                            <div class="status-item">
-
-                                <span>Last Login</span>
-
-                                <strong>
-                                    Today, 09:15 AM
-                                </strong>
-
-                            </div>
-
-                            <div class="status-item">
-
-                                <span>Storage Used</span>
-
-                                <strong>62%</strong>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </aside>
-
-            </section>
-            <!-- ================= Security & Preferences ================= -->
-
-            <section class="settings-bottom">
-
-                <!-- ================= Security Settings ================= -->
-
-                <div class="settings-card">
-
-                    <div class="card-header">
-
-                        <h3>Security Settings</h3>
-
-                    </div>
-
-                    <div class="setting-item">
-
-                        <div>
-
-                            <h4>Change Password</h4>
-
-                            <p>Update your account password regularly.</p>
-
-                        </div>
-
-                        <button class="primary-btn">
-                            Change
-                        </button>
-
-                    </div>
-
-                    <div class="setting-item">
-
-                        <div>
-
-                            <h4>Two-Factor Authentication</h4>
-
-                            <p>Enhance account security using OTP verification.</p>
-
-                        </div>
-
-                        <label class="switch">
-
-                            <input type="checkbox" checked>
-
-                            <span class="slider"></span>
-
-                        </label>
-
-                    </div>
-
-                    <div class="setting-item">
-
-                        <div>
-
-                            <h4>Remember Devices</h4>
-
-                            <p>Keep trusted devices signed in.</p>
-
-                        </div>
-
-                        <label class="switch">
-
-                            <input type="checkbox">
-
-                            <span class="slider"></span>
-
-                        </label>
-
-                    </div>
-
-                </div>
-
-                <!-- ================= Notification Preferences ================= -->
-
-                <div class="settings-card">
-
-                    <div class="card-header">
-
-                        <h3>Notification Preferences</h3>
-
-                    </div>
-
-                    <div class="setting-item">
-
-                        <div>
-
-                            <h4>Email Notifications</h4>
-
-                            <p>Receive important updates through email.</p>
-
-                        </div>
-
-                        <label class="switch">
-
-                            <input type="checkbox" checked>
-
-                            <span class="slider"></span>
-
-                        </label>
-
-                    </div>
-
-                    <div class="setting-item">
-
-                        <div>
-
-                            <h4>Loan Approval Alerts</h4>
-
-                            <p>Instant alerts for every loan approval.</p>
-
-                        </div>
-
-                        <label class="switch">
-
-                            <input type="checkbox" checked>
-
-                            <span class="slider"></span>
-
-                        </label>
-
-                    </div>
-
-                    <div class="setting-item">
-
-                        <div>
-
-                            <h4>Monthly Reports</h4>
-
-                            <p>Receive monthly performance reports.</p>
-
-                        </div>
-
-                        <label class="switch">
-
-                            <input type="checkbox">
-
-                            <span class="slider"></span>
-
-                        </label>
-
-                    </div>
-
-                </div>
-
-                <!-- ================= System Preferences ================= -->
-
-                <div class="settings-card">
-
-                    <div class="card-header">
-
-                        <h3>System Preferences</h3>
-
-                    </div>
-
-                    <div class="form-grid">
-
-                        <div class="form-group">
-
-                            <label>Theme</label>
-
-                            <select>
-
-                                <option>Light</option>
-                                <option>Dark</option>
-
-                            </select>
-
-                        </div>
-
-                        <div class="form-group">
-
-                            <label>Language</label>
-
-                            <select>
-
-                                <option>English</option>
-                                <option>Tamil</option>
-
-                            </select>
-
-                        </div>
-
-                        <div class="form-group">
-
-                            <label>Time Zone</label>
-
-                            <select>
-
-                                <option>Asia/Kolkata</option>
-
-                            </select>
-
-                        </div>
-
-                        <div class="form-group">
-
-                            <label>Date Format</label>
-
-                            <select>
-
-                                <option>DD/MM/YYYY</option>
-                                <option>MM/DD/YYYY</option>
-
-                            </select>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- ================= AI Recommendations ================= -->
-
-                <aside class="settings-card">
-
-                    <div class="card-header">
-
-                        <h3>AI Recommendations</h3>
-
-                    </div>
-
-                    <div class="recommendation">
-
-                        <i class="ri-lightbulb-flash-line"></i>
-
-                        <div>
-
-                            <h4>Improve Security</h4>
-
-                            <p>
-                                Enable Two-Factor Authentication for enhanced account protection.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                    <div class="recommendation">
-
-                        <i class="ri-shield-check-line"></i>
-
-                        <div>
-
-                            <h4>Password Update</h4>
-
-                            <p>
-                                Your password is over 60 days old. Consider updating it.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                    <div class="recommendation">
-
-                        <i class="ri-database-2-line"></i>
-
-                        <div>
-
-                            <h4>Backup Reminder</h4>
-
-                            <p>
-                                Schedule automatic weekly backups for your reports.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </aside>
-
-            </section>
-
-            <!-- ================= Footer Actions ================= -->
-
-            <div class="settings-actions">
-
-                <button class="btn-outline">
-
-                    Reset Changes
-
-                </button>
-
-                <button class="primary-btn">
-
-                    Save Changes
-
-                </button>
-
-            </div>
-
-        </main>
-
-    </div>
+</footer>
 
 </body>
 
