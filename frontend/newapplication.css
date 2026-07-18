@@ -1003,7 +1003,187 @@ input[type="file"]{
 /* ======================================================
    SUMMARY BOX
 ====================================================== */
+.generate-btn{
 
+width:100%;
+
+margin-top:20px;
+
+padding:14px;
+
+border:none;
+
+border-radius:10px;
+
+background:#2563eb;
+
+color:white;
+
+font-size:15px;
+
+font-weight:600;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.generate-btn:hover{
+
+background:#1d4ed8;
+
+transform:translateY(-3px);
+
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+#loadingBox{
+
+margin-top:20px;
+
+text-align:center;
+
+}
+
+.loader{
+
+width:42px;
+
+height:42px;
+
+border:4px solid #ddd;
+
+border-top:4px solid #2563eb;
+
+border-radius:50%;
+
+margin:auto;
+
+animation:spin .8s linear infinite;
+
+display:none;
+
+}
+
+@keyframes spin{
+
+100%{
+
+transform:rotate(360deg);
+
+}
+
+}
+
+#loadingText{
+
+margin-top:12px;
+
+font-size:14px;
+
+font-weight:500;
+
+color:#555;
+
+}
+
+.gauge{
+
+width:100%;
+
+height:12px;
+
+background:#ececec;
+
+border-radius:30px;
+
+margin-top:18px;
+
+overflow:hidden;
+
+}
+
+#gaugeFill{
+
+width:0;
+
+height:100%;
+
+background:#22c55e;
+
+transition:1s;
+
+}
+
+.green{
+
+color:#16a34a;
+
+}
+
+.orange{
+
+color:#f59e0b;
+
+}
+
+.red{
+
+color:#ef4444;
+
+}
+
+.ai-engine{
+
+margin-top:20px;
+
+text-align:center;
+
+font-size:13px;
+
+color:#777;
+
+}
+
+.stats-card{
+
+transition:.3s;
+
+}
+
+.stats-card:hover{
+
+transform:translateY(-5px);
+
+box-shadow:0 15px 30px rgba(0,0,0,.12);
+
+}
+
+.insight{
+
+transition:.3s;
+
+}
+
+.insight:hover{
+
+transform:translateX(6px);
+
+}
+
+.summary-box{
+
+transition:.3s;
+
+}
+
+.summary-box:hover{
+
+transform:translateY(-4px);
+
+}
 .summary-box{
 
     margin-top:22px;
@@ -1228,8 +1408,117 @@ input[type="file"]{
     font-weight: 600;
     color: #111827;
 }
+/* ==========================
+   Credit Score Gauge
+========================== */
 
+.score-gauge{
 
+    width:100%;
+
+    margin-top:15px;
+
+}
+
+.gauge-bar{
+
+    width:100%;
+
+    height:10px;
+
+    background:#e5e7eb;
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+}
+
+.gauge-fill{
+
+    width:0;
+
+    height:100%;
+
+    background:#22c55e;
+
+    border-radius:30px;
+
+    transition:width 1.2s ease;
+}
+/* ===================================
+   ScoreSure AI Engine Footer
+=================================== */
+
+.ai-engine-footer{
+
+    margin-top:20px;
+
+    padding:18px;
+
+    border-radius:14px;
+
+    background:#f8fafc;
+
+    border:1px solid #e5e7eb;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    transition:.3s;
+
+}
+
+.ai-engine-footer i{
+
+    width:50px;
+
+    height:50px;
+
+    border-radius:50%;
+
+    background:#2563eb;
+
+    color:#fff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:22px;
+
+}
+
+.ai-engine-footer h4{
+
+    font-size:15px;
+
+    color:#1e293b;
+
+    margin-bottom:5px;
+
+}
+
+.ai-engine-footer p{
+
+    font-size:12px;
+
+    color:#64748b;
+
+}
+
+.ai-engine-footer:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.08);
+
+}
 /* ===============================
    RESPONSIVE DESIGN
 ================================ */
@@ -1274,6 +1563,253 @@ input[type="file"]{
 
     .upload-box {
         padding: 20px;
+    }
+
+}
+/* ======================================
+   MICRO INTERACTIONS
+====================================== */
+
+/* Buttons */
+
+.submit-btn,
+.reset-btn,
+.generate-btn{
+
+    transition: all 0.3s ease;
+
+}
+
+.submit-btn:hover,
+.generate-btn:hover{
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 12px 25px rgba(37,99,235,0.25);
+
+}
+
+.reset-btn:hover{
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+
+}
+
+/* Form Card */
+
+.form-card{
+
+    transition: all .3s ease;
+
+}
+
+.form-card:hover{
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 15px 35px rgba(0,0,0,.08);
+
+}
+
+/* AI Cards */
+
+.stats-card{
+
+    transition: all .3s ease;
+
+}
+
+.stats-card:hover{
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 15px 30px rgba(37,99,235,.12);
+
+}
+
+/* Insight Cards */
+
+.insight{
+
+    transition: all .3s ease;
+
+}
+
+.insight:hover{
+
+    transform: translateX(8px);
+
+    background:#f8fbff;
+
+}
+
+/* Summary Boxes */
+
+.summary-box{
+
+    transition: all .3s ease;
+
+}
+
+.summary-box:hover{
+
+    transform: translateY(-5px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.08);
+
+}
+
+/* Sidebar */
+
+.nav-links li{
+
+    transition:.3s;
+
+}
+
+.nav-links li:hover{
+
+    transform:translateX(6px);
+
+}
+
+/* Input Fields */
+
+.form-group input,
+.form-group select,
+.form-group textarea{
+
+    transition:.3s;
+
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus{
+
+    border-color:#2563eb;
+
+    box-shadow:0 0 0 4px rgba(37,99,235,.15);
+
+}
+
+/* Upload Field */
+
+input[type=file]:hover{
+
+    cursor:pointer;
+
+}
+
+/* Profile */
+
+.profile{
+
+    transition:.3s;
+
+}
+
+.profile:hover{
+
+    transform:translateY(-3px);
+
+}
+
+/* Search Box */
+
+.search-box{
+
+    transition:.3s;
+
+}
+
+.search-box:hover{
+
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+
+}
+
+/* Notification */
+
+.notification{
+
+    transition:.3s;
+
+}
+
+.notification:hover{
+
+    transform:rotate(15deg) scale(1.15);
+
+}
+
+/* User */
+
+.user{
+
+    transition:.3s;
+
+}
+
+.user:hover{
+
+    transform:translateY(-2px);
+
+}
+.notification{
+
+    position:relative;
+
+}
+
+.notification::after{
+
+    content:"";
+
+    width:8px;
+
+    height:8px;
+
+    background:#ef4444;
+
+    border-radius:50%;
+
+    position:absolute;
+
+    top:2px;
+
+    right:2px;
+
+    animation:pulse 1.8s infinite;
+
+}
+
+@keyframes pulse{
+
+    0%{
+
+        transform:scale(1);
+
+        opacity:1;
+
+    }
+
+    70%{
+
+        transform:scale(2);
+
+        opacity:0;
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+        opacity:0;
+
     }
 
 }
